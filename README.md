@@ -33,8 +33,6 @@ Each file follows the same JSON structure. Example:
 
 ---
 
-## 2️⃣ **CONTRIBUTING.md**
-
 ```markdown
 # 🤝 Contribution Guidelines
 
