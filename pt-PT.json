@@ -1,0 +1,3901 @@
+{
+  "feedback": "Opinião",
+  "on": "ON",
+  "off": "OFF",
+  "view": "Visualizar",
+  "add": "Adicionar",
+  "recommended": "recomendado",
+  "save": "Salvar",
+  "cancel": "Cancelar",
+  "back": "Voltar",
+  "close": "Fechar",
+  "delete": "Excluir",
+  "and": "e",
+  "common": {
+    "type-here": "Digite aqui",
+    "select": "Selecione",
+    "no-results": "Nenhum resultado encontrado",
+    "no-matching-results": "Nenhum resultado correspondente encontrado",
+    "paginate-info": "Mostrando {{start}} a {{end}} de {{total}} entradas",
+    "no-data-in-table": "Nenhum dado na tabela - Um bom sinal",
+    "clear-all": "Limpar tudo",
+    "no-records": "Não há registros a serem exibidos",
+    "not-prepared-records": "Ainda não preparado",
+    "user-not-copy-hint": "Compartilhe o link de registro com o usuário pretendido para criar uma conta OPSSHIELD e aceitar o convite",
+    "user-copied-hint": "Link copiado. ",
+    "Items-per-page": "Itens por página",
+    "search-by-hostname": "Buscar por nome de host ou IP",
+    "troubleshoot": "Resolver problemas",
+    "day": "Dia",
+    "days": "Dias",
+    "actions": "Ações",
+    "yes": "Sim",
+    "no": "Não",
+    "scanner-logs-drawer": {
+      "time": "Tempo de registro",
+      "reason": "Categoria",
+      "title": "Detalhe do vírus",
+      "cleanup_status": "Status de limpeza",
+      "permission": "Permissão",
+      "identifier": "Identificador",
+      "path": "Caminho",
+      "file_name": "Nome do arquivo",
+      "scan_id": "ID de digitalização",
+      "user": "Do utilizador",
+      "definition": "Descrição do vírus",
+      "file_size": "Tamanho do arquivo",
+      "quarantine_path": "Caminho da quarentena",
+      "proccessed": "Processado",
+      "file_ctime": "Tempo de alteração de arquivo",
+      "http_upload_whitelist_status": "Status de upload da lista branca",
+      "btns": {
+        "view": "Visão",
+        "whitelist-file-path": "Arquivo/caminho da lista de permissões",
+        "restore": "Restaurar",
+        "disable": "Desativar",
+        "whitelist-file": "Arquivo da lista de permissões",
+        "delete": "Excluir",
+        "report": "Denunciar falso positivo",
+        "whitelist-path": "Caminho da lista de permissões",
+        "quarantine": "Quarentena",
+        "http-whitelist-add": "Adicionar lista de permissões",
+        "http-whitelist-remove": "Remover lista de permissões",
+        "archive": "Arquivar",
+        "unarchive": "Desarquivar",
+        "whitelist-signature": "Assinatura da Lista de Permissões",
+        "whitelist-rule": "Regra da lista de permissões",
+        "http-add-whitelist": "Adicionar à lista de permissões",
+        "http-remove-whitelist": "Remover da lista de permissões"
+      }
+    },
+    "table": {
+      "buffering": "Carregando dados dos servidores"
+    },
+    "scanner": {
+      "queued": {
+        "title": "{{value}} on {{value2}} files will be processed in the background.",
+        "status": "Queued"
+      },
+      "true": {
+        "title": "{{value}} on {{value2}} file has been processed.",
+        "status": "Success"
+      },
+      "false": {
+        "title": "{{value}} on {{value2}} file has not been processed.",
+        "status": "Failed"
+      },
+      "error": {
+        "title": "{{value}} on {{value2}} file has not been processed due to an error.",
+        "status": "Error"
+      },
+      "empty": {
+        "title": "Nothing to Show",
+        "status": "Error"
+      }
+    },
+    "settings-warn": {
+      "automatic": {
+        "disabled": {
+          "title": "Este recurso está desabilitado",
+          "desc": "Para usar o recurso de suspensão automática neste servidor, adicione um script de gancho de suspensão de conta de usuário/domínio personalizado, conforme mencionado em ",
+          "link-btn": "este artigo kb"
+        }
+      },
+      "notifications": {
+        "disabled": {
+          "title": "Este recurso está desabilitado",
+          "desc": "Lista de usuários json ausente no arquivo de configuração cpguard.ini",
+          "link-btn": "saiba mais aqui"
+        }
+      }
+    },
+    "pop-up": {
+      "title": "",
+      "desc-scanner": "As ações serão executadas apenas nos arquivos aplicáveis",
+      "desc-protection": "As linhas selecionadas serão removidas dos logs do cPGuard",
+      "desc-cms": ""
+    }
+  },
+  "messages": { "delete-success": "Eliminado com sucesso" },
+  "user": {
+    "title": "Privilégios do Usuário",
+    "add-btn": "Adicionar Usuário",
+    "license-manager": "Gerenciador de Licenças",
+    "edit-privileges": "Editar Privilégios",
+    "add-new-user": "Adicionar Novo Usuário",
+    "client-id": "ID do Cliente",
+    "invitation-pending": "Convite Pendente",
+    "email-placeholder": "insira um endereço de e-mail válido",
+    "email-placeholder-2": "e-mail / nome de usuário da conta OPSSHIELD",
+    "no-user": "Nenhum usuário encontrado",
+    "server-added": "Servidor adicionado",
+    "servers-added": "Servidores adicionados",
+    "copy-placeholder": "Insira seu nome de usuário para redefinir sua senha.",
+    "invitation-sent": "Convite enviado",
+    "invitation-sent-to": "Convite enviado para ",
+    "invitation-link": "Link de convite",
+    "validation": {
+      "false": "O nome de usuário não existe! Insira um endereço de e-mail válido",
+      "true": "O nome de usuário existe",
+      "create": "Por favor, forneça um endereço de e-mail válido para criar um novo usuário",
+      "invalid": "Por favor, forneça um endereço de e-mail ou nome de usuário válido",
+      "exist_1": "O usuário já existe. Use o",
+      "exist_2": "opção em vez disso.",
+      "self": "Você não pode adicionar a si mesmo",
+      "invite": "O usuário não possui uma conta, um convite com instruções para configurar uma nova conta será enviado para este endereço de e-mail",
+      "invite_blesta": "O usuário ainda não aceitou um convite para criar uma conta OPSSHIELD.",
+      "error": "Ocorreu um erro ao processar sua solicitação. Por favor, tente novamente mais tarde.",
+      "invite_pending": "Convite de usuário pendente.",
+      "suspended": "Os privilégios do usuário estão suspensos.",
+      "suspended_2": "conta de usuário."
+    },
+    "permissions": {
+      "activateMsg": "Tem certeza de que deseja reativar este usuário?",
+      "suspendMsg": "Tem certeza de que deseja suspender este usuário?",
+      "deleteMsg": "Tem certeza de que deseja deletar este usuário?",
+      "suspend": "Suspender",
+      "activate": "Reativar",
+      "delete": "Deletar",
+      "suspendResp": "Usuário suspenso",
+      "activateResp": "Usuário reativado",
+      "deleteResp": "Usuário deletado",
+      "suspendRespErr": "Erro ao suspender o usuário",
+      "activateRespErr": "Erro ao reativar o usuário",
+      "deleteRespErr": "Erro ao deletar o usuário",
+      "suspendTitle": "Confirmar Suspensão do Usuário",
+      "activateTitle": "Confirmar Reativação do Usuário",
+      "deleteTitle": "Confirmar Exclusão do Usuário"
+    },
+    "actions": {
+      "suspend": "Suspender",
+      "activate": "Reativar",
+      "resend": "Reenviar Convite",
+      "copy": "Copiar Convite",
+      "edit": "Editar",
+      "delete": "Deletar"
+    },
+    "invoice-alert": {
+      "title": "Bem-vindo de volta, {{name}}!",
+      "desc": "Sua conta possui um saldo pendente. Por favor, efetue o pagamento o quanto antes.",
+      "btn": "Pagar Saldo Pendente"
+    }
+  },
+  "support": {
+    "title": "suporte cPGuard",
+    "true": "Permitir acesso ao portal (e coleta de logs)",
+    "false": "Permitir acesso ao portal (e coleta de logs)",
+    "optional": " ",
+    "click": "clique aqui",
+    "credential": {
+      "server": "Servidor",
+      "heading": "Acesso Raiz/SSH",
+      "access": {
+        "grand": {
+          "title": "Adicionar chaves (preferencial)",
+          "desc": "Para evitar passar a senha de root, você pode executar o seguinte comando do seu servidor, para instalar nossas chaves ssh",
+          "sub-desc": "Também whitelist seguindo IPs em seu servidor"
+        },
+        "share": {
+          "title": "Compartilhar credenciais",
+          "label": "Por favor, digite seu login de root Credenciais",
+          "username": "Usuário",
+          "password": "Senha",
+          "ip": "Endereço IP",
+          "ip-error": "Por favor, digite um endereço IP válido",
+          "port": "Porta SSH",
+          "notes": "Notas",
+          "notes-placeholder": "Notas adicionais...",
+          "additional": "Para evitar passar a senha de root, você pode executar o seguinte comando do seu servidor, para instalar nossas chaves ssh0"
+        }
+      }
+    },
+    "ticket": {
+      "title": "Crie um ticket",
+      "access": "Acceso",
+      "label": "Você pode criar um novo ticket aqui",
+      "ticket-alert": "Você tem um ticket aberto. para verificar a resposta e gerenciar o ticket, ",
+      "ticket-alerts": "Você tem tickets abertos. para verificar respostas e gerenciar tickets, ",
+      "form": {
+        "priority": "Prioridade",
+        "subject": "Assunto",
+        "place-subject": "Resumo do problema",
+        "description": "Descrição",
+        "place-description": "Descreva o problema em detalhes",
+        "agree": "Eu concordo com os ",
+        "terms": "Termos e Condições",
+        "btn-open": "Abrir Ticket",
+        "btn-submit": "Enviar",
+        "btn-cancel": "Redefinir"
+      },
+      "success": {
+        "title": "Obrigado por entrar em contato!",
+        "desc": {
+          "1": "Agradecemos que você entre em contato com o cPGuard. o ID do seu ticket é",
+          "2": "Você pode verificar o status do seu ticket",
+          "3": "Um de nossos colegas entrará em contato com você em breve!",
+          "4": "Tenha um ótimo dia!",
+          "visit": " visitando"
+        },
+        "btn-add": "Adicione outro ticket"
+      }
+    },
+    "api": {
+      "loading": "Carregando...",
+      "error": {
+        "title": "Erro",
+        "message": "Ocorreu um erro Tente novamente mais tarde"
+      },
+      "success": {
+        "title": "Sucesso",
+        "message": "O acesso ao servidor foi alterado"
+      }
+    }
+  },
+  "error": {
+    "ERROR": "Ocorreu um erro",
+    "ERROR_CODE": "Código de erro: {{value}}",
+    "ERROR_FOLLOW_LINK": "Siga o link:",
+    "ERROR_LINK_CLICK": "Clique aqui",
+    "AGENT_ERROR": {
+      "AGENT_DEFAULT": {
+        "title": "Não foi possível acessar o agente cPGuard em execução no seu servidor",
+        "message": "Verifique se nossos IPs estão na lista de permissões no servidor",
+        "link_btn": "Solução de problemas",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-C6": {
+        "title": "Servidor não acessível",
+        "message": "Não podemos acessar seu servidor. Verifique se seu servidor está online e acessível a partir de nossos IPs",
+        "link_btn": "Solução de problemas",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-C28": {
+        "title": "Conexão expirou",
+        "message": "Não é possível acessar o serviço do agente em execução no seu servidor. Verifique se nossos IPs estão na lista de permissões do servidor",
+        "link_btn": "Solução de problemas",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view",
+        "faq": {
+          "title": "Erro de tempo limite - A-C28",
+          "desc-1": "Os serviços do App Portal devem ser capazes de se comunicar com o serviço do agente, que está sendo executado na porta 9098 nos servidores. ",
+          "desc-2": "Durante a instalação do cPGuard, listamos os IPs necessários no CSF, que é o firewall recomendado junto com o cPGuard.",
+          "desc-3": "Se você tiver um firewall personalizado em seu servidor ou na frente de seu servidor, deverá colocar na lista de permissões os seguintes IPs listados. "
+        }
+      },
+      "A-C7-1": {
+        "title": "Agente não acessível",
+        "message": "Falha ao conectar ao agente cPGuard na porta 9098: Conexão recusada",
+        "message-ip": "Falha ao conectar ao agente cPGuard({{server_ip}}) no porto {{port}}: Ligação recusada",
+        "link_btn": "Solução de problemas",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view",
+        "faq": {
+          "cmd": "cpgcli license --status",
+          "title": "Falha ao conectar ao agente cPGuard na porta 9098: Conexão recusada",
+          "title-ip": "Falha ao conectar ao agente cPGuard({{server_ip}}) no porto {{port}}: Ligação recusada",
+          "desc-1": "Esse problema ocorre se o serviço do agente não estiver sendo executado corretamente e não responder à solicitação do App Portal. ",
+          "desc-2": "Nesse caso, execute o seguinte comando e verifique se o status da sua licença é bom.",
+          "desc-3": "Se houver um erro de licença, corrija-o ou entre em contato com o suporte para qualquer assistência relacionada. "
+        }
+      },
+      "A-C7-2": {
+        "title": "Agente não acessível",
+        "message": "Falha ao conectar-se ao agente cPGuard na porta 9098: nenhuma rota para o host",
+        "message-ip": "Falha ao conectar ao agente cPGuard ({{server_ip}}) no porto {{port}}: Sem rota para hospedar",
+        "link_btn": "Solução de problemas",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view",
+        "faq": {
+          "title": "Falha ao conectar-se ao agente cPGuard na porta 9098: nenhuma rota para o host",
+          "title-ip": "Falha ao conectar ao agente cPGuard ({{server_ip}}) no porto {{port}}: Sem rota para hospedar",
+          "desc-1": "Esse problema ocorre se o firewall do servidor ou da rede bloquear a conexão do portal de aplicativos com o serviço do agente cPGuard. ",
+          "desc-2": "Observe que você precisa adicionar a lista de permissões acima em seu firewall de servidor e firewall de rede, se aplicável (é comum para servidores em nuvem como AWS, Azure, DigitalOcean, Vultr, Hetzner, etc).",
+          "desc-3": "Entre em contato com o suporte se precisar de mais assistência."
+        }
+      },
+      "A-502": {
+        "title": "Agente não acessível",
+        "message": "O serviço de agente cPGuard em seu servidor não está em execução ou está inacessível.",
+        "link_btn": "Solução de problemas",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-500": {
+        "title": "Resposta inválida do agente",
+        "message": "Erro/resposta inesperada recebida do serviço do agente em execução no servidor. Por favor, tente novamente mais tarde.",
+        "link_btn": "Solução de problemas",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-503": {
+        "title": "Resposta inválida do agente",
+        "message": "Erro/resposta inesperada recebida do serviço do agente em execução no servidor. Por favor, tente novamente mais tarde.",
+        "link_btn": "Solução de problemas",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-504": {
+        "title": "A solicitação está demorando muito",
+        "message": "Tempo limite atingido antes de concluir a solicitação em seu servidor. Tente novamente com um conjunto de dados menor ou verifique a carga do servidor",
+        "link_btn": "Solução de problemas",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-401": {
+        "title": "Chamada de API não autorizada",
+        "message": "O agente não está online. Por favor, tente novamente mais tarde.",
+        "link_btn": "Solução de problemas",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "type": "block_view"
+      },
+      "A-403": {
+        "title": "Credenciais inválidas",
+        "message": "Não foi possível buscar dados do seu servidor devido a um erro de autenticação da API",
+        "link_btn": "Solução de problemas",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Puzzle.svg",
+        "type": "block_view"
+      },
+      "A-400": {
+        "title": "Erro na solicitação",
+        "message": "Erro/resposta inesperada recebida do serviço do agente em execução no servidor. Por favor, tente novamente mais tarde.",
+        "link_btn": "Retry Now",
+        "link_url": "reload",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-417": {
+        "title": "Erro na solicitação",
+        "message": "Erro/resposta inesperada recebida do serviço do agente em execução no servidor. Por favor, tente novamente mais tarde.",
+        "link_btn": "Retry Now",
+        "link_url": "reload",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-license-expired": {
+        "title": "License Expired",
+        "message": "Sua licença expirou. Entre em contato com seu administrador.",
+        "link_url": null,
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      },
+      "A-license-canceled": {
+        "title": "Licença cancelada",
+        "message": "Sua licença foi cancelada. Entre em contato com seu administrador.",
+        "link_url": null,
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      },
+      "A-license-suspended": {
+        "title": "Licença suspensa",
+        "message": "Sua licença foi suspensa. Entre em contato com seu administrador.",
+        "link_url": null,
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      },
+      "A-license-invalid-location": {
+        "title": "Local de licença inválida",
+        "message": "Sua licença não é válida para este local. Você pode reemitir a chave de licença em caso de mudança de IP.",
+        "link_url": null,
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      },
+      "A-license-trial-done": {
+        "title": "License Trial Abuse",
+        "message": "Sua licença foi suspensa devido a abuso. Entre em contato com seu administrador.",
+        "link_url": null,
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      },
+      "A-license-limit-exceeded": {
+        "title": "Limite de contas permitidas excedido",
+        "message": "Sua licença excedeu os usuários permitidos. Atualize sua licença para manter seu servidor seguro",
+        "link_url": "https://opsshield.com/help/cpguard/how-do-we-calculate-the-number-of-users-on-a-server/",
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      },
+      "A-license-abuse": {
+        "title": "Abuso de licença detectado",
+        "message": "serviços cPGuard foram suspensos como uma atividade abusiva detectada",
+        "link_url": null,
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      },
+      "unknown": {
+        "title": "Erro de licença desconhecido",
+        "message": "Sua licença não é válida para este local. Renove sua licença para manter seu servidor seguro",
+        "link_url": null,
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      }
+    },
+    "SERVER_ERROR": {
+      "UNKNOWN": {
+        "title": "Ocorreu um erro inesperado",
+        "message": "Parece que algo deu errado. Por favor, tente novamente mais tarde.",
+        "link_btn": "Reload Connection",
+        "link_url": "reload",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "SERVER": {
+        "title": "Não foi possível conectar à internet",
+        "message": "Seu dispositivo não está conectado à internet.",
+        "link_btn": "Recarregar conexão",
+        "link_url": "recarregar",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "SERVER_DEFAULT": {
+        "title": "Ocorreu um erro inesperado",
+        "message": "Parece que algo deu errado. Tente novamente mais tarde.",
+        "link_btn": "Reload Connection",
+        "link_url": "reload",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "204": {
+        "title": "Sem conteúdo",
+        "message": "Nenhum conteúdo encontrado",
+        "link_url": null,
+        "src": null,
+        "type": "toastr"
+      },
+      "401": {
+        "title": "Não autorizado",
+        "message": "Acesso não autorizado ao recurso",
+        "link_url": null,
+        "src": "Erro Fall Down.svg",
+        "type": "logout"
+      },
+      "403": {
+        "title": "Acesso negado!",
+        "message": "Você não está autorizado a acessar este servidor. Peça permissões ao proprietário do servidor",
+        "link_url": null,
+        "src": "Astronaut-01.svg",
+        "type": "logout"
+      },
+      "404": {
+        "title": "Nenhum conteúdo encontrado0",
+        "message": "Nenhum conteúdo encontrado1",
+        "link_url": null,
+        "src": null,
+        "type": "toastr"
+      },
+      "408": {
+        "title": "Ocorreu o tempo limite",
+        "message": "Confirme se nossos IPs listados em /etc/cpguard/cpgips.txt estão na lista de permissões do servidor",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Astronaut-01.svg",
+        "type": "block_view"
+      },
+      "417": {
+        "title": "Falha na expectativa",
+        "message": "Falha na expectativa",
+        "link_url": null,
+        "src": null,
+        "type": "toastr"
+      },
+      "429": {
+        "title": "Muitas Solicitações",
+        "message": "Você enviou muitas solicitações para o servidor em um curto período de tempo. Por favor, tente novamente mais devagar.",
+        "link_btn": "Tentar Novamente",
+        "link_url": "reload",
+        "src": "Too_many_requests.svg",
+        "type": "block_and_cancel"
+      },
+      "500": {
+        "title": "Internal Server Error",
+        "message": "Internal Server Error",
+        "link_btn": "Reload Connection",
+        "link_url": "reload",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "522": {
+        "title": "Ocorreu o tempo limite",
+        "message": "Confirme se nossos IPs listados em /etc/cpguard/cpgips.txt estão na lista de permissões do servidor",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Astronaut-01.svg",
+        "type": "block_view"
+      },
+      "504": {
+        "title": "Ocorreu o tempo limite",
+        "message": "Confirme se nossos IPs listados em /etc/cpguard/cpgips.txt estão na lista de permissões do servidor",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Astronaut-01.svg",
+        "type": "block_view"
+      },
+      "524": {
+        "title": "Ocorreu o tempo limite",
+        "message": "Confirme se nossos IPs listados em /etc/cpguard/cpgips.txt estão na lista de permissões do servidor",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Astronaut-01.svg",
+        "type": "block_view"
+      },
+      "CF": {
+        "title": "Ocorreu o tempo limite",
+        "message": "Confirme se nossos IPs listados em /etc/cpguard/cpgips.txt estão na lista de permissões do servidor",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Astronaut-01.svg",
+        "type": "block_view"
+      }
+    },
+    "INVALID_REQUEST": "Pedido inválido. Tente novamente mais tarde.",
+    "ACTION_SUCCESS": "Ação realizada com sucesso",
+    "ACTION_FAILED": "Falha na ação. Por favor, tente novamente mais tarde.",
+    "csf": {
+      "csf_not_installed": "A integração CSF não pode ser habilitada porque o CSF não está instalado"
+    },
+    "MSCAN": {
+      "QUEUE_SCAN_TITLE": "Digitalização adicionada à fila",
+      "QUEUE_SCAN_MSG": "Digitalização adicionada à fila. A varredura começará em breve.",
+      "SCAN_START_ERROR": "Falha ao iniciar a varredura",
+      "SCAN_START_ERROR_MSG": "Falha ao iniciar a varredura. Por favor, tente novamente mais tarde.",
+      "SCAN_START_SUCCESS": "Verificação iniciada",
+      "SCAN_START_SUCCESS_MSG": "A digitalização foi iniciada com sucesso. Você será notificado quando a verificação for concluída.",
+      "SCAN_COMPLETED": "Digitalização concluída",
+      "SCAN_COMPLETED_MSG": "Digitalização concluída com êxito.",
+      "SCAN_FAILED": "Falha na digitalização",
+      "SCAN_FAILED_MSG": "Falha na digitalização. Tente novamente mais tarde.",
+      "SCAN_STOP_ERROR": "A verificação manual em {{target}} não pôde ser interrompida",
+      "SCAN_STOP_ERROR_MSG": "Digitalização adicionada à fila. A varredura começará em breve.",
+      "SCAN_STOP_SUCCESS": "Digitalização adicionada à fila. A varredura começará em breve.",
+      "SCAN_STOP_SUCCESS_MSG": "Digitalização adicionada à fila. A varredura começará em breve.",
+      "SCAN_STOP_INVALID": "Digitalização adicionada à fila. A varredura começará em breve.",
+      "SCAN_STOP_INVALID_MSG": "Digitalização adicionada à fila. A varredura começará em breve.",
+      "SCAN_UNKNOWN_ERROR": "Digitalização adicionada à fila. A varredura começará em breve.",
+      "SCAN_UNKNOWN_ERROR_MSG": "Digitalização adicionada à fila. A varredura começará em breve.",
+      "SCANS_DELETED": "Digitalização adicionada à fila. A varredura começará em breve.",
+      "SCANS_DELETED_MSG": "Digitalização adicionada à fila. A varredura começará em breve.",
+      "SCANS_DELETE_ERROR": "Falha ao iniciar a varredura",
+      "SCANS_DELETE_ERROR_MSG": "Falha ao iniciar a varredura"
+    },
+    "COMMON": {
+      "title": "Erro desconhecido",
+      "msg": "Ocorreu um erro desconhecido"
+    }
+  },
+  "language": {
+    "label": "Selecione o idioma",
+    "english": "English",
+    "spanish": "español",
+    "portuguese": "Portugués",
+    "russian": "Русский"
+  },
+  "notifications": {
+    "common": {
+      "secondsago": "há alguns segundos",
+      "minuteago": "há um minuto",
+      "hourago": "há uma hora",
+      "dayago": "há um dia",
+      "weekago": "há uma semana",
+      "monthago": "há um mês",
+      "yearago": "há um ano",
+      "minutesago": "{{value}} minutos atrás",
+      "hoursago": "{{value} } horas atrás",
+      "daysago": "{{value}} dias atrás",
+      "weeksago": "{{value}} semanas atrás",
+      "monthsago": "{{value}} meses atrás",
+      "yearsago": "{{value}} anos atrás",
+      "protection": {
+        "waf_title": "Nenhum registro WAF adequado encontrado",
+        "waf_desc": "O WAF está funcionando e bloqueando ataques, mas nenhum registro ModSecurity adequado foi encontrado em seu servidor. Entre em contato com ",
+        "waf_desc2": " para mais detalhes",
+        "btn": "suporte",
+        "scanner_title": "conjunto de regras do SCANNER desativado",
+        "scanner_desc": "conjunto de regras do SCANNER desativado nas configurações de WAF. Ative-o para melhor proteção contra ataques de bots da Web",
+        "scanner_waf": "WAF está desativado",
+        "scanner_waf_desc": "Ative o WAF para proteger seus sites contra ataques da Web",
+        "waf_scanner_off": "Você deve ativar a integração WAF e as regras do scanner WAF para máxima detecção e prevenção de ataques de bot"
+      }
+    },
+    "alerts": {
+      "blacklisted_ip": {
+        "alert": "{{value}} IP na lista negra encontrado",
+        "color": "default",
+        "icon": "ri-shield-check-line",
+        "varaible": "value",
+        "hasDesc": true,
+        "description": {
+          "title": "IP na lista negra encontrado nos resultados da verificação.",
+          "content": "Verifique o que está fazendo com que o IP seja colocado na lista negra e resolva o problema para impedir que e-mails do seu IP sejam sinalizados como spam",
+          "link_to_kb": "ip-reputation",
+          "link_text": "Ip Reputation",
+          "action": "goto"
+        }
+      },
+      "blacklisted_ips": {
+        "alert": "{{value}} IPs na lista negra encontrados",
+        "color": "default",
+        "icon": "ri-shield-check-line",
+        "varaible": "value",
+        "hasDesc": true,
+        "description": {
+          "title": "IPs na lista negra encontrados nos resultados da verificação.",
+          "content": "Verifique o que está causando a inclusão do IP na lista negra e resolva o problema para impedir que e-mails do seu IP sejam sinalizados como spam",
+          "link_to_kb": "ip-reputation",
+          "link_text": "Ip Reputation",
+          "action": "goto"
+        }
+      },
+      "blacklisted_domain": {
+        "alert": "{{value}} Domínio na lista negra encontrado",
+        "color": "default",
+        "icon": "ri-shield-check-line",
+        "varaible": "value",
+        "hasDesc": true,
+        "description": {
+          "title": "Domínio na lista negra encontrado nos resultados da verificação.",
+          "content": "",
+          "link_to_kb": "domain-blacklist",
+          "link_text": "Ir para a lista negra de domínios",
+          "action": "goto"
+        }
+      },
+      "blacklisted_domains": {
+        "alert": "{{value}} Domínios na lista negra encontrados",
+        "color": "default",
+        "icon": "ri-shield-flash-line",
+        "varaible": "value",
+        "hasDesc": true,
+        "description": {
+          "title": "Domínio na lista negra encontrado nos resultados da verificação.",
+          "content": "",
+          "link_to_kb": "domain-blacklist",
+          "link_text": "Ir para a lista negra de domínios",
+          "action": "goto"
+        }
+      },
+      "manual_scan_count": {
+        "alert": "Verificação manual em {{value}} arquivos concluídos",
+        "color": "default",
+        "icon": "ri-alert-line",
+        "varaible": "value",
+        "hasDesc": false,
+        "description": {
+          "title": "Verificação manual em {{value}} arquivos concluídos",
+          "content": "Lorem Ipsum tem sido o texto fictício default da indústria desde os anos 1500, quando uma impressora desconhecida pegou uma galley de tipos e embaralhou-o para fazer um livro de espécimes de tipos. Ele sobreviveu não apenas cinco séculos",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "scanner_errors": {
+        "alert": "O mecanismo do scanner não está funcionando",
+        "color": "warning",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "O mecanismo do scanner não está funcionando",
+          "content": "O verificador de malware está ativado, mas falhou ao iniciar devido a um erro desconhecido. Tente reiniciar o scanner ou entre em contato com o suporte",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "scanner_off": {
+        "alert": "O scanner está desligado",
+        "color": "danger",
+        "icon": "ri-search-2-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "O scanner está desligado.",
+          "content": "Ative nosso scanner em segundo plano para verificar automaticamente novos arquivos em busca de infecções",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "auto_clean_off": {
+        "alert": "A limpeza automática está desativada",
+        "color": "warning",
+        "icon": "ri-file-shield-2-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "A limpeza automática de arquivos infectados está DESATIVADA",
+          "content": "Ative a limpeza automática de arquivos infectados para limpar injeções de código malicioso e reduzir o tempo de inatividade do site",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais mais",
+          "action": "false"
+        }
+      },
+      "brute_force_off": {
+        "alert": "Proteção BruteForce está desativada",
+        "color": "danger",
+        "icon": "ri-robot-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Proteção BruteForce está desativada",
+          "content": "Lorem Ipsum tem sido o texto fictício default da indústria desde os anos 1500, quando uma impressora desconhecida pegou um tipo de galley e embaralhei-o para fazer um livro de espécimes de tipos. Ele sobreviveu não apenas cinco séculos",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "ipdb_errors": {
+        "alert": "Erros IPDB encontrados. Os ataques não estão sendo bloqueados!",
+        "color": "default",
+        "icon": "ri-alert-line",
+        "varaible": "value",
+        "hasDesc": false,
+        "description": {
+          "title": "Alguns erros IPDB foram encontrados nos resultados da verificação.",
+          "content": "Lorem Ipsum tem sido o texto fictício default da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos. Ele sobreviveu não apenas cinco séculos",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "ipdb_off": {
+        "alert": "Proteção IPDB está desativada",
+        "color": "danger",
+        "icon": "ri-shield-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "IPDB está desligado.",
+          "content": "Lorem Ipsum tem sido o texto fictício default da indústria desde os anos 1500, quando uma impressora desconhecida pegou uma galley do tipo e embaralhei-o para fazer um livro de espécimes de tipos. Ele sobreviveu não apenas cinco séculos",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "waf_off": {
+        "alert": "A proteção WAF está desativada",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "WAF está desligado.",
+          "content": "Ative o WAF nas configurações para proteger seu servidor contra um grande número de ataques na web.",
+          "link_to_kb": "https://opsshield.com/help/cpguard/turn-on-off-waf-rules/",
+          "link_text": "Saiba mais",
+          "action": "link"
+        }
+      },
+      "waf_errors": {
+        "alert": "Erros WAF encontrados",
+        "color": "warning",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "erros WAF foram encontrados nos resultados da verificação.",
+          "content": "Lorem Ipsum tem sido o texto fictício default da indústria desde os anos 1500, quando uma impressora desconhecida pegou uma galera de tipos e embaralhou-a para fazer um livro de espécimes de tipos. Ele sobreviveu não apenas cinco séculos",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "waf_scanner_off": {
+        "alert": "Proteção do scanner WAF está desativada",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Proteção do scanner WAF está desativada",
+          "content": "",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-web-application-firewall/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "waf_rbl_off": {
+        "alert": "Proteção WAF RBL está desativada",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "WAF RBL está desativado.",
+          "content": "Ative a proteção adicional contra ataques da Web ativando o conjunto de regras do firewall",
+          "link_to_kb": "waf",
+          "link_text": "abrir configurações ",
+          "action": "definições"
+        }
+      },
+      "waf_captcha_off": {
+        "alert": "Proteção de Captcha WAF está desativada",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Verificação de Captcha está desativada",
+          "content": "Proteja seu wordpress e outro login de administrador do CMS de bots ativando a verificação remota de captcha",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "waf_webshell_off": {
+        "alert": "Proteção WAF Webshell está desativada",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "WAF Webshell está desativado.",
+          "content": "Ative a proteção adicional contra ataques da Web ativando o conjunto de regras do firewall",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "waf_block_fail": {
+        "alert": "Waf não está funcionando devido a problemas desconhecidos.",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Os ataques não estão sendo bloqueados",
+          "content": "Os ataques não estão sendo bloqueados porque as regras cPGuard WAF não são carregadas corretamente no ModSecurity. Verifique a configuração cPGuard/ModSecurity e servidor web",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-waf-required-settings-and-depencies/",
+          "link_text": "Saiba mais",
+          "action": "link"
+        }
+      },
+      "waf_no_log": {
+        "alert": "WAF Não foi possível detectar um arquivo de log adequado",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Não foi possível detectar um arquivo de log adequado",
+          "content": "Não foi possível localizar um arquivo/diretório utilizável para ler os logs do ModSecurity. Atualize a configuração do modsecurity para usar os métodos/localização audit_log padrão",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-waf-required-settings-and-depencies/",
+          "link_text": "Saiba mais",
+          "action": "link"
+        }
+      },
+      "waf_fields_missing": {
+        "alert": "Os dados necessários não estão disponíveis no audit_log",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "audit_log não atende aos requisitos do cPGuard",
+          "content": "O cPGuard pode mostrar mais informações sobre ataques se você alternar o log de auditoria de modsecurity para formatos padrão",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-waf-required-settings-and-depencies/",
+          "link_text": "Saiba mais",
+          "action": "link"
+        }
+      },
+      "waf_license_error": {
+        "alert": "A licença WAF não é válida",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "A licença WAF não é válida.",
+          "content": "Verificação de licença em Malware. ",
+          "queued": "Verifique novamente após 2 minutos para ver se o problema da licença foi corrigido",
+          "btn_label": "Reedição",
+          "btn_label_loading": "reemissão",
+          "on_action": "waf-license-reissue",
+          "action": "btn",
+          "disabled": false,
+          "action_called": false
+        },
+        "api": {
+          "called": "reemissão",
+          "queued": "Verifique novamente após 2 minutos para ver se o problema da licença foi corrigido",
+          "error": "Por favor, tente novamente"
+        }
+      },
+      "waf_modsec_error": {
+        "alert": "ModSecurity não está instalado.",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "ModSecurity não está instalado.",
+          "content": "Verifique se o ModSecurity está instalado e funcionando corretamente",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-waf-required-settings-and-depencies/",
+          "link_text": "Saiba mais",
+          "action": "link"
+        }
+      },
+      "waf_secrule_off": {
+        "alert": "Não é possível ativar o WAF. ModSecurity não está instalado.",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Não é possível ativar o WAF. ModSecurity não está instalado.",
+          "content": "A diretiva ModSecurity SecRuleEngine deve ser ativada para o módulo cPGuard WAF.",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-waf-required-settings-and-depencies/",
+          "link_text": "Saiba mais",
+          "action": "link"
+        }
+      },
+      "waf_owasp_conflict": {
+        "alert": "OWASP para ModSecurity está ativado.",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "OWASP para ModSecurity está ativado.",
+          "content": "cPGuard WAF é incompatível com as regras OWASP. Desative o OWASP para usar cPGuard WAF",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-waf-required-settings-and-depencies/",
+          "link_text": "Saiba mais",
+          "action": "link"
+        }
+      },
+      "rootkit_off": {
+        "alert": "A proteção do scanner de rootkit está desativada",
+        "color": "danger",
+        "icon": "ri-shield-cross-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "O verificador de rootkit está desativado",
+          "content": "Ligue-o para verificar se há sinais de backdoors, rootkits, exploits locais e falhas de segurança ocultas",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": " Saber mais",
+          "action": "false"
+        }
+      },
+      "weekly_scan_off": {
+        "alert": "A Varredura Semanal está desativada",
+        "color": "warning",
+        "icon": "ri-shield-cross-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "A Varredura Semanal está desativada.",
+          "content": "Ative-o para verificar automaticamente todos os arquivos criados/modificados em uma semana",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "daily_scan_off": {
+        "alert": "A verificação diária está desativada",
+        "color": "warning",
+        "icon": "ri-shield-cross-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "A verificação diária está desativada.",
+          "content": "Ative-o para reexaminar automaticamente todos os arquivos",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saber mais",
+          "action": "false"
+        }
+      },
+      "update_error": {
+        "alert": "Erro de atualização",
+        "color": "default",
+        "icon": "ri-alert-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Erro de atualização foi encontrado nos resultados da verificação.",
+          "content": "Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando uma impressora desconhecida pegou uma cozinha de tipos e embaralhei-o para fazer um livro de espécimes de tipos. Ele sobreviveu não apenas cinco séculos",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "scan_all_warning": {
+        "alert": "Há muito tempo sem varredura!",
+        "color": "warning",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Parece que você não verificou todos os arquivos por um tempo.",
+          "content": "É altamente recomendável fazer uma verificação manual em todos os arquivos com nossa lógica de scanner e definições de vírus atualizadas mais recentes",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "license_error": {
+        "alert": "Erro de licença",
+        "color": "default",
+        "icon": "ri-alert-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Erro de licença encontrado nos resultados da verificação.",
+          "content": "",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "secrule_off": {
+        "alert": "ModSecurity SecRule está desativado",
+        "color": "default",
+        "icon": "ri-alert-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "ModSecurity SecRule está desativado.",
+          "content": "",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "owasp_conflict": {
+        "alert": "As regras do ModSecurity OWASP não são compatíveis com o cPGuard WAF. ",
+        "color": "default",
+        "icon": "ri-alert-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "As regras do ModSecurity OWASP não são compatíveis com o cPGuard WAF.",
+          "content": "As regras do OWASP WAF estão habilitadas em seu servidor. Desabilite-o usando as regras do cPGuard WAF",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "block_fail": {
+        "alert": "Block Fail",
+        "color": "default",
+        "icon": "ri-alert-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Block fail foi encontrado nos resultados da verificação.",
+          "content": "",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "updateerror": {
+        "alert": "Falha na atualização do software cPGuard!",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Falha na atualização do software cPGuard!",
+          "content": "Vamos tentar realizar a atualização do software automaticamente novamente em algum momento. Entre em contato com o suporte se o erro persistir",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "waf_conf_error": {
+        "alert": "Os parâmetros de configuração do WAF não são fornecidos em cpguard.ini",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Configuração do servidor WAF ausente/incorreta",
+          "content": "Forneça os valores adequados para os parâmetros de configuração do WAF em cpguard.ini para usar o módulo cPGuard WAF",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-standalone-configuration/",
+          "on_action": "waf-config-update",
+          "link_text": "Configurar agora",
+          "action": "action"
+        }
+      },
+      "user_list": {
+        "alert": "A lista de usuários não está disponível",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "A lista de usuários para este servidor autônomo não é fornecida ou contém erros",
+          "content": "O arquivo de entrada com os usuários e dados de e-mail não é fornecido ou contém erros. Por favor, verifique e atualize a configuração autônoma 'user_list' para o bom funcionamento dos respectivos módulos",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-standalone-configuration/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "domain_list": {
+        "alert": "A lista de domínios contém erros",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "A lista de domínios fornecida para o servidor autônomo contém erros",
+          "content": "O arquivo de entrada com o nome de domínio, raiz do documento e nome de usuário não é fornecido ou contém erros. Verifique e atualize a configuração autônoma 'domain_list' para o bom funcionamento dos respectivos módulos",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-standalone-configuration/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "watchlist_empty": {
+        "alert": "A lista de observação do scanner de malware está vazia",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "",
+          "content": "A verificação de arquivos em segundo plano não funcionará porque a lista de observação está vazia",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-standalone-configuration/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "waf_restart": {
+        "alert": "O comando de reinicialização do servidor WAF não é fornecido/incorreto",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "O comando de reinicialização do servidor WAF para o servidor autônomo é necessário",
+          "content": "Verifique e atualize a configuração autônoma 'waf_server_restart_cmd' com o comando para reiniciar o servidor WAF",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-standalone-configuration/",
+          "link_text": "Saiba mais",
+          "action": "false"
+        }
+      },
+      "missing_required": {
+        "alert": "Os valores necessários na configuração independente do cPGuard estão ausentes ou têm erros",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "",
+          "content": "Verifique e atualize todos os valores necessários no arquivo de configuração autônomo",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-standalone-configuration/",
+          "link_text": "Saiba mais",
+          "action": "link"
+        }
+      },
+      "waf_unsupported_server": {
+        "alert": "O servidor WAF não é compatível",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "",
+          "content": "Please check and  update all required values in the standalone configuration file",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-standalone-configuration/",
+          "link_text": "Learn more",
+          "action": "link"
+        }
+      },
+      "waf_default": {
+        "alert": "As regras do Waf não estão funcionando no servidor. Verifique a configuração do ModSecurity no servidor"
+      }
+    },
+    "incidents": {
+      "ipdb-stopped": "Firewall IPDB parado",
+      "ipdb-started": "Firewall IPDB iniciado",
+      "ipdb-reloaded": "Firewall IPDB atualizado",
+      "ipdb-restarted": "Firewall IPDB reiniciado",
+      "scanner-status": "Serviço do mecanismo do scanner {{status}}.",
+      "scanner-service-started": "O serviço do mecanismo do scanner foi iniciado.",
+      "scanner-service-restarted": "O serviço do mecanismo do scanner foi reiniciado.",
+      "scanner-service-start-failed": "Falha ao iniciar o serviço do mecanismo do scanner.",
+      "accsuspend-domain": "{{user}} {{reason}} em {{domain}} {{type}}",
+      "accsuspend-virus": "{{user}} {{reason}} en {{count}} {{time}}",
+      "ip-blacklisted": "Verificação da reputação do IP concluída. {{count}} IP na lista negra",
+      "ip-blacklisteds": "verificação de reputação de IP concluída. {{count}} IPs na lista negra",
+      "malware-process": "Processo de malware no usuário {{user}} com PID {{pid}} {{process}}",
+      "rootkit-detected": "{{count}} rootkit detectado",
+      "rootkit-detecteds": "{{count}} rootkits detectados",
+      "mscan-completed": "Verificação manual concluída em {{target}} - {{total_files}} verificado {{count}} arquivos infectados encontrados, verificação {{status}}",
+      "mscan-started": "Verificação manual em {{target}} {{status}}",
+      "mscan-failed": "Verificação manual em {{target}} {{status}}",
+      "mscan-stopped": "Verificação manual em {{target}} {{status}}",
+      "mscan-stop-failed": "Verificação manual em {{target}} {{status}}",
+      "scanner-service-stopped": "Serviço do scanner interrompido",
+      "waf-blocked": " {{count}} ataque bloqueado pelas regras WAF",
+      "waf-blockeds": " {{count}} ataques bloqueados pelas regras WAF",
+      "scanner-files": "{{count}} Infecção de vírus detectada pelo cPGuard",
+      "scanner-filess": "{{count}} Infecções por vírus detectadas pelo cPGuard",
+      "bruteforce-blocked": "{{count}} Ataque de bot bloqueado pelo cPGuard",
+      "bruteforce-blockeds": "{{count}} Ataques de bot bloqueados pelo cPGuard",
+      "brute-force": "status do Bot Scanner - {{count}}.",
+      "waf": "ataques bloqueados por regras WAF",
+      "ipdb": "scanner IPDB - {{status}}.",
+      "rootkit": "{{count}} infecção de rootkit detectada",
+      "rootkits": "{{count}} infecções de rootkit detectadas",
+      "daily-scan": "Verificação diária concluída, {{total}} arquivos verificados e {{found}} arquivos detectados",
+      "weekly-scan": "Verificação semanal concluída, {{total}} arquivos verificados e {{found}} arquivos detectados",
+      "brute-force-enabled": "verificação de ataques de bots e scripts habilitada",
+      "brute-force-disabled": "verificação de ataques de bots e scripts desabilitada",
+      "waf-enabled": "regras de WAF habilitadas",
+      "waf-disabled": "regras de WAF desabilitadas",
+      "waf-updated": "Configuração WAF atualizada e servidor web reiniciado",
+      "report-false-positive": "{{count}} arquivo relatado como falso positivo",
+      "report-false-positives": "{{count}} arquivos foram relatados como falso positivo ",
+      "report-virus": "{{count}} arquivo reportado como vírus",
+      "report-viruss": "{{count}} arquivos reportados como vírus",
+      "scanner-restores": "{{count}} arquivos foram restaurados para o local original",
+      "scanner-restore": "{{path}} foi restaurado",
+      "scanner-quarantines": "Verificação da reputação do IP concluída. {{count}} IP na lista negra",
+      "scanner-quarantine": "Verificação da reputação do IP concluída. {{count}} IP na lista negra",
+      "scanner-disable": "Verificação da reputação do IP concluída. {{count}} IP na lista negra",
+      "scanner-disables": "Verificação da reputação do IP concluída. {{count}} IP na lista negra",
+      "scanner-delete": "Verificação da reputação do IP concluída. {{count}} IP na lista negra",
+      "scanner-deletes": "Verificação da reputação do IP concluída. {{count}} IP na lista negra",
+      "csf-lf-action-suspended": "Ação de e-mail de saída disparada de {{email}} pelo script CSF LF. Conta de e-mail suspensa",
+      "csf-lf-action-error": "Ação de e-mail de saída disparada de {{email}} pelo script CSF LF. Falha na suspensão da conta de e-mail",
+      "csf-lf-action-duplicate": "Ação de e-mail de saída disparada de {{email}} pelo script CSF LF. Conta de e-mail já suspensa",
+      "custom-ip-check-true": "Verificação de reputação IP de {{ip}} concluída. IP está na lista negra",
+      "custom-ip-check-false": "Verificação de reputação IP de {{ip}} concluída. IP não está na lista negra",
+      "cleanup-invalid-file-format": "Formato de ficheiro não suportado, {{path}} não limpo",
+      "cleanup-file-not-found": "{{path}} não pode ser limpo. O arquivo não existe",
+      "cleanup-huge-file": "{{path}} não pode ser limpo. O tamanho do ficheiro é maior do que suportado",
+      "cleanup-autoclean-disabled": "A limpeza automática é desligada, {{path}} não limpa",
+      "cleanup-failed": "File {{path}} não é automaticamente limpo",
+      "scanner-cleanup-success": "File {{path}} foi limpo",
+      "scanner-cleanup-multiple": "Limpeza concluída. {{count}}}/{{total}} foram limpos os ficheiros",
+      "scanner-cleanup-multiple-none": "Limpeza concluída. Nenhum ficheiro foi limpo.",
+      "malware-cron": "{{count}} cron jobs of {{user}} suspenso em {{file}}",
+      "wordpress-checksum": "Incompatibilidade de soma de verificação do Wordpress para {{count}} arquivo em {{domain}} no {{path}}",
+      "wordpress-checksums": "Incompatibilidade de soma de verificação do Wordpress para {{count}} arquivos em {{domain}} no {{path}}",
+      "wp-checksum-fail": "Foi detectada uma discrepância no checksum do WordPress para o arquivo {{file}} em {{domain}}. O arquivo foi substituído.",
+      "waf-license-reissued": "Licença WAF reemitida e atualizada no servidor",
+      "waf-failed": "",
+      "waf-false-reported": "Entrada de log WAF para ID de regra{{rule_id}} relatado como falso positivo",
+      "upload-blocked": "{{count}} upload de arquivo foi bloqueado",
+      "upload-blockeds": "{{count}} uploads de arquivos foram bloqueados",
+      "dos-blockeds": "{{ip}} bloqueado devido a uma tentativa de DoS",
+      "theme-updated": "Tema do WP {{name}} atualizado de {{from}} para {{to}} no domínio {{domain}} do usuário {{user}}.",
+      "plugin-updated": "Plugin do WP {{name}} atualizado de {{from}} para {{to}} no domínio {{domain}} do usuário {{user}}.",
+      "core-updated": "Core do WP atualizado de {{from}} para {{to}} no domínio {{domain}} do usuário {{user}}.",
+      "plugin-disabled": "Plugin desabilitado para {{user}} no domínio {{domain}}.",
+      "service-restarted": "Serviço {{service}} reiniciado",
+      "service-restart-failed": "Falha ao reiniciar o serviço {{service}}",
+      "service-started": "Serviço {{service}} iniciado",
+      "service-start-failed": "Falha ao iniciar o serviço {{service}}",
+      "service-stopped": "Serviço {{service}} parado",
+      "service-stop-failed": "Falha ao parar o serviço {{service}}",
+      "service-reloaded": "Serviço {{service}} recarregado",
+      "service-reload-failed": "Falha ao recarregar o serviço {{service}}",
+      "website-rebuild-success": "O site {{domain}} do usuário {{user}} foi reconstruído com sucesso",
+      "website-rebuild-failed": "Falha ao reconstruir o site {{domain}} do usuário {{user}}"
+    },
+    "scanner_status": {
+      "multiple": "Vários interruptores estão desligados",
+      "off": "O scanner não está em execução",
+      "on": "O scanner está em execução",
+      "license_status": "Falha na licença",
+      "rootkit_switch": "A proteção do rootkit está desativada",
+      "auto_clean_switch": "A limpeza automática está desativada",
+      "weekly_scan_switch": "A verificação semanal está desativada"
+    },
+    "web_status": {
+      "off": "Web Protection não está em execução",
+      "on": "Web Protection está em execução",
+      "multiple": "vários interruptores estão desligados",
+      "wpcron": "Interruptor WP-CRON está desligado",
+      "waf_rbl_switch": "waf_rbl_switch está desligado",
+      "waf_scanner_switch": "waf_scanner_switch está desligado",
+      "waf_captcha_switch": "waf_captcha switch está desligado",
+      "brute_force_switch": "brute_force switch está desligado",
+      "waf_switch": "waf switch está desligado"
+    }
+  },
+  "links": {
+    "server": "Servidor",
+    "overview": "Visão geral",
+    "server-list": "Lista de servidores",
+    "mass-operations": "Operações em Massa",
+    "dashboard": "Painel",
+    "virus-scanner": "Varredura de vírus",
+    "manual-scans": "Verificações manuais",
+    "scanner-logs": "Logs do scanner",
+    "cms-threat-alerts": "ameaças do CMS",
+    "web-security": "Saúde do servidor",
+    "waf-logs": "Logs WAF",
+    "bot-attacks": "Ataques de bot",
+    "protection": "Proteção",
+    "ipdb": "IPDB",
+    "domain-reputation": "Reputação do Domínio",
+    "ip-reputation": "Reputação IP",
+    "rootkit-scanner-logs": "Registros do Scanner RootKit",
+    "csf-configuration": "Configuração CSF",
+    "captcha-events": "Eventos Captcha(Beta)",
+    "report": "Relatório de verificações manuais",
+    "reports": "Relatório",
+    "incidents": "Incidentes",
+    "db-scanner": "Verificador de banco de dados",
+    "services": "Serviços",
+    "websites": "Sites",
+    "monitoring": "Monitoramento do sistema"
+  },
+  "header": {
+    "switch-server": "pular para o servidor...",
+    "loading": "Carregando...",
+    "no-results": "Nenhum servidor correspondente encontrado",
+    "manage-users": "Usuários",
+    "account": "Conta",
+    "logout": "Sair",
+    "placeholder": "Digite o nome do host ou IP",
+    "language": "Idioma",
+    "mode": "Modo",
+    "dark": "Escuro",
+    "light": "Claro",
+    "auto": "Automático",
+    "licenses": "Licenças",
+    "theme": "Tema"
+  },
+  "side-bar": {
+    "knowledge-base": "Base de Conhecimento",
+    "support": "Suporte"
+  },
+  "overview": {
+    "title": "Visão geral",
+    "quick-access": "Acesso rápido",
+    "graph-group-title": "Ataques",
+    "graph-virus-attacks-title": "Infecções encontradas",
+    "graph-web-attacks-title": "Ataques na Web parados",
+    "graph-connections-title": "Conexões bloqueadas",
+    "chart-no-data": "Nenhum dado ainda para este período",
+    "secure": "Seguro",
+    "cards": {
+      "active-servers": "Servidores ativos",
+      "server-with-alerts": "Servidores com alertas",
+      "threats-stopped": "Ameaças detectadas",
+      "files-in-quarantine": "Arquivos em quarentena",
+      "web-attacks-blocked": "Ataques na Web parados",
+      "connections-blocked": "Conexões bloqueadas",
+      "blacklisted-ip": "IPs públicos na lista negra",
+      "blacklisted-domains": "Domínios na lista negra",
+      "total-public-ips": "Total de IPs públicos",
+      "total-domains": "Total de domínios",
+      "log-disabled": "Log desativado",
+      "IPDB-off": "IPDB desligado",
+      "IPDB-errors": "Erros de IPDB",
+      "no-data": "Sem dados",
+      "next-page": "Próxima Pagina"
+    },
+    "days-filter": {
+      "7-days": "7 Dias",
+      "30-days": "30 Dias",
+      "60-days": "60 Dias",
+      "90-days": "90 Dias"
+    }
+  },
+  "server-list": {
+    "title": "Todos os servidores",
+    "card-header": {
+      "grid-server-name": "Servidor",
+      "server-name": "Nome do servidor",
+      "virus-attacks": "Ataques de vírus",
+      "ip-blacklist": "Lista negra de IP",
+      "waf-bruteforce": "WAF e Bruteforce",
+      "domain-blacklist": "Lista negra de domínio",
+      "health": "Saúde",
+      "domains": "Domínios",
+      "ipdb": "Firewall IPDB",
+      "action": "Ação",
+      "hostname": "Nome do host",
+      "ip": "IP",
+      "operating-system": "Sistema operacional",
+      "webserver": "Servidor da Web",
+      "control-panel": "Painel de controle",
+      "license": "Chave de licença",
+      "license-expire": "Status da licença",
+      "grid-web-attacks": "Ataques da Web",
+      "on": "ON",
+      "off": "OFF",
+      "settings": "Configurações",
+      "info": "Informações",
+      "dashboard": "Painel",
+      "alerts": "Alertas"
+    },
+    "add-server": "Adicionar servidor",
+    "page-info-1": "Clique no “+” ",
+    "page-info-2": "Botão para adicionar",
+    "page-info-3": "seus servidores aqui",
+    "no-servers": "Nenhum servidor para exibir",
+    "assign-tag": "Definir Tag",
+    "no-tag-found": "Nenhuma tag encontrada",
+    "tags": "Tags...",
+    "manage": "Gerenciar",
+    "apply": "Aplicar",
+    "manage-tags": "Gerenciar Tags",
+    "tag-warning": "Esta ação é irreversível!",
+    "tag-warning-info": "Tem certeza de que deseja continuar?",
+    "no-tag-created": "Nenhuma tag criada ainda",
+    "create-tag": "Criar uma nova Tag",
+    "tag-name-required": "O nome da Tag é obrigatório",
+    "already-exist": "O nome da Tag já existe",
+    "tags-sorted-success": "Tags ordenadas com sucesso",
+    "tags-sorted-failed": "Falha ao ordenar tags, por favor tente novamente mais tarde",
+    "tag-deleted-success": "excluído com sucesso",
+    "tag-deleted-failed": "Falha ao excluir tag, por favor tente novamente mais tarde",
+    "tag-updated-success": "{{tag}} atualizado com sucesso",
+    "tag-updated-failed": "Falha ao atualizar tag, por favor tente novamente mais tarde",
+    "tag-created-success": "{{tag}} criado com sucesso",
+    "tag-created-failed": "Falha ao criar tag, por favor tente novamente mais tarde",
+    "server-added" : "servidor adicionado a",
+    "server-removed" : "servidor removido de",
+    "tags-title" : "Tags atualizadas",
+    "add-tag": "Adicionar Tag",
+    "tag-table": {
+      "label": "Tag",
+      "servers": "Servidores",
+      "action": "Ações"
+    },
+    "alerts": {
+      "manage-request": "quer que você gerencie {{value}} servidores. Deseja aceitar?",
+      "manage-request-secondary": "Por favor, não aceite pedidos de fontes desconhecidas."
+    },
+    "error": {
+      "server-list-loading": "Falha ao carregar a lista de servidores, tente novamente mais tarde.",
+      "server-list-invite-accepted": "Falha ao aceitar o convite, tente novamente mais tarde.",
+      "server-list-invite-reject": "Falha ao recusar o convite, tente novamente mais tarde.",
+      "copy": "Falha ao copiar para a área de transferência, tente novamente."
+    },
+    "success": {
+      "server-list-invite-accepted": "Você aceitou o convite para gerenciar {{value}} servidores.",
+      "server-list-invite-reject": "Você recusou o convite para gerenciar {{value}} servidores.",
+      "copy": "Copied to clipboard"
+    },
+    "instructions": {
+      "buy": "Comprar",
+      "try": "Experimentar gratuitamente",
+      "trouble-shoot": "Mais soluções de problemas",
+      "contact-support": "Contatar o suporte",
+      "setp-1-title": "Obter uma licença",
+      "setp-1-info-1": "Você pode obter uma nova chave de licença ",
+      "setp-1-info-2": "assinando nosso serviço",
+      "setp-1-info-3": "se você ainda não o fez",
+      "setp-2-title": "Instale em seu servidor",
+      "setp-2-info-1": "Verifique seu e-mail registrado para obter instruções sobre como instalar o cPGuard em seu servidor",
+      "setp-2-info-2": "Você também pode encontrar instruções detalhadas sobre como instalar o cPGuard em nosso",
+      "setp-2-info-3": "guia de primeiros passos",
+      "setp-3-title": "É isso!",
+      "setp-3-info-1": "Após instalar sua chave de licença, seu servidor será automaticamente vinculado à nuvem. Você pode atualizar sua lista de servidores para ver se o novo servidor está listado.",
+      "setp-3-info-2": "Se seu servidor não estiver listado, tente as seguintes etapas de solução de problemas",
+      "setp-3-info-3": {
+        "li-1": "Verifique e confirme se todos os IPs de nossa nuvem (listados aqui) estão na lista de permissões em seu servidor",
+        "li-2": "Nosso agente usa a porta 9098 por padrão. Certifique-se de que a porta não seja usada por outros serviços",
+        "li-3": "Tente reiniciar nosso serviço de agente executando /opt/cpguard/restart.sh como root"
+      },
+      "support-list-title": "Suporte cPGuard",
+      "support-list-info-1": "",
+      "support-os": "Sistemas Operacionais Suportados"
+    },
+    "adv-filter": {
+      "hostname": "Nome do host",
+      "hostname-placeholder": "filtro por nome do host",
+      "ip-address": "Endereço de IP",
+      "ip-address-placeholder": "filtro por endereço de IP",
+      "category": "Categoria",
+      "category-placeholder": "filtro por categoria",
+      "by-labels": "Por marcadores",
+      "filter-by": "Filtrar por",
+      "filter-all": "Filtrar tudo",
+      "filter-all-placeholder": "Digite para filtrar",
+      "db-name": "Nome do banco de dados",
+      "db-name-placeholder": "filtrar por nome do banco",
+      "user": "Usuário",
+      "user-placeholder": "filtrar por usuário",
+      "signature-name": "Nome da assinatura",
+      "signature-name-placeholder": "filtrar por nome da assinatura",
+      "table-name": "Nome da tabela",
+      "table-name-placeholder": "filtrar por nome da tabela",
+      "date": "Data",
+      "date-placeholder": "filtrar por data",
+      "time": "Hora",
+      "ip": "Endereço IP",
+      "ip-placeholder": "filtrar por endereço IP",
+      "domain-name": "Nome do domínio",
+      "domain-name-placeholder": "filtrar por nome de domínio",
+      "uri": "URI",
+      "uri-placeholder": "filtrar por URI",
+      "rule-id": "ID da regra",
+      "rule-id-placeholder": "filtrar por ID da regra",
+      "http-method": "Método HTTP",
+      "http-method-placeholder": "filtrar por método HTTP",
+      "justification": "Justificativa",
+      "justification-placeholder": "filtrar por justificativa",
+      "action": "Ação",
+      "action-placeholder": "filtrar por ação",
+      "cvss-status": "Status CVSS",
+      "cvss-status-placeholder": "filtrar por status CVSS",
+      "path": "Caminho",
+      "path-placeholder": "filtrar por caminho",
+      "version-status": "Status da versão",
+      "version-status-placeholder": "filtrar por versão",
+      "file-name": "Nome do arquivo",
+      "file-name-placeholder": "filtrar por nome do arquivo",
+      "virus-description": "Descrição do vírus",
+      "virus-description-placeholder": "filtrar por descrição do vírus",
+      "status": "Status",
+      "status-placeholder": "filtrar por status",
+      "php-version": "Versão do PHP",
+      "php-version-placeholder": "filtrar por versão do PHP",
+      "package-type": "Tipo",
+      "package-type-placeholder": "filtrar por tipo de pacote",
+      "cms-type": "Tipo de CMS",
+      "cms-type-placeholder": "filtrar por tipo de CMS"
+    },
+    "common": {
+      "add-server": "Adicionar servidor",
+      "manage-license": "Gerenciar licença",
+      "admin": "Esta ação removerá todas as informações do servidor deste portal. Tem certeza?",
+      "user": "Tem certeza de que deseja remover seu acesso a este servidor?",
+      "offline": {
+        "title": "O agente não está em execução",
+        "desc": "Não recebemos um ping do agente em execução no servidor"
+      }
+    },
+    "manage-license": {
+      "title": "Gerenciar licença",
+      "buy": "Comprar",
+      "try": "Experimentar gratuitamente",
+      "trouble-shoot": "Mais solução de problemas",
+      "contact-support": "Contate o suporte",
+      "setp-1-title": "Obter uma licença",
+      "setp-1-info-1": "Se você já tiver uma licença válida, ",
+      "setp-1-info-2": "por favor, re-emitir sua chave de licença",
+      "setp-1-info-3": "Se você já tiver uma licença válida, por favor emita novamente sua chave de licença",
+      "setp-2-title": "Aplique a chave de licença em seu servidor usando o seguinte comando",
+      "setp-2-info-1": "Verifique seu e-mail registrado para obter instruções para instalar o cPGuard em seu servidor",
+      "setp-2-info-2": "Você também pode encontrar instruções detalhadas sobre como instalar o cPGuard em nosso",
+      "setp-2-info-3": "mantenha-o",
+      "setp-3-title": "É isso!",
+      "setp-3-info-1": "Depois de instalar sua chave de licença, seu servidor será automaticamente vinculado à nuvem. Você pode atualizar sua lista de servidores para ver se o novo servidor está listado.",
+      "setp-3-info-2": "Se você receber um erro Desconhecido/Tempo limite ao carregar o painel do cPGuard ou outras páginas, certifique-se de",
+      "setp-3-info-3": {
+        "li-1": "Coloque nossos IPs na lista de permissões abaixo em seu servidor e firewall de rede. Eles devem ser capazes de se conectar ao serviço do agente em execução na porta TCP 9098 em seu servidor.",
+        "li-2": "Nenhum outro processo está usando a porta 9098 em seu servidor"
+      },
+      "support-list-title": "Painéis de Controle Suportados",
+      "support-list-info-1": "cPGuard está atualmente disponível para servidores com WHM/cPanel & Direct Admin & Plesk instalados",
+      "support-os": "Sistemas Operacionais Suportados"
+    }
+  },
+  "server-details": {
+    "view": "Visualizar",
+    "quick-scan": "Verificação rápida",
+    "scan": "Verificar",
+    "tile-threat": "Ameaças interrompidas",
+    "tile-attacks": "Ataques bloqueados",
+    "tile-overview": "Visão geral dos ataques",
+    "tile-overview-desc": "Há uma diminuição de {{value}}%",
+    "tile-quarantine": "Arquivos em quarentena",
+    "tile-scnner": "Scanner",
+    "tile-web": "Proteção da Web",
+    "graph-virus": "Infecções por vírus",
+    "graph-virus-types": "Tipos de vírus",
+    "info-waf-attacks": "Ataques da Web",
+    "info-waf-attacks-desc": "Total de ataques bloqueados",
+    "alerts": "Alertas",
+    "incidents": "Incidentes",
+    "view-all": "Ver todos",
+    "attacks-blocked": "Ataques bloqueados",
+    "attacks-blocked-desc": "Há uma redução de {{value}}% em comparação com o mês anterior",
+    "notifications": "Notificações",
+    "summary": {
+      "title": "Resumo",
+      "outdated-cms": "CMS desatualizado",
+      "cms-issues": "Problemas do CMS",
+      "ips-blacklisted": "IPs na lista negra",
+      "domains-blacklisted": "Domínios na lista negra",
+      "rootkit-found": "RootKit encontrado"
+    },
+    "card": {
+      "threats-stopped": "Ameaças interrompidas",
+      "web-attacks-blocked": "Ataques da Web bloqueados",
+      "connections-blocked": "Conexões bloqueadas",
+      "overall": "Geral",
+      "quarantined": "Em quarentena"
+    },
+    "chart": {
+      "pie": {
+        "prev": "{{value}} anterior"
+      },
+      "bar": {
+        "connections": "Conexões bloqueadas",
+        "threats": "Ameaças interrompidas",
+        "web-attacks": "Ataques da Web bloqueados",
+        "previous": "Anterior",
+        "current": "Actual"
+      },
+      "bar-virus": {
+        "virus": "Vírus",
+        "symbolic": "Simbólico",
+        "suspicious": "Suspeito",
+        "binary": "Binário"
+      }
+    },
+    "scan-btn": {
+      "full-scan-desc": "Iniciar uma verificação completa em todas as contas",
+      "path-scan-desc": "Caminho absoluto para digitalizar",
+      "path-scan": "Verificação de caminho",
+      "full-scan": "Verificação completa"
+    },
+    "common": {
+      "no-alerts": "Sem alertas",
+      "alerts-desc": "Tudo parece bem"
+    },
+    "host-errors": {
+      "invalid": {
+        "title": "O nome do host padrão não é um domínio válido",
+        "message": "O nome do host padrão do servidor não é um domínio válido. Um domínio válido é necessário para que certos recursos do painel de controle funcionem corretamente"
+      },
+      "error": {
+        "title": "O DNS do domínio não aponta para o servidor",
+        "message": "O domínio padrão não aponta para a endereço IP deste servidor. O DNS deve ser configurado corretamente para o funcionamento completo do painel de controle"
+      },
+      "ssl": {
+        "title": "Não foi possível obter o certificado SSL",
+        "message": "A configuração automática de SSL falhou para o domínio padrão. Isso pode limitar o acesso a algumas funções do painel de controle. Certifique-se de que o domínio seja válido, acessível publicamente e esteja corretamente apontado para este servidor."
+      }
+    }
+  },
+  "csf-config": {
+    "on": "ON",
+    "off": "OFF",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "title": "Configuração CSF",
+    "sub-title": "Configurações altamente recomendadas que podem melhorar a segurança do seu servidor",
+    "lf-alerts": {
+      "title": "LF ALERTS",
+      "desc": "Essas opções ajudarão a alertá-lo ou executar ações quando determinadas ações ocorrerem no servidor.",
+      "lf-script": "LF SCRIPT",
+      "alert": "LF_SCRIPT_ALERT",
+      "alert-desc": "Alerta na detecção de scripts de spam",
+      "lf-script-action": "LF_SCRIPT_ACTION",
+      "lf-script-action-desc": "Ative o script cPGuard para verificar o relatório e suspender a conta de e-mail quando o evento LF_SCRIPT_ALERT for acionado",
+      "lf-ssh-email-alert": "LF_SSH_EMAIL_ALERT",
+      "lf-ssh-email-alert-desc": "Envie um alerta por e-mail se alguém fizer login usando SSH",
+      "lf-cpanel-alert-users": "LF_CPANEL_ALERT_USERS",
+      "lf-cpanel-alert-users-desc": "Lista de contas para as quais enviar alertas; usar todos para TODOS os usuários",
+      "lf-cpanel-alert-desc": "Envie um alerta por e-mail se alguém acessar o WHM/cPanel por meio de uma conta listada em LF_CPANEL_ALERT_USERS."
+    },
+    "local-host-relay": {
+      "title": "Relay Tracking",
+      "localhost-relay-desc": "Relay Tracking. Isso permite rastrear e-mails que são retransmitidos pelo servidor. Também há opções para enviar alertas e bloquear endereços IP externos se o número de emails retransmitidos por hora exceder os limites configurados.",
+      "rt-localhost-relay-alert": "RT_LOCALHOSTRELAY_ALERT",
+      "rt-localhost-relay-alert-desc": "Ativar alerta para e-mails enviados por meio de endereços IP locais",
+      "rt-localhost-relay-limit": "RT_LOCALHOSTRELAY_LIMIT",
+      "rt-localhost-relay-limit-desc": "Contagem de limite de e-mail para RT_LOCALHOSTRELAY_ALERT",
+      "RT_RELAY_ALERT": "RT_RELAY_ALERT",
+      "RT_RELAY_ALERT-desc": "Esta opção aciona para e-mail externo",
+      "RT_RELAY_LIMIT": "RT_RELAY_LIMIT",
+      "RT_RELAY_LIMIT-desc": "",
+      "RT_RELAY_BLOCK": "RT_RELAY_BLOCK",
+      "RT_RELAY_BLOCK-desc": "",
+      "RT_AUTHRELAY_ALERT": "RT_AUTHRELAY_ALERT",
+      "RT_AUTHRELAY_ALERT-desc": "Esta opção aciona para e-mail autenticado por SMTP AUTH",
+      "RT_AUTHRELAY_LIMIT": "RT_AUTHRELAY_LIMIT",
+      "RT_AUTHRELAY_LIMIT-desc": "",
+      "RT_AUTHRELAY_BLOCK": "RT_AUTHRELAY_BLOCK",
+      "RT_AUTHRELAY_BLOCK-desc": "",
+      "RT_ACTION": "RT_ACTION",
+      "RT_ACTION-desc": "",
+      "RT_ACTION-warn": "Ativar isso substituirá sua configuração personalizada existente",
+      "RT_POPRELAY_ALERT": "Esta opção aciona para e-mail externo0",
+      "RT_POPRELAY_ALERT-desc": "Esta opção aciona para e-mail externo1",
+      "RT_POPRELAY_LIMIT": "Esta opção aciona para e-mail externo2",
+      "RT_POPRELAY_LIMIT-desc": "",
+      "RT_POPRELAY_BLOCK": "Esta opção aciona para e-mail externo3",
+      "RT_POPRELAY_BLOCK-desc": ""
+    },
+    "synflood": {
+      "synflood": "SYNFLOOD",
+      "title": "Configuração SYNFLOOD",
+      "synflood-desc": "Ativar proteção contra inundação SYN. Esta opção configura o iptables para oferecer alguma proteção contra tentativas de DOS de pacotes SYN tcp. Você deve definir a TAXA para que os falsos positivos sejam reduzidos ao mínimo, caso contrário os visitantes podem ver problemas de conexão (verifique /var/log/messages para *SYNFLOOD Blocked*).",
+      "synflood-sub-desc": "Ativar proteção SYNFLOOD",
+      "synflood-rate": "SYNFLOOD_RATE",
+      "synflood-burst": "SYNFLOOD_BURST"
+    },
+    "allow-deny": {
+      "title": "ALLOW/DENY COUNTRY",
+      "desc": "Código do país para permissão/negação do CIDR. Nas duas opções a seguir, você pode permitir ou negar intervalos CIDR de todo o país. Os blocos CIDR são gerados a partir do banco de dados MaxMind GeoLite2 Country em: https://dev.MaxMind.com/geoip/geoip2/geolite2/ Este recurso depende inteiramente da disponibilidade do serviço",
+      "cc-deny": "CC_DENY",
+      "cc-deny-desc": "Negar conexões de países listados",
+      "cc-allow": " CC_ALLOW",
+      "cc-allow-desc": "Permitir conexões de países listados"
+    },
+    "disabled": {
+      "title": "CSF not Running",
+      "desc": "CSF Firewall não está sendo executado no servidor. Por favor, instale/ative-o para usar este recurso",
+      "standalone": "O CSF não é compatível com este painel de controle"
+    },
+    "LF_EMAIL_ALERT": {
+      "title": "Bloqueio e alertas de falha de login",
+      "desc": "Os valores a seguir são específicos do aplicativo e o gatilho é o número de falhas nesse aplicativo que acionará o LFD para bloquear o endereço IP",
+      "LF_EMAIL_ALERT": "Enviar um alerta por e-mail se um endereço IP for bloqueado por um dos gatilhos de limite de LF",
+      "LF_SSHD": "Ativar detecção de falha de login de conexões sshd ( 0 is disabled )",
+      "LF_FTPD": "Ativar detecção de falha de login de conexões ftp ( 0 is disabled )",
+      "LF_SMTPAUTH": "Ativar detecção de falha de login de conexões SMTP AUTH ( 0 is disabled )",
+      "LF_EXIMSYNTAX": "Ativar detecção de falha de sintaxe de conexões Exim ( 0 is disabled )",
+      "LF_POP3D": "Habilitar detecção de falha de login de conexões pop3 ( 0 is disabled )",
+      "LF_IMAPD": "Habilitar detecção de falha de login de conexões imap ( 0 is disabled )"
+    },
+    "network-port": {
+      "title": "Configurações da porta IPv4",
+      "desc": "Portas TCP e UDP permitidas para conexões de entrada",
+      "tcp-in": {
+        "title": "TCP_IN",
+        "desc": "Portas TCP de entrada permitidas"
+      },
+      "udp-in": {
+        "title": "UDP_IN",
+        "desc": "Portas UDP de entrada permitidas"
+      }
+    },
+    "quick-actions": {
+      "title": "Ações rápidas",
+      "desc": "Gerenciamento de bloco IP CSF",
+      "placeholders": {
+        "ip": "Endereço de IP",
+        "comment": "Comente",
+        "tooltip": "Use seu IP: {{ip}}"
+      },
+      "error": {
+        "ip-required": "Endereço IP inválido"
+      },
+      "btn": {
+        "allow": "Permitir",
+        "deny": "Negar",
+        "ignore": "Ignorar",
+        "unblock": "Desbloquear",
+        "check-ip": "Verifique o IP",
+        "check": "Verificar"
+      },
+      "forms": {
+        "allow-ip": {
+          "title": "Permitir endereço IP",
+          "desc": "Coloque IP na lista de permissões e adicione ao arquivo de permissão (csf.allow)"
+        },
+        "block-ip": {
+          "title": "Bloquear endereço IP",
+          "desc": "Coloque IP na lista negra e adicione ao arquivo de negação (csf.deny)"
+        },
+        "ignore-ip": {
+          "title": "Ignorar endereço IP",
+          "desc": "Deixe o lfd ignorar o IP e adicionar ao arquivo ignorado (csf.ignore)"
+        },
+        "unblock-ip": {
+          "title": "Desbloquear endereço IP",
+          "desc": "Remova o endereço IP do firewall (blocos temporários e permanentes)"
+        },
+        "check-ip": {
+          "title": "Verifique o endereço IP",
+          "desc": "Verifique o status do seu endereço IP no firewall"
+        }
+      }
+    },
+    "response": {
+      "quick-actions": {
+        "added": "{{ip}} adicionado ao LCR.{{method}}",
+        "exists": "{{ip}} já existe no csf.{{method}}",
+        "removed": "{{ip}} removido do LCR.{{method}}",
+        "not-found": "{{ip}} não está em {{method}} lista",
+        "allowed": "Não posso negar {{ip}}. ",
+        "ignored": "Não posso negar {{ip}}. ",
+        "not-installed": "Ação: falhou. ",
+        "failed": "Ação: falhou. ",
+        "invalid": "{{ip}} endereço não é um IP/CIDR válido",
+        "unblock-success": "{{ip}} removido da lista de negações e temporárias",
+        "unblock-not-found": "{{ip}} não está em nenhuma lista de bloqueio"
+      }
+    }
+  },
+  "manual-scans": {
+    "title": "Varreduras Manuais",
+    "manual-scans-logs": "Registros de Varreduras Manuais",
+    "scanner-tiles": {
+      "full-scan": "Verificação completa",
+      "full-scan-desc": "Iniciar uma verificação completa em todas as contas",
+      "hint-no-scan": "Nenhuma verificação foi realizada ainda",
+      "hint-last-scan-on": "Última verificação em {{value}}",
+      "attempting": "Iniciando...",
+      "quick-scan": "Verificação rápida",
+      "quick-scan-desc": "Escolha um diretório",
+      "path-scan": "Verificação de pasta",
+      "path-scan-desc": "Caminho absoluto do diretório que você deseja escanear",
+      "choose-path": "Escolher Caminho",
+      "run-scan": "Iniciar Verificação"
+    },
+    "table": {
+      "scan-type": "Tipo de digitalização",
+      "target": "Destino",
+      "tested-files": "Arquivos testados",
+      "infected-files": "Arquivos infectados",
+      "user": "Usuário",
+      "status": "Status",
+      "time": "Hora"
+    },
+    "scanner-card-error": {
+      "invalid-path": "Caminho inválido",
+      "invalid-path-enter": "Por favor, insira um caminho válido",
+      "invalid-path-choose": "Por favor, escolha um diretório",
+      "duplicate": "Duplicar",
+      "forbidden": "Caminho proibido",
+      "unidentified": "encontramos um erro não identificado"
+    },
+    "attempt": "Iniciando...",
+    "dialog": {
+      "title": "Confirmar?",
+      "desc": "Tem certeza de que deseja interromper esta varredura.",
+      "btn": {
+        "stop": "Parar",
+        "cancel": "Cancelar"
+      }
+    },
+    "types": {
+      "new": "Novo",
+      "path": "Caminho",
+      "all": "Todos",
+      "quick": "Rápido"
+    }
+  },
+  "manual-scan-report": {
+    "title": "Registros do verificador de vírus",
+    "seconds": "{{value}} segundos ",
+    "hours": "{{value}} horas ",
+    "days": "{{value}} dias ",
+    "second": "{{value}} segundo ",
+    "hour": "{{value}} hora ",
+    "minutes": "{{value}} minutos ",
+    "day": "{{value}} dia ",
+    "minute": "{{value}} minuto ",
+    "cards": {
+      "infected-files-found": "Arquivos Infectados",
+      "files-scanned": "Arquivos Escaneados",
+      "cms-threats-found": "Ameaças CMS",
+      "outdated-wordpress-found": "CMS Desatualizado",
+
+      "scan-duration": "Duração da verificação",
+      "scan-status": "Status da verificação",
+      "failed": "Falha",
+      "target": "Destino",
+      "infections-found": "entradas infectadas",
+      "database-found": "Banco de dados verificado",
+      "databases-found": "Bancos de dados verificados"
+    },
+    "table": {
+      "filename": "Nome do arquivo",
+      "category": "Categoria",
+      "virus-description": "Descrição do vírus",
+      "user": "Usuário",
+      "status": "Status",
+      "time": "Hora"
+    },
+    "tiles": {
+      "running": "Executando",
+      "failed": "Falha",
+      "completed": "Completo",
+      "stopped": "Parado",
+      "queued": "Na fila",
+      "preparing": "Preparando",
+      "deleting": "Excluindo..."
+    }
+  },
+  "virus-scanner": {
+    "title": "Registros do verificador de vírus",
+    "table": {
+      "filename": "Nome do arquivo",
+      "category": "Categoria",
+      "virus-description": "Descrição do vírus",
+      "user": "Usuário",
+      "status": "Status",
+      "time": "Hora",
+      "action": "Ação"
+    },
+    "drawer": {},
+    "actions": {
+      "no-action": "Sem ação",
+      "deleted": "Deletado",
+      "quarantined": "Quarentena",
+      "restore": "Restaurar",
+      "disabled": "Desativado",
+      "cleaned": "Limpo",
+      "replaced": "Substituído",
+      "blocked": "Bloqueado",
+      "loading": "Carregando..."
+    }
+  },
+  "cms-threat-alerts": {
+    "broken": "QUEBRADO",
+    "outdated": "Desatualizado",
+    "title-threat": "Alertas de ameaça do CMS",
+    "active": "Ativo",
+    "dismissed": "Dispensado",
+    "title-cms": "versões do CMS",
+    "cms-error": {
+      "version": "Nenhum dado CMS encontrado",
+      "version-desc": "tente novamente mais tarde"
+    },
+    "cards": {
+      "cms-issue-found": "CMS com problema",
+      "wordpress-installations": "Instalações do WordPress",
+      "drupal-installations": "Instalações do Drupal",
+      "joomla-installations": "Instalações do Joomla",
+      "opencart-installations": "Instalações Opencart"
+    },
+    "table": {
+      "threat": {
+        "file-name": "Nome do arquivo",
+        "reason": "Motivo",
+        "threat-level": "Nível de ameaça",
+        "user": "Usuário",
+        "time": "Hora"
+      },
+      "version": {
+        "cms": "CMS",
+        "version": "Versão",
+        "plugins": "Plugins",
+        "themes": "Temas"
+      }
+    },
+    "modal-data": {
+      "version": "Versão",
+      "warn-cms": "Esta instalação do {{cms}} parece estar quebrada. Por segurança, tente corrigi-lo ou removê-lo, se não for desejado.",
+      "title-plugin": "Detalhes do plug-in",
+      "title-theme": "Detalhes do tema"
+    },
+    "warning": {
+      "addon-check-disabled": "A verificação de complemento do CMS está desativada"
+    },
+    "expanded": {
+      "update-all": "Atualizar tudo",
+      "update-now": "Atualizar agora",
+      "auto-update": "Atualização automática",
+      "update-to": "Atualizar para",
+      "no-plugins": "Nenhum plugin encontrado",
+      "no-themes": "Nenhum tema encontrado",
+      "no-vulnerabilities": "Nenhuma vulnerabilidade encontrada",
+      "threats": "Ameaças",
+      "plugins": "Plugins",
+      "themes": "Temas",
+      "vulnerabilities": "Vulnerabilidades",
+      "no-dismissed-threats": "Nenhuma ameaça desconsiderada encontrada",
+      "wp-cron": "Cron do WordPress",
+      "cvss-score": "Pontuação CVSS",
+      "remediation": "Remediação",
+      "safe": "Seguro",
+      "low": "Baixo",
+      "issues": "Problemas",
+      "medium": "Médio",
+      "high": "Alto",
+      "critical": "Crítico",
+      "enabled": "Habilitado",
+      "disabled": "Desabilitado",
+      "table": {
+        "component": "Componente",
+        "version": "Versão",
+        "update": "Atualização",
+        "auto-update": "Atualização automática",
+        "cvss-score": "Pontuação CVSS",
+        "cvss-rating": "Classificação CVSS",
+        "issues": "Problemas"
+      }
+    }
+  },
+  "db-scanner": {
+    "database-details": "Detalhes do banco de dados",
+    "title": "Registros do verificador de banco de dados",
+    "table": {
+      "database": "Banco de dados",
+      "table": "Tabela",
+      "signature-name": "Nome da assinatura"
+    },
+    "messages": {
+      "archive-success": "Arquivado com sucesso",
+      "archive-error": "Falha ao arquivar",
+      "unarchive-success": "Desarquivado com sucesso",
+      "unarchive-error": "Falha ao desarquivar",
+      "whitelist-success": "Adicionado à lista de permissões com sucesso",
+      "whitelist-error": "Falha ao adicionar à lista de permissões",
+      "unwhitelist-success": "Removido da lista de permissões com sucesso",
+      "unwhitelist-error": "Falha ao remover da lista de permissões"
+    }
+  },
+  "waf": {
+    "title": "Registros WAF",
+    "table": {
+      "ip-method": "IP & Método",
+      "reason": "Motivo",
+      "request": "Solicitação",
+      "time": "Data"
+    },
+    "whitelist": {
+      "success": "ID da regra adicionado à lista de permissões",
+      "failed": "Falha ao colocar o ID da regra na lista de permissões",
+      "remove": "ID da regra removido da lista de permissões",
+      "remove-fail": "Falha ao remover o ID da regra"
+    },
+    "report": {
+      "true": "Log relatado como falso positivo",
+      "false": "Algo deu errado, tente novamente mais tarde"
+    },
+    "waf_configurations": {
+      "title": "Configurações WAF",
+      "waf_server_title": "Servidor web",
+      "waf_server_desc": "O servidor no qual o ModSecurity está instalado e as regras WAF devem ser carregadas. ",
+      "waf_server_placeholder": "Escolha um servidor",
+      "waf_server_conf_title": "Arquivo de configuração",
+      "waf_server_conf_desc": "O arquivo no qual podemos incluir as configurações/regras do cPGuard WAF ModSecurity. ",
+      "waf_server_conf_placeholder": "Caminho de configuração do ModSecurity",
+      "waf_server_restart_cmd_title": "Comando de reinicialização do servidor",
+      "waf_server_restart_cmd_desc": "Comando para reiniciar o servidor e aplicar a nova configuração. ",
+      "waf_server_restart_cmd_placeholder": "Comando de reinicialização do servidor",
+      "waf_server_error_log_title": "Registro de erros",
+      "waf_server_error_log_desc": "O arquivo no qual o servidor WAF registra erros. ",
+      "waf_server_error_log_placeholder": "",
+      "waf_audit_log_title": "Registro de auditoria",
+      "waf_audit_log_desc": "O arquivo no qual podemos incluir as configurações/regras do cPGuard WAF ModSecurity. ",
+      "waf_audit_log_placeholder": "",
+      "alert": {
+        "warning": "Arquivo de configuração",
+        "error": {
+          "invalid_server": "servidor_waf",
+          "invalid_path": "Um arquivo não existe ou não pode ser criado no local fornecido",
+          "invalid_log_path": "Arquivo não existe"
+        }
+      }
+    }
+  },
+  "ipdb": {
+    "geo-map-title": "Ataques por país",
+    "geo-map-desc": "Principais países por ataques bloqueados",
+    "geo-map-sub": "Exibindo dados dos últimos 7 dias",
+    "title": "Estatísticas da lista de bloqueio do IPDB",
+    "ipdb-live-monitor-desc": "Log ao vivo de conexões de IPs na lista negra sendo bloqueados.",
+    "desc": "Última recarga em {{last_reload}}",
+    "btn-check-ip": "Verificar endereço IP",
+    "btn-check-ip-mobile": "Verificar IP",
+    "attacks-blocked": "Ataques bloqueados",
+    "live": "Ao vivo",
+    "hourly": "De hora em hora",
+    "attacks-blocked-desc": {
+      "blocked-from": "Ataque bloqueado de",
+      "towards": "para",
+      "at": "at"
+    },
+    "ipdb-live-monitor": "Monitor ao vivo IPDB",
+    "error": {
+      "live-monitor": "Não foi possível carregar o monitor ao vivo, algo deu errado, por favor",
+      "btn": "Tente novamente agora"
+    },
+    "disabled": {
+      "off": "DESLIGADO",
+      "btn": "consulte Mais informação",
+      "on": "SOBRE",
+      "title": "A lista de bloqueio IPDB não está habilitada neste servidor",
+      "desc": "O IPDB do cPGuard bloqueia todas as conexões de IPs inseguros que se enquadram em uma lista negra altamente refinada de IPs pertencentes às ameaças mais recentes e relevantes."
+    },
+    "log_disabled": {
+      "title": "IPDB Log Disabled",
+      "desc": "IPDB está funcionando e bloqueando ataques, mas o log está desabilitado"
+    },
+    "modal": {
+      "title": "Verifique se o IP está bloqueado pelo IPDB",
+      "placeholder": "Digite o IP aqui. Exemplo: 192.168.1.1",
+      "check": {
+        "blocked": "Bloqueado como havia",
+        "not-blocked": "Não bloqueado",
+        "whitelisted": "Encontrado no arquivo de lista de permissões do servidor",
+        "invalid-ip": "dado IP não é válido",
+        "waf": " {{WAF_COUNT}} ataques WAF de {{WAF_RULES_COUNT}} tipos",
+        "csfs": " {{CSF_COUNT}} bloqueios de LCR",
+        "csf": " {{CSF_COUNT}} bloqueio de LCR",
+        "recaptchas": " {{RECAPTCHA_COUNT}} falhas de recaptcha",
+        "recaptcha": " {{RECAPTCHA_COUNT}} falha de recaptcha",
+        "bfs": " {{BF_COUNT}} ataques de robôs",
+        "bf": " {{BF_COUNT}} ataque de bot",
+        "hosts": " entre {{HOST_COUNT}} servidores diferentes",
+        "host": " entre {{HOST_COUNT}} servidor",
+        "time": " com pontuação de tempo de {{TIME_COUNT}}%",
+        "access-log-true": "bloqueio devido a repetidos ataques de força bruta",
+        "country-whitelist": "O país de origem do IP está na lista de permissões",
+        "country-blacklist": "O país de origem do IP está na lista negra",
+        "blacklisted": "Encontrado no arquivo da lista negra do servidor",
+        "REASON": "O IP está na lista de bloqueio temporário ({{REASON}})",
+        "NO-REASON": "O IP está na lista de bloqueio temporário",
+        "remote-blacklist": "IP está na lista negra remota",
+        "remote-whitelist": "IP está na lista branca remota",
+        "meta-bot-block": "O IP está na lista de bloqueio de meta bots",
+        "ai-bot-block": "O IP está na lista de bloqueio de bots de IA"
+      }
+    }
+  },
+  "bruteforce": {
+    "title": "Ataques de bot",
+    "table": {
+      "ip": "IP",
+      "domain": "Domínio",
+      "reason": "Motivo",
+      "url": "URI",
+      "user": "Usuário",
+      "time": "Hora"
+    },
+    "deny": "Negar",
+    "allow": "Permitir"
+  },
+  "domain-reputation": {
+    "title": "Reputação do Domínio",
+    "desc": "Última recarga em {{last_reload}}",
+    "cards": {
+      "domain": "{{domain_count}} domínio é {{status}}",
+      "domains": "{{domain_count}} domínios são {{status}}",
+      "all-domains": "{{domain_count}} domínios são {{status}}",
+      "total-domains": "Total de domínios",
+      "flagged-domains": "Domínios sinalizados"
+    },
+    "table": {
+      "domain": "Domínio",
+      "user": "Usuário",
+      "reason": "Motivo",
+      "status": "Status"
+    }
+  },
+  "ip-reputation": {
+    "title": "Reputação de IP",
+    "search-placeholder": "Pesquisar IP",
+    "btn": {
+      "scanning": "Digitalizando...",
+      "check-now": "Verificar agora",
+      "add-new-ip": "Adicionar um novo IP para monitorar",
+      "add": "Adicionar"
+    },
+    "sub-title": "Relatório DNSBL - {{dnsblCount}} hosts DNSBL ativos",
+    "sub-desc": "Os hosts DNSBL relataram IP na lista negra",
+    "cards": {
+      "0": {
+        "title": "ÓTIMO",
+        "desc": "o IP não está na lista negra de nenhum host DNSBL"
+      },
+      "loading": {
+        "title": "Carregando...",
+        "desc": "Carregando dados"
+      },
+      "false": {
+        "title": "Na lista negra",
+        "desc": "O IP é relatado como na lista negra pelos servidores DNSBL"
+      },
+      "checking": {
+        "title": "Verificando...",
+        "desc": "Verificação em andamento"
+      },
+      "paused": {
+        "title": "PAUSED",
+        "desc": "Monitoramento automático desativado"
+      },
+      "new": {
+        "title": "NOVO",
+        "desc": "IP ainda não foi verificado"
+      },
+      "failed": {
+        "title": "FALHOU",
+        "desc": "Falha ao escanear o IP"
+      },
+      "scan-time": "Tempo de Varredura",
+      "scan-duration": "Duração de Varredura"
+    }
+  },
+  "rootkit": {
+    "title": "Registros do scanner do RootKit",
+    "cards": {
+      "true": [
+        {
+          "title": "Good",
+          "sub_title": "All CRONS are ACTIVE & good",
+          "icon": "ri-settings-5-line",
+          "color": "cp-green",
+          "headingSize": "cp-h1"
+        },
+        {
+          "title": "RootKit v{{version}}",
+          "sub_title": "version",
+          "icon": "ri-lock-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        },
+        {
+          "title": "{{found}} Found",
+          "sub_title": "Checked for {{checked}} Rootkits",
+          "for": "found",
+          "icon": "ri-time-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        }
+      ],
+      "running": [
+        {
+          "title": "Running",
+          "sub_title": "Rootkit check is running",
+          "icon": "ri-settings-5-line",
+          "color": "cp-green",
+          "headingSize": "cp-h1"
+        },
+        {
+          "title": "RootKit v{{version}}",
+          "sub_title": "version",
+          "icon": "ri-lock-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        },
+        {
+          "title": "0 Found",
+          "sub_title": "Rootkit check is running",
+          "for": "found",
+          "icon": "ri-time-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        }
+      ],
+      "never": [
+        {
+          "title": "Never",
+          "sub_title": "No Rootkit check yet",
+          "icon": "ri-settings-5-line",
+          "color": "cp-red",
+          "headingSize": "cp-h1"
+        },
+        {
+          "title": "Rootkit v{{version}}",
+          "sub_title": "version",
+          "icon": "ri-lock-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        },
+        {
+          "title": "--- Found",
+          "sub_title": "No Rootkit check yet",
+          "for": "found",
+          "icon": "ri-time-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        }
+      ],
+      "error": [
+        {
+          "title": "Rootkit Check Failed",
+          "sub_title": "Please check the logs",
+          "icon": "ri-settings-5-line",
+          "color": "cp-red",
+          "headingSize": "cp-h1"
+        },
+        {
+          "title": "--",
+          "sub_title": "version",
+          "icon": "ri-lock-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        },
+        {
+          "title": "error",
+          "sub_title": "Rootkit check failed",
+          "for": "found",
+          "icon": "ri-time-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        }
+      ],
+      "false": [
+        {
+          "title": "Bad",
+          "sub_title": "CRONS are not ACTIVE",
+          "icon": "ri-settings-5-line",
+          "color": "cp-red",
+          "headingSize": "cp-h1"
+        },
+        {
+          "title": "RootKit v{{version}}",
+          "sub_title": "version",
+          "icon": "ri-lock-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        },
+        {
+          "title": "{{found}} Found",
+          "sub_title": "Checked for {{checked}} Rootkits",
+          "for": "found",
+          "icon": "ri-time-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        }
+      ]
+    },
+    "no-data": "Nenhum dado encontrado",
+    "rk-hunter-log": "Registro do RKHunter"
+  },
+  "settings": {
+    "title": "Configurações",
+    "scanner": "Varredor de vírus",
+    "security-tools": "Ferramentas de segurança",
+    "waf": "WAF",
+    "exim-reputation": "Proteção RBL e Reputação de IP",
+    "automatic-suspension": "Suspensão automática",
+    "notifications": "Notificações",
+    "additional-settings": "Configurações adicionais",
+    "about": "Sobre",
+    "auto-save": "Salvar automaticamente",
+    "learn-more": "Learn More...",
+    "panel": {
+      "general": "Configurações gerais",
+      "webserver": "Servidor web",
+      "backup": "Configurações de backup",
+      "PHP-FPM": "Configurações do PHP-FPM",
+      "PHP-INI": "Configuração do PHP INI",
+      "PHP-modules": "Módulos PHP"
+    },
+    "common-error": {
+      "file-not-found": "Arquivo não existe",
+      "already-exists": "O arquivo já existe",
+      "tool-missing": "Ferramenta de assinatura ausente"
+    },
+    "virus-scanner": {
+      "main-title": "Verificador de vírus",
+      "scanner-desc-running": "O mecanismo do scanner cPGuard está em execução.",
+      "scanner-desc-not-running": "O mecanismo do scanner cPGuard não está em execução.",
+      "scanner-sub-desc": "Iniciado em {{value}}",
+      "restart-scanner": "Reiniciar serviço",
+      "secondary-title": "O que fazer com",
+      "virus-tab": "Arquivos de vírus",
+      "suspicious-tab": "Arquivos suspeitos",
+      "binary-tab": "Arquivos binários",
+      "recommended": "recomendado",
+      "notifications-tab-data": {
+        "email-only": "Somente e-mail",
+        "email-desc": "Use isso para manipular manualmente os arquivos detectados. ",
+        "quarantine": "Quarentena",
+        "quarantine-desc": "Mover o arquivo com segurança para o diretório de quarentena",
+        "disable-file": "Desativar arquivo",
+        "disable-file-desc": "Disables detected file by setting permission to 000"
+      },
+      "auto-clean-title": "Limpeza automática de arquivos infectados",
+      "auto-clean-desc": "Limpeza automática de injeções de arquivos de vírus",
+      "ai-switch-title": "Verificação com inteligência artificial (IA)",
+      "ai-switch-desc": "Verifique arquivos suspeitos com a verificação IA",
+      "db-switch-title": "Scanner de banco de dados",
+      "db-switch-desc": "Escanear bancos de dados CMS em busca de injeções de código malicioso/suspeito",
+      "scanner_symbolic_action-title": "Exclua links simbólicos inseguros",
+      "scanner_symbolic_action-desc": "Ação para link simbólico para um arquivo que de outra forma não estaria acessível ao usuário.",
+      "whitelist-users": "Usuários da lista de permissões",
+      "whitelist-users-desc": "Usuários da lista de permissões que você deseja excluir do verificador de vírus",
+      "select-a-user": "Selecione um usuário",
+      "no-whitelisted-user": "Nenhum usuário na lista de permissões",
+      "plugin-blacklist": "Plugins do WordPress na lista negra",
+      "plugin-blacklist-desc": "Desativar automaticamente os plugins do WordPress durante as verificações do CMS",
+      "no-plugin-blacklist": "Nenhum plugins na lista negra",
+      "invalid-plugin": "Plugin inválido",
+      "whitelist-files": "Arquivos da lista de permissões",
+      "whitelist-files-desc": "Nome do arquivo ou caminho do arquivo que você deseja excluir do antivírus",
+      "add": "Adicionar",
+      "no-whitelisted-files": "Nenhum arquivo na lista de permissões",
+      "blacklist-files": "Arquivos da lista negra",
+      "blacklist-files-desc": "Adicionar nome de arquivo a esta lista para difusão e quarentena",
+      "no-blacklisted-files": "Nenhum arquivo na lista negra",
+      "custom-virus-file-def": "Definições de arquivos de vírus personalizados",
+      "custom-virus-file-def-desc": "Adicionar definições de arquivos locais ao banco de dados de vírus",
+      "no-custom-virus-file-def": "Nenhuma definição de arquivo de vírus personalizada",
+      "excluded_users": {
+        "title": "Excluir usuários dos patches automáticos",
+        "description": "Os CMSs desses usuários não serão atualizados, corrigidos ou terão plugins desabilitados automaticamente."
+      },
+      "whitelist_db_files": "Lista Branca para assinaturas de verificação de banco de dados",
+      "whitelist_db_files_desc": "ID de assinatura que você deseja excluir do scanner de banco de dados",
+      "errors": {
+        "already-whitelisted": "já está na lista de permissões",
+        "invalid-signature": "não é uma assinatura válida"
+      },
+      "type-signature-id-here": "Digite o ID da assinatura aqui",
+      "daily-scans-options": {
+        "every-hour": "A cada hora",
+        "every-2-hours": "A cada 2 horas",
+        "every-3-hours": "A cada 3 horas",
+        "every-4-hours": "A cada 4 horas",
+        "every-6-hours": "A cada 6 horas",
+        "every-8-hours": "A cada 8 horas",
+        "every-12-hours": "A cada 12 horas"
+      },
+      "log-options": {
+        "always": "Sempre",
+        "1-month": "1 mês",
+        "2-months": "2 meses",
+        "3-months": "3 meses",
+        "6-months": "6 meses"
+      }
+    },
+    "sec-tools": {
+      "main-title": "Ferramentas de segurança",
+      "security-tools-desc": "Configurações relacionadas ao módulo de mitigação de ataque de aplicativo da Web distribuído",
+      "bruteforce-title": "Bruteforce Protection",
+      "recommended": "recomendado",
+      "csf-integration": "Integração CSF",
+      "csf-integration-desc": "Integração avançada de força bruta com CSF para evitar ataques de força bruta no firewall do sistema",
+      "csf-integration-sub-desc": "Duração até a qual um IP deve ser colocado na lista negra no CSF (em segundos)",
+      "ipdb-firewall": "Firewall distribuído do IPDB",
+      "ipdb-country-whitelist": "Lista branca do país do IPDB",
+      "ipdb-country-whitelist-desc": "Excluir IPs pertencentes a países listados do IPDB firewall",
+      "ipdb-dos-switch": "Mitigação de DoS",
+      "ipdb-dos-switch-desc": "Proteger contra ataques de Negação de Serviço (DoS)",
+      "ipdb_dos_threshold": "Limite de DoS",
+      "ipdb_dos_threshold-desc": "Máximo de requisições permitidas por minuto antes de bloquear",
+      "ipdb_dos_threshold_success": "Limite atualizado com sucesso",
+      "ipdb-country-blacklist": "Lista negra de países do IPDB",
+      "ipdb-country-blacklist-desc": "Incluir IPs pertencentes a países listados no firewall IPDB",
+      "blacklisted-ips": "IPs na lista negra",
+      "blacklisted-ips-desc": "Adicione IPs que devem ser bloqueados sempre pelo mecanismo de força bruta e Firewall IPDB",
+      "no-blacklisted-ips": "Nenhum IPs na lista negra",
+      "whitelisted-ips": "IPs na lista branca",
+      "whitelisted-ips-desc": "Escolha os IPs que devem ser sempre permitidos pelo mecanismo bruteforce e IPDB Firewall",
+      "no-whitelisted-ips": "Nenhum IPs na lista de permissões",
+      "whitelisted-domains": "Domínios na lista de permissões",
+      "whitelisted-domains-desc": "Escolha domínios que sempre devem ser permitidos pelas regras de captcha e bruteforce",
+      "no-whitelisted-domains": "Nenhum domínios na lista de permissões",
+      "log-ipdb-switch": "Ativar log do IPDB",
+      "ip-placeholder": "Digite o endereço IP",
+      "reason-placeholder": "Insira o motivo",
+      "ip-blacklist-add": "IP adicionada à lista negra",
+      "ip-blacklist-remove": "IP removida da lista negra",
+      "ip-whitelist-add": "IP adicionada à lista branca",
+      "ip-whitelist-remove": "IP removida da lista branca",
+      "add-country": "+ Adicionar país",
+      "errors": {
+        "valid-ip": "IP válida necessária",
+        "blacklist-already-listed": "IP ou faixa já está na lista negra",
+        "whitelist-already-listed": "IP ou faixa já está na lista branca",
+        "blacklist-exists": "Adição falhou! IP ou faixa está presente na lista negra",
+        "whitelist-exists": "Adição falhou! IP ou faixa está presente na lista branca",
+        "dos-threshold-range": "Um valor acima de 100 é recomendado para reduzir falsos positivos.",
+        "blacklist-invalid": "IP ou intervalo inválido",
+        "whitelist-invalid": "IP ou intervalo inválido"
+      }
+    },
+    "waf-settings": {
+      "true": "WAF está ativado na configuração do servidor Web desde {{value}}.",
+      "false": "WAF está desativado na configuração do servidor Web desde {{value}}.",
+      "will_start": "A configuração do WAF será atualizada momentaneamente",
+      "multiple": "Vários erros de WAF ({{count}}) encontrado. Por favor, verifique os logs para mais detalhes.",
+      "title": "WAF Integration",
+      "rbl-protection": "Proteção RBL",
+      "rbl-protection-desc": "Proteção contra ataque POST distribuído",
+      "captcha-protection": "Proteção de Captcha",
+      "captcha-protection-desc": "Proteção de ataque de força bruta distribuída com verificação de Captcha",
+      "bad_bot_blocker": "Bloqueador de bots ruins",
+      "bad_bot_blocker-desc": "Bloqueie solicitações da web de bots ruins listados abaixo com modsecurity",
+      "webshell-protection": "Proteção de WEBSHELL",
+      "webshell-protection-desc": "Proteção de ataque de shell da Web",
+      "scanner-protection": "Proteção de SCANNER",
+      "scanner-protection-desc": "Evitar agentes de usuário e rastreadores inválidos",
+      "captcha-protected-urls": "URLs protegidos por Captcha",
+      "captcha-protected-urls-desc": "Lista de URIs que são protegidos pelo módulo WAF captcha",
+      "whitelisted-rules": "Regras da lista de permissões",
+      "whitelisted-rules-desc": "Desabilite certas regras WAF adicionando um ID de regra específico",
+      "waf_crawler_switch": "Proteção ruim do crawler",
+      "waf_crawler_switch-desc": "Impede que rastreadores ruins enviem solicitações desnecessárias",
+      "waf_cdn_proxy": "Verificação de IP de Proxy CDN",
+      "waf_cdn_proxy-desc": "Habilita verificações de lista negra de IP usando o IP real do cliente por trás de um CDN ou proxy"
+    },
+    "rbl-ip": {
+      "title": "Proteção RBL e Reputação de IP",
+      "desc": "Configurações relacionadas ao Mail Server RBL e verificações de reputação de IP do cPGuard",
+      "exim-rbls": "Servidores de Proteção RBL",
+      "exim-rbls-desc": "Escolha RBLs para adicionar à configuração do Mail Server RBL",
+      "suggest-exim-rbls": "SRBL abrange outras RBLs. Desativando RBLs redundantes",
+      "ip-reputation-monitoring": "Servidores de Proteção RBL",
+      "ip-reputation-monitoring-desc": "Escolha os IPs de servidor a serem incluídos no monitoramento de reputação de IP",
+      "choose-rbls": "Escolha RBLs",
+      "choose-rbls-desc": "Escolha os RBLs a serem incluídos no monitoramento de reputação de IP",
+      "select-all": "Selecionar tudo",
+      "deselect-all": "Desmarcar tudo",
+      "additional-rbls": "RBLs adicionais",
+      "additional-rbls-desc": "Adicionar RBLs adicionais que você deseja adicionar à lista de verificação",
+      "mail-rbls-availability": "Os RBLs de e-mail Exim/Postfix estão disponíveis apenas no cPanel/DirectAdmin/Plesk",
+      "valid-url": "É necessário um URL válido",
+      "rbl-exists": "A RBL já existe"
+    },
+    "add-setting": {
+      "title-wpchecksum_switch": "Verificação da soma de verificação do arquivo WordPress",
+      "wpchecksum_switch-info": "Verifique a integridade do arquivo WordPress e substitua o arquivo original do nosso CDN",
+      "disable_user_switch": "Desabilitar o login do usuário em atividades suspeitas",
+      "disable_user_switch-info": "Monitore e desabilite o login do usuário quando uma sequência suspeita de ações ocorrer para um usuário",
+      "sub-title": "Todas as configurações gerais do cPGuard",
+      "rootkit-scanner": "Rootkit Scanner",
+      "rootkit-scanner-info": "Ativar tarefa cron do scanner RootKit",
+      "daily-scan": "Verificação diária",
+      "daily-scan-info": "Agendar uma verificação para todos os arquivos modificados nas últimas 24 horas",
+      "weekly-scan": "Verificação semanal",
+      "weekly-scan-info": "Agendar uma verificação para todos os arquivos modificados no Últimos 7 dias",
+      "title-override-wordpress": "Substituir wordpress wp-cron.php",
+      "override-wordpress-info": "Adiciona DISABLE_WP_CRON ao wp-config e cria entradas de arquivo cron",
+      "daily-scan-dropdown-info": "Com que frequência o wp-cron.php deve ser executado",
+      "keep-log-dropdown": "Manter logs por",
+      "keep-log-dropdown-info": "Por quanto tempo manter os logs do cPGuard e arquivos em quarentena no servidor.",
+      "title-anonymous-error": "Relatório de erros",
+      "anonymous-error-info": "Enviar relatórios para o servidor de relatório de erros do cPGuard",
+      "language-dropdown": "Linguagem da interface do usuário do cPGuard",
+      "language-dropdown-info": "Selecione o idioma para a interface do cPGuard",
+      "daily-scan-sub-head": "Intervalo para executar wp-cron.php",
+      "proactive-process-monitor": "Monitor de processo proativo",
+      "proactive-process-monitor-info": "verificar e eliminar periodicamente processos suspeitos em execução sob usuários",
+      "block_upload_php_file": "Bloquear upload de arquivos PHP",
+      "block_upload_php_file-info": "Impedir o upload ou a criação de arquivos php por meio de formulários ou scripts"
+    },
+    "wp-cms": {
+      "title": "WordPress e CMS",
+      "title-desc": "lidar com seus controles wordpress e cms a partir de um único console",
+      "wp-autoupdate-title": "Atualização automática de núcleo, plug-in ou tema vulnerável do Wordpress",
+      "wp-autoupdate-title-desc": "Atualizar à força um núcleo, plug-ins ou temas do wordpress que atenda às condições abaixo",
+      "wp-auto-if": "se",
+      "wp-auto-if-1": "existem vulnerabilidades com uma pontuação CVE superior a ",
+      "wp-auto-if-2": "já faz mais do que",
+      "wp-auto-if-3": " dias desde que uma atualização foi lançada"
+    },
+    "auto_suspension": {
+      "title": "Suspensão automática de conta",
+      "sub-title": "Suspender automaticamente usuários com registros inválidos para salvar a reputação do servidor",
+      "sus-virus-detection": "Suspender em detecções de vírus",
+      "sus-virus-detection-info": "Suspender conta de usuário em detecções de vírus",
+      "sus-threshold": "Limite de suspensão",
+      "sus-threshold-info": "Número de detecções de vírus por conta necessárias para acionar a suspensão",
+      "threshold-time": "Tempo limite",
+      "threshold-time-info": "Período de tempo em que as detecções de vírus devem ocorrer",
+      "sus-domain-blacklist": "Suspender na lista negra do domínio",
+      "sus-domain-blacklist-info": "Suspender automaticamente a conta do usuário quando um domínio estiver na lista negra",
+      "whitelisted-domains": "Domínios na lista de permissões",
+      "whitelisted-domains-info": "Domínios que você deseja excluir do acionamento da suspensão automática",
+      "whitelisted-users": "Usuários na lista de permissões",
+      "whitelisted-users-info": "Usuários que você deseja excluir do acionamento da suspensão automática",
+      "select-whitelist-user": "Selecionar usuários para a lista de permissão",
+      "add-domains": "Adicionar domínios à lista de permissão",
+      "threshold-time-options": {
+        "3-hours": "3 horas",
+        "6-hours": "6 horas",
+        "12-hours": "12 horas",
+        "18-hours": "18 horas",
+        "1-day": "1 dia"
+      }
+    },
+    "notification": {
+      "sub-title": "Configurações para gerenciar todas as notificações por e-mail do cPGuard",
+      "main-email-address": "Endereço de e-mail principal",
+      "main-email-address-info": "Endereço de e-mail principal para receber notificações",
+      "additional-email-address": "Endereço de e-mail adicional",
+      "additional-email-address-info": "E-mail opcional para receber notificações",
+      "notify-irus-detections": "Detecções de vírus",
+      "notify-binary-file-detections": "Detecções de arquivos binários",
+      "notify-sus-pattern-detections": "Detecções de padrões suspeitos",
+      "notify-brute-force-attacks": "Ataques de força bruta",
+      "notify-ip-blacklist": "na lista negra de IP",
+      "user-notifications": "Notificações do usuário",
+      "user-notifications-info": "Enviar notificação de CMS desatualizado",
+      "daily-reports": "Relatórios diários",
+      "user-cms-notifications": "Usuários excluídos",
+      "user-cms-notifications-info": "Os usuários selecionados não receberão notificações",
+      "delivery-method": "Método de Entrega",
+      "from-address": "Endereço do Remetente",
+      "from-address-placeholder": "Endereço de e-mail do remetente",
+      "notify_user_infected_files": {
+        "title": "Arquivos infectados",
+        "description": "Enviar notificação por e-mail ao usuário quando arquivos infectados forem detectados na conta"
+      },
+      "notify_user_account_suspension": {
+        "title": "Suspensão de conta",
+        "description": "Enviar notificação ao usuário quando a conta do usuário for automaticamente suspensa."
+      },
+      "out_dated_CMS": {
+        "title": "CMS desatualizado",
+        "description": "Notificar os usuários sobre CMS desatualizado, vulnerabilidades CVE e plugins em sua conta"
+      },
+      "notify_automatic_cms_patch": {
+        "title": "Patches automáticos do CMS",
+        "description": "Notificar os usuários quando atualizações automáticas, patches de segurança ou mudanças em plugins forem aplicados."
+      },
+      "notify-options": {
+        "never": "Nunca",
+        "daily": "Diariamente",
+        "weekly": "Semanalmente",
+        "monthly": "Mensalmente"
+      }
+    },
+    "about-page": {
+      "title": "Sobre o cPGuard",
+      "version": "Versão",
+      "desc-1": "O cPGuard é desenvolvido e mantido por uma equipe dedicada na",
+      "desc-2": ", comprometida em oferecer soluções avançadas de segurança para ambientes de hospedagem web.",
+      "expiry": "Expiração",
+      "package": "Pacote",
+      "license-key": "Chave de Licença",
+      "related": "Relacionado",
+      "support": "Suporte",
+      "manage-license": "Gerenciar Licença",
+      "get-help": "Obtenha ajuda ou reporte um problema",
+      "kb": "Base de Conhecimento",
+      "privacy-policy": "Política de Privacidade",
+      "copyright": "Copyright 2025 OPSSHIELD LLP. Todos os direitos reservados.",
+      "terms-of-service": "Termos de Serviço"
+    },
+    "panel-settings": {
+      "general": {
+        "title": "Configurações Gerais",
+        "hostname": "Nome do host",
+        "current-date": "Data atual",
+        "current-time": "Hora atual",
+        "timezone": "Seu fuso horário",
+        "retain-web-traffic": "Reter estatísticas da web e tráfego por",
+        "months": "meses",
+
+        "success": {
+          "hostname": "Nome do host atualizado com sucesso",
+          "timezone": "Fuso horário atualizado com sucesso",
+          "retain-web-traffic": "Período de retenção de tráfego da web atualizado com sucesso"
+        },
+        "error": {
+          "fetch": "Não foi possível buscar as configurações gerais",
+          "hostname": "Não foi possível atualizar o nome do host",
+          "timezone": "Não foi possível atualizar o fuso horário",
+          "retain-web-traffic": "Não foi possível atualizar o período de retenção de tráfego da web"
+        }
+      },
+      "webserver": {
+        "title": "Servidor web",
+        "switch": "Alternar",
+        "view": "Visualizar",
+        "warning": "Confirmar mudança de servidor web",
+        "desc": "Você está prestes a mudar seu servidor web de <strong class='text-green-500'>{{from}}</strong> para <strong class='text-green-500'>{{to}}</strong>.",
+        "sub-desc": "Esta é uma mudança importante de configuração e pode resultar em:",
+        "sub-desc-2": "Tempo de inatividade temporário do site.",
+        "sub-desc-3": "Ajustes de configuração (regras vhost, comportamentos de cache).",
+        "sub-desc-4": "Reinicializações de serviço que podem levar alguns minutos.",
+        "conflict": "Alguns sites estão usando versões do PHP que não são compatíveis com {{webserver}}",
+        "conflict-header": "Conflito de PHP detectado",
+        "conflict-desc": "PHP <strong class='text-green-500'>{{versions}}</strong> não está incluído no pacote atual do <strong class='text-green-500'>{{webserver}}</strong>.",
+        "conflict-desc-2": "Para continuar, mude esses sites para uma versão do PHP compatível."
+      },
+      "php-module": {
+        "title": "Configurações para o aplicativo FPM {{version}}",
+        "desc-1": "Essas configurações são comuns aos seguintes manipuladores PHP:",
+        "desc-2": "As configurações se aplicam a todos os sites que usam esses manipuladores"
+      },
+      "backup": {
+        "title": "Backup do Site",
+        "backup-type": "Tipo de Backup",
+        "backup-type-desc": "Escolha como seus dados serão salvos. Cada tipo equilibra velocidade, armazenamento e integridade de forma diferente.",
+        "backup-type-compressed": "Comprimido",
+        "backup-type-compressed-desc": "Salva todas as suas informações, usa menos espaço em disco, mas leva mais tempo para criar o backup.",
+        "backup-type-uncompressed": "Não Comprimido",
+        "backup-type-uncompressed-desc": "Salva todas as suas informações, usa mais espaço em disco, mas é mais rápido para concluir.",
+        "backup-type-incremental": "Incremental",
+        "backup-type-incremental-desc": "Salva apenas as alterações desde o último backup, usando menos espaço e tempo.",
+        "disk-space": "Verificar o Espaço em Disco Disponível",
+        "disk-space-desc": "Certifique-se de que há espaço suficiente para o backup. Caso contrário, ele falhará.",
+        "disk-limit": "Definir limite de memória para o backup",
+        "schedule-and-retenton": "Agendamento e Retenção",
+        "schedule-and-retention-desc": "Defina com que frequência os backups são criados e por quanto tempo são mantidos.",
+        "daily-backup": "Backup Diário",
+        "daily-backup-desc": "Cria um backup todos os dias no horário especificado.",
+        "weekly-backup": "Backup Semanal",
+        "weekly-backup-desc": "Cria um backup toda semana no dia e horário especificados.",
+        "monthly-backup": "Backup Mensal",
+        "monthly-backup-desc": "Cria um backup todo mês no dia e horário especificados.",
+        "retention": "Período de Retenção",
+        "daily-retention-desc": "Insira o número de backups diários que deseja manter antes de excluir os antigos.",
+        "weekly-retention-desc": "Insira o número de backups semanais que deseja manter antes de excluir os antigos.",
+        "monthly-retention-desc": "Insira o número de backups mensais que deseja manter antes de excluir os antigos.",
+        "warning": "Você deve selecionar pelo menos uma configuração de agendamento de backup.",
+        "backup-directory": "Diretório de Backup",
+        "backup-directory-desc": "Escolha onde os backups serão armazenados. Certifique-se de que há espaço suficiente.",
+        "exclude-websites": "Excluir Sites",
+        "exclude-websites-desc": "Selecione os sites que você não deseja incluir no backup.",
+        "no-websites-excluded": "Nenhum site excluído do backup"
+      },
+      "errors": {
+        "unsupported-version": "Versão do PHP não suportada",
+        "desc": "Por favor, selecione uma versão do PHP suportada.",
+        "fpm-fetch-error": "Não foi possível obter as configurações do FPM",
+        "php-module-fetch-error": "Não foi possível obter as configurações do módulo PHP",
+        "fpm-update-error": "Não foi possível atualizar as configurações do FPM",
+        "php-module-update-error": "Não foi possível atualizar as configurações do módulo PHP",
+        "server-switch-error": "Não foi possível alternar o servidor web",
+        "server-fetch-error": "Não foi possível obter as configurações do servidor web"
+      },
+      "success": {
+        "fpm-update": "Configurações do FPM atualizadas com sucesso",
+        "php-module-update": "Configurações do módulo PHP atualizadas com sucesso",
+        "server-switch": "Servidor web alternado com sucesso"
+      }
+    }
+  },
+  "server-list-bulk-actions": {
+    "title": "Operações em Massa",
+    "btn-tooltip-desc": "Operações em Massa - Execute ações em vários servidores",
+    "no-servers-found": "Nenhum servidor correspondente encontrado",
+    "step": {
+      "1": "Passo 1 - Escolha os Servidores",
+      "2": "Etapa 2 - Selecione a ação",
+      "server-selection-page": " - {{current}}/{{total}} Selecionado",
+      "server-selection-all": " - Todos selecionados",
+      "empty": ""
+    },
+    "filter": {
+      "all-selected": "Todos os servidores selecionados",
+      "count-selected": "{{selected}} servidor selecionado",
+      "counts-selected": "{{selected}} servidores selecionados",
+      "complete-selected": "Selecione {{total}} nesta página",
+      "select-all-servers": "Adicionar todos os {{count}} servidores",
+      "filtered": "(filtrado)",
+      "selection-text": "Exibindo {{count}} servidores selecionados",
+      "selection-btn": "Adicionar mais servidores",
+      "all-servers": "Todos Servidores"
+    },
+    "btn": {
+      "choose-action": "Escolher ação",
+      "applying": "Aplicando {{applied}}/{{total}}",
+      "reset": "Reiniciar",
+      "apply": "Aplicar",
+      "save": "Salvar"
+    },
+    "forms": {
+      "select-action": "Selecionar ação",
+      "ipdb-country-whitelist": "Lista de permissões de países do IPDB",
+      "ipdb-country-blacklist": "Lista negra de países do IPDB",
+      "file-action": "Ação de arquivo",
+      "date-from": "Data de",
+      "date-to": "Data para",
+      "signature": "Assinatura",
+      "file-name": "Nome do arquivo",
+      "add": "Adicionar",
+      "delete": "Excluir",
+      "scanner_action_for_virus": "Ação para arquivo de vírus",
+      "scanner_action_for_suspicious": "Ação para arquivo suspeito",
+      "scanner_action_for_binary": "Ação para arquivo binário",
+      "ai_scan_switch": "Interruptor de digitalização de IA",
+      "error-hint": {
+        "add-more": "Adicione mais informações",
+        "hint-rule-id": "Insira os IDs de regra separados por vírgula ou um por linha",
+        "hint-ip": "Digite os IPs separados por vírgula ou um por linha",
+        "rule-id-required": "O ID da regra deve ser um valor inteiro",
+        "ip-required": "Endereço IP válido necessário"
+      },
+      "label": {
+        "waf-rule": "ID da regra WAF da lista de permissões",
+        "ip-whitelist": "IPs da lista de permissões",
+        "ipdb-whitelist": "Países da lista de permissões no IPDB",
+        "ipdb-blacklist": "Países da lista negra no IPDB",
+        "scanner-log": "Executar ação nos logs do scanner",
+        "blacklisted_ips": "IPs da lista negra",
+        "scanner_blacklisted_files": "Arquivos na lista negra do scanner",
+        "scanner_whitelisted_files": "Arquivos da lista de permissões do scanner",
+        "scanner_settings": "Configurações do Scanner",
+        "waf_captcha_url_list": "URL do WAF Captcha",
+        "waf_badbot_list": "Lista de bots ruins do WAF",
+        "web_application_settings": "Configurações de proteção da Web",
+        "security_tools": "IPDB e Bruteforce",
+        "waf_settings": "Configurações do WAF",
+        "quarantine": "Quarentena",
+        "delete": "Excluir",
+        "restore": "Restaurar",
+        "unchanged": "Inalterado",
+        "on": "LIGADO",
+        "off": "DESLIGADO",
+        "email": "E-mail",
+        "disable": "Desativar",
+        "blacklisted_WP_plugins": "Plugins do WordPress na lista negra",
+        "cms_settings": "Configurações do CMS",
+        "cleanup": "Limpeza",
+        "dismiss": "Dispensar",
+        "retain": "Manter",
+        "dos_threshold_placeholder": "Insira o limite da politica de DoS"
+      },
+      "cms_settings": {
+        "cve_score": "Atualizar se a pontuação CVE for maior que",
+        "switch": "Atualizar automaticamente WordPress vulnerável",
+        "days": "Dias desde que uma atualização foi lançada"
+      }
+    },
+    "response-dialog": {
+      "title": "Operações em Massa - ",
+      "requesting": "solicitando {{current}}/{{total}}",
+      "requested": "Pedido enviado {{current}}/{{total}}",
+      "applied-on": "Aplicado em {{success}}/{{total}}",
+      "btn-close": "Fechar",
+      "api-error": "Erro de API"
+    }
+  },
+  "job": {
+    "cms": {
+      "refresh": {
+        "title": "Refrescante {{type}} {{domain}}",
+        "action": "link",
+        "goto": "cms",
+        "stages": {
+          "start": "Atualizando informações",
+          "closed": "Detalhes obtidos e atualizados",
+          "command-failed": "Falha ao atualizar os detalhes"
+        }
+      },
+      "auto-update-disable": {
+        "title": "Desativando atualização automática para {{type}} {{domain}} {{component}} {{name}}",
+        "action": "progresso",
+        "stages": {
+          "start": "Configurando atualização automática",
+          "closed": "Atualização automática desativada"
+        }
+      },
+      "auto-update-disable-all": {
+        "title": "Desativando atualização automática para todos {{component}}de {{type}} {{domain}}",
+        "action": "progresso",
+        "stages": {
+          "start": "Configurando atualização automática",
+          "closed": "Atualização automática desativada"
+        }
+      },
+      "auto-update-enable": {
+        "title": "Habilitando atualização automática para {{type}} {{domain}} {{component}} {{name}}",
+        "action": "progresso",
+        "stages": {
+          "start": "Configurando atualização automática",
+          "closed": "Atualização automática ativada"
+        }
+      },
+      "auto-update-enable-all": {
+        "title": "Habilitando atualização automática para todos {{component}}de {{type}} {{domain}}",
+        "action": "progresso",
+        "stages": {
+          "start": "Configurando atualização automática",
+          "closed": "Atualização automática ativada"
+        }
+      },
+      "update": {
+        "title": "Atualizando {{type}} {{domain}}",
+        "action": "progresso",
+        "stages": {
+          "updating": "Baixando e atualizando",
+          "refreshing": "Detalhes atualizados",
+          "closed": "Atualização completa",
+          "failed.command-failed": "A atualização falhou devido a um erro esperado",
+          "failed.cms-not-found": "CMS não encontrado no servidor"
+        }
+      },
+      "update-component": {
+        "title": "Atualizando {{type}} {{component}} {{name}}",
+        "action": "progresso",
+        "command-failed": "A atualização falhou devido a um erro esperado",
+        "stages": {
+          "updating": "Baixando e atualizando",
+          "refreshing": "Detalhes atualizados",
+          "closed": "Atualização completa",
+          "failed": "Atualização falhou ",
+          "failed.incompatible": "Atualização falhou! ",
+          "failed.command-failed": "A atualização falhou devido a um erro esperado",
+          "failed.cms-not-found": "CMS não encontrado no servidor"
+        }
+      },
+      "update-component-all": {
+        "title": "Atualizando {{type}} {{domain}} {{component}}é",
+        "action": "progresso",
+        "stages": {
+          "updating": "Baixando e atualizando {{name}}",
+          "refreshing": "Detalhes atualizados",
+          "closed": "Atualização completa",
+          "failed.command-failed": "A atualização falhou devido a um erro esperado",
+          "failed.cms-not-found": "CMS não encontrado no servidor"
+        }
+      }
+    },
+    "file": {
+      "extract": {
+        "title": "Extraindo",
+        "action": "extrair",
+        "stages": {
+          "progressing": "Extraindo arquivos",
+          "closed": "Extração concluída",
+          "stopped": "Falha na extração"
+        }
+      },
+      "copy": {
+        "title": "Copiando",
+        "action": "copiar",
+        "stages": {
+          "progressing": "Copiando arquivos",
+          "closed": "Cópia concluída",
+          "stopped": "Falha na cópia"
+        }
+      },
+      "move": {
+        "title": "Movendo",
+        "action": "mover",
+        "stages": {
+          "progressing": "Movendo arquivos",
+          "closed": "Movimentação concluída",
+          "stopped": "Falha na movimentação"
+        }
+      },
+      "compress": {
+        "title": "Comprimindo",
+        "action": "comprimir",
+        "stages": {
+          "progressing": "Comprimindo arquivos",
+          "closed": "Compressão concluída",
+          "stopped": "Falha na compressão"
+        }
+      }
+    },
+    "webserver-switch": {
+      "title": "Trocando o servidor web",
+      "action": "em progresso",
+      "stages": {
+        "start": "Trocando o servidor web",
+        "closed": "Servidor web trocado com sucesso",
+        "nginx-disabled": "Nginx desativado",
+        "apache-disabled": "Apache desativado",
+        "php-7.4-disabled": "PHP 7.4 desativado",
+        "php-8.1-disabled": "PHP 8.1 desativado",
+        "php-8.2-disabled": "PHP 8.2 desativado",
+        "php-8.3-disabled": "PHP 8.3 desativado",
+        "php-8.4-disabled": "PHP 8.4 desativado",
+        "openlitespeed-disabled": "OpenLiteSpeed desactivado",
+        "openlitespeed-started": "OpenLiteSpeed iniciado",
+        "nginx-started": "Nginx iniciado",
+        "apache-started": "Apache iniciado",
+        "php-7.4-started": "PHP 7.4 iniciado",
+        "php-8.1-started": "PHP 8.1 iniciado",
+        "php-8.2-started": "PHP 8.2 iniciado",
+        "php-8.3-started": "PHP 8.3 iniciado",
+        "php-8.4-started": "PHP 8.4 iniciado",
+        "nginx-disable-failed": "Falha ao parar o Nginx",
+        "apache-disable-failed": "Falha ao parar o Apache",
+        "openlitespeed-disable-failed": "Falha ao parar o OpenLiteSpeed",
+        "nginx-start-failed": "Falha ao iniciar o Nginx",
+        "apache-start-failed": "Falha ao iniciar o Apache",
+        "openlitespeed-start-failed": "Falha ao iniciar o OpenLiteSpeed"
+      }
+    }
+  },
+  "services": {
+    "table": {
+      "service": "Serviço",
+      "status": "Estado",
+      "startup": "Inicialização",
+      "cpu-usage": "Uso de CPU",
+      "memory-usage": "Uso de Memória",
+      "actions": "Ações"
+    },
+    "enabled": "ativado",
+    "alias": "alias",
+    "disabled": "desativado",
+    "inactive": "inativo",
+    "not-found": "não encontrado"
+  },
+
+  "panel": {
+    "website": "Website",
+    "add": "Adicionar site",
+    "update": "Atualizar Site",
+    "delete-website": "Excluir site",
+    "website_404": "O site pode ter sido excluído.",
+    "delete-domain-dec": "Excluir um site removerá permanentemente todos os arquivos, bancos de dados, usuários e configurações do site, e eles não poderão ser recuperados.",
+    "confirm-website": "Confirme o site para continuar",
+    "confirm-delete-website": "Eu entendo, excluir site",
+    "deleting-website": "Excluindo site",
+    "website-mismatch": "Incompatibilidade de site",
+    "please-type": "Por favor, digite",
+    "to-confirm": "para confirmar",
+    "auto": "automático",
+    "queued": "em fila",
+    "custom": "personalizado",
+    "self": "próprio",
+    "error": "erro",
+    "create-form": {
+      "title": "Adicionar domínio",
+      "update": "Atualizar domínio",
+      "register": "Registrar nome de domínio",
+      "domain-name": "Nome de domínio",
+      "web-settings": "Configurações de espaço web",
+      "IPV4": "Endereço IPV4",
+      "PHP-v": "Versão do PHP",
+      "domain-alias-added": "Alias de domínio adicionado",
+      "domain-addon-added": "Addon de domínio adicionado",
+      "domain-available": "Domínio disponível",
+      "domain-not-available": "Domínio não disponível",
+      "copied": "Copiado...",
+      "deleted": "Excluído",
+      "error-occurred": "Ocorreu um erro",
+      "domain-deleted": "Domínio excluído",
+      "delete-confirmation": "Tem certeza de que deseja excluir este domínio?",
+      "updated": "atualizado",
+      "error": {
+        "exist": "já existe",
+        "invalid": "Digite um nome de domínio válido",
+        "invalid-user": "Nome de usuário inválido para o diretório",
+        "user-exist": "O usuário {{name}} já existe",
+        "error-adding-domain": "Erro ao adicionar domínio",
+        "something-went-wrong": "Algo deu errado"
+      },
+      "table": {
+        "domain": "Domínio",
+        "status": "Estado",
+        "php-version": "Versão de PHP",
+        "user": "Usuário",
+        "disk-usage": "Uso de disco",
+        "type": "Tipo",
+        "ssl": "SSL"
+      }
+    },
+    "install": {
+      "wp": {
+        "database-created": "Banco de dados criado",
+        "wordpress-downloaded": "Última versão do WordPress baixada",
+        "wordpress-extracted": "WordPress extraído",
+        "wordpress-installed": "WordPress instalado",
+        "wordpress-configured": "Configuração do WordPress concluída",
+        "installation-completed": "Instalação do WordPress concluída",
+        "wordpress-extract-failed": "A extração do WordPress falhou",
+        "wordpress-installation-failed": "A instalação do WordPress falhou",
+        "database-configuration-failed": "A configuração do banco de dados falhou",
+        "wordpress-download-failed": "O download do WordPress falhou",
+        "wordpress-setup-failed": "A configuração do WordPress falhou",
+        "wordpress-version-fetch-failed": "Falha ao buscar a versão do WordPress",
+        "wordpress-version-parse-failed": "Falha ao analisar a versão do WordPress"
+      }
+    },
+    "application": {
+      "title": "Aplicativos",
+      "add": "Adicionar Aplicativo",
+      "wp": {
+        "label": "WordPress",
+        "desc": "Um site com a versão mais recente do WordPress",
+        "header": "Instalar WordPress",
+        "create": {
+          "title": "",
+          "sub": "*Valores aleatórios serão gerados se os campos forem deixados em branco.",
+          "compatible": "*wordpress {{versions}} será instalado",
+          "sub-1": "Geral",
+          "path": "Caminho de instalação",
+          "path-placeholder": "diretório de instalação",
+          "website-title": "Título do site",
+          "WP-admin": "Administrador do WordPress",
+          "table-prefix": "Prefixo da tabela DB",
+          "table-prefix-placeholder": "prefixo da tabela",
+          "table-name": "Nome de usuário do DB",
+          "table-password": "Senha do usuário do DB",
+          "auto-update": "Configurações de atualização automática",
+          "auto-update-desc": "O WP Toolkit pode instalar automaticamente atualizações do núcleo, plugins e temas do WordPress assim que estiverem disponíveis.",
+          "auto-update-WP": "Atualizar WordPress automaticamente",
+          "auto-update-yes": "Sim, todas (atualizações menores e maiores)",
+          "auto-update-no": "Não",
+          "auto-update-plugin": "Atualizar plugins automaticamente",
+          "auto-update-plugin-yes": "Atualizar todos",
+          "auto-update-plugin-desc": "Todos os plugins serão atualizados automaticamente, independentemente de suas configurações individuais de atualização automática",
+          "auto-update-plugin-no": "Definido individualmente",
+          "auto-update-plugin-desc-1": "Cada plugin usa suas próprias configurações de atualização automática",
+          "auto-update-theme": "Atualizar temas automaticamente",
+          "auto-update-theme-yes": "Atualizar todos",
+          "auto-update-theme-desc": "Todos os temas serão atualizados automaticamente, independentemente de suas configurações individuais de atualização automática",
+          "auto-update-theme-no": "Definido individualmente",
+          "auto-update-theme-desc-1": "Cada tema usa suas próprias configurações de atualização automática"
+        }
+      },
+      "node": {
+        "label": "Node JS",
+        "desc": "Habilitar Node.js no seu domínio",
+        "header": "Instalar Node Js"
+      },
+      "code": {
+        "label": "Site em Branco",
+        "desc": "Uma página inicial para seu site HTML ou PHP (o padrão anterior)",
+        "header": "importar site/aplicativo"
+      },
+      "laravel": {
+        "label": "Laravel",
+        "header": "Instalar Laravel",
+        "desc": "Um site rodando no framework Laravel"
+      },
+      "woo": {
+        "label": "WordPress + WooCommerce",
+        "header": "Instalar WordPress com WooCommerce",
+        "desc": "Um site com a versão mais recente do WordPress e WooCommerce"
+      },
+      "git": {
+        "label": "Git",
+        "header": "Implantar do Git",
+        "desc": "Puxar os arquivos de um repositório Git"
+      },
+      "import": {
+        "label": "Importar um site / App",
+        "header": "importar site/aplicativo",
+        "desc": "de um serviço de hospedagem diferente"
+      },
+      "common": {
+        "header": "Escolha uma maneira de criar um site",
+        "soon": "Em breve",
+        "install": "instalando aplicativo {{type}}",
+        "completed": "Instalação Concluída"
+      },
+      "errors": {
+        "invalid-foldername": "Caractere inválido no nome da pasta",
+        "folder-exist": "Por favor, escolha um diretório vazio para instalação."
+      }
+    },
+    "common": {
+      "close": "fechar",
+      "confirm": "Confirmar",
+      "add": "Adicionar",
+      "email": "Email",
+      "username": "Nome de usuário",
+      "password": "Senha",
+      "back": "Voltar",
+      "install": "Instalar",
+      "save_button": "Salvar",
+      "saving": "Salvando...",
+      "reset_button": "Redefinir",
+      "delete": "Excluir",
+      "delete_confirmation": "Tem certeza de que deseja excluí-lo?",
+      "cancel": "Cancelar",
+      "switch": "Alternar"
+    },
+    "cron": {
+      "title": "Tarefas Cron",
+      "desc": "As tarefas cron permitem que você automatize certos comandos ou scripts em seu site. Você pode definir um comando ou script para ser executado em um horário específico todos os dias, semanas, etc. Por exemplo, você pode definir uma tarefa cron para excluir arquivos temporários toda semana para liberar espaço em disco.",
+      "warning": "<strong>Aviso:</strong> Você precisa ter um bom conhecimento de comandos Linux antes de poder usar tarefas cron de forma eficaz. Verifique seu script com o administrador de hospedagem antes de adicionar uma tarefa cron.",
+      "sub": "Tarefas Cron Atuais",
+      "simple": "Simples",
+      "simple-desc": "Selecionar <strong class='cp-red'> Configurações Comuns</strong> preencherá automaticamente os campos a seguir ou os campos podem ser atualizados individualmente",
+      "advanced": "Avançado",
+      "mail": "Email do Cron",
+      "add": {
+        "btn": "Adicionar nova tarefa Cron",
+        "title": "Adicionar tarefa cron",
+        "common": "Configurações Comuns",
+        "minute": "Minuto",
+        "hour": "Hora",
+        "day": "Dia",
+        "week": "Dia da semana",
+        "month": "Mês",
+        "command": "Comando",
+        "c-placeholder": "Digite o comando"
+      },
+      "edit": {
+        "title": "Editar tarefa cron"
+      },
+      "delete": {
+        "title": "Excluir tarefa cron",
+        "desc": "Tem certeza de que deseja excluir esta tarefa cron?"
+      },
+      "email": {
+        "current": "Email Atual ",
+        "placeholder": "Digite um novo email",
+        "remove": "Remover email",
+        "remove-btn": "Remover",
+        "update-btn": "Atualizar Email",
+        "desc": "Enviar um email com a saída toda vez que a tarefa cron for executada.",
+        "desc-2": "Você pode fazer com que o cron envie um email toda vez que executar um comando que gere saída. Se você não quiser que um email seja enviado para uma tarefa cron individual, pode redirecionar a saída do comando para /dev/null. Por exemplo:<span class='cp-red ms-2'>mycommand >/dev/null 2>&1"
+      },
+      "message": {
+        "add-success": "Tarefa cron adicionada com sucesso",
+        "add-error": "Erro ao adicionar tarefa cron",
+        "delete-success": "Tarefa cron excluída com sucesso",
+        "delete-error": "Erro ao excluir tarefa cron",
+        "update-success": "Tarefa cron atualizada com sucesso",
+        "update-error": "Erro ao atualizar tarefa cron",
+        "add-email-success": "Email adicionado com sucesso",
+        "add-email-error": "Erro ao adicionar email",
+        "remove-email-success": "Email removido com sucesso",
+        "invalid-mail": "Por favor, insira um endereço de email válido",
+        "required": "Email é obrigatório"
+      }
+    },
+    "info": {
+      "statistics": "Estatísticas",
+      "glance": "De relance",
+      "disk-space": "Espaço em disco utilizado",
+      "db-usage": "Banco de dados utilizado",
+      "traffic-today" :"Tráfego hoje",
+      "traffic-month" :"Tráfego este mês",
+      "WA": "Ataques na Web",
+      "VA": "Ataques de Vírus",
+      "hosting": "Hospedagem",
+      "DB": "Banco de dados",
+      "status": {
+        "active": "Ativo",
+        "disabled": "Desativado",
+        "suspended": "Suspenso",
+        "inactive": "Inativo",
+        "failed": "Falhou"
+      },
+      "tool": {
+        "title": "Ferramenta",
+        "files": "Arquivos",
+        "files-desc": "Arquivos e pastas",
+        "phpMyAdmin": "phpMyAdmin",
+        "phpMyAdmin-desc": "Gerencie seus bancos de dados",
+        "applications": "Aplicativos",
+        "applications-desc": "Gerencie seus aplicativos",
+        "logs": "Logs",
+        "logs-desc": "Visualize seus logs",
+        "cron-jobs": "Tarefas Cron",
+        "cron-jobs-desc": "Tarefas agendadas"
+      },
+      "navigation": {
+        "tools": "Ferramentas",
+        "ssl": "Configurações de SSL",
+        "app": "Aplicativos",
+        "logs": "Logs",
+        "cron": "Tarefas Cron",
+        "files": "Arquivos",
+        "domains": "Domínios",
+        "database": "Banco de Dados",
+        "webspace": "Configurações",
+        "php-settings": "Configurações PHP",
+        "ngnix-settings": "Configurações Nginx",
+        "more": "Mais",
+        "advanced": "Avançado"
+      },
+
+      "common": {
+        "DM": "Manipulação de dados",
+        "structure": "Estrutura",
+        "administration": "Administração",
+        "check-all": "VERIFICAR TODOS",
+        "check-none": "NÃO VERIFICAR NENHUM",
+        "privileges": "Privilégios",
+        "assign": "Atribuir",
+        "user": "Usuário",
+        "select-user": "Selecione um usuário",
+        "select-db": "Selecione um banco de dados",
+        "rename": "Renomear",
+        "check-up": "Verificar",
+        "repair": "Reparar",
+        "assign-user": "Atribuir usuário",
+        "assign-db": "Atribuir banco de dados",
+        "phpmyadmin": "phpMyAdmin",
+        "revoke-btn": "Revogar Privilégios",
+        "DB-privileges": "Privilégios do Banco de Dados",
+        "create-btn": "Criar",
+        "update": "Atualizar",
+        "proceed": "Prosseguir",
+        "errors": {
+          "phpmyadmin": "Erro ao acessar o phpMyAdmin"
+        }
+      },
+      "users": {
+        "title": "Usuários",
+        "search": "Buscar Usuário",
+        "add": "Adicionar Usuário",
+        "create": "criar Usuário",
+        "placeholder": "Digite seu nome de usuário",
+        "no-data": "Sem dados",
+        "no-user-found": "Nenhum usuário encontrado",
+        "edit": {
+          "title": "Editar Nome de Usuário",
+          "sub-1": "nome de usuário antigo",
+          "sub-2": "novo nome de usuário"
+        },
+        "change": {
+          "title": "Alterar senha",
+          "sub": "Atualizar senha para o usuário <strong>{{name}}</strong>",
+          "password": "Senha",
+          "p-placeholder": "Digite sua senha",
+          "p-confirm": "Confirmar senha",
+          "CP-placeholder": "Digite sua senha novamente"
+        },
+        "delete": {
+          "title": "Excluir usuário",
+          "desc": "Tem certeza de que deseja remover permanentemente o usuário ",
+          "btn": "Excluir Usuário"
+        },
+        "revoke": {
+          "title": "Remover usuário do banco de dados",
+          "desc": "Esta ação revogará os privilégios do usuário e o removerá do banco de dados."
+        },
+        "edit-privilege": {
+          "title": "Editar privilégios do usuário",
+          "desc": "Você está prestes a atualizar os privilégios do banco de dados para o usuário <strong class='text-blue-500'>{{user}}</strong> no banco de dados <strong class='text-blue-500'> {{database}}</strong>. Por favor, revise as alterações antes de confirmar."
+        },
+        "errors": {
+          "invalid": "Caracteres especiais não são permitidos",
+          "exist": "Nome de usuário não disponível"
+        }
+      },
+      "database": {
+        "title": "Banco de Dados",
+        "search": "Buscar Banco de Dados",
+        "placeholder": "nome",
+        "please-wait": "Por favor, aguarde...",
+        "preparing-session": "Estamos a preparar a sua sessão.",
+        "popup-blocked": "Popup bloqueado. Por favor, permita popups.",
+        "phpmyadmin-url-not-defined": "O URL do phpMyAdmin não está definido.",
+        "add": {
+          "title": "Adicionar Banco de Dados",
+          "DB-name-placeholder": "Digite o nome do banco de dados",
+          "DB-username-placeholder": "Digite o nome de usuário do banco de dados",
+          "input-text": "Nome do banco de dados",
+          "username": "Nome de usuário",
+          "existing-user": "Isso criará um novo banco de dados com <strong class='text-blue-500'>{{user}}</strong> como proprietário.",
+          "new-user": "Um usuário padrão do banco de dados foi criado. Este usuário será usado para acessar o banco de dados em nome do seu aplicativo.",
+          "database-created": "Banco de dados criado com sucesso",
+          "error-creating": "Erro ao criar o banco de dados"
+        },
+        "edit": {
+          "title": "Editar nome do banco de dados",
+          "sub-1": "Nome antigo do banco de dados",
+          "sub-2": "Novo nome do banco de dados",
+          "placeholder-1": "nome antigo",
+          "placeholder-2": "novo nome"
+        },
+        "assign": {
+          "title": "Atribuir Usuário",
+          "user-added": "Usuário atribuído com sucesso",
+          "error-adding": "Erro ao atribuir usuário"
+        },
+        "delete": {
+          "title": "Excluir banco de dados",
+          "desc": "Tem certeza de que deseja remover permanentemente o banco de dados",
+          "database-deleted": "Banco de dados excluído com sucesso",
+          "error-deleting": "Erro ao excluir o banco de dados"
+        },
+        "edit-privilege": {
+          "title": "Editar privilégios do banco de dados",
+          "desc": "Você está prestes a atualizar os privilégios do banco de dados para o usuário <strong class='text-blue-500'>{{user}}</strong> no banco de dados <strong class='text-blue-500'>{{database}}</strong>. Por favor, reveja as alterações antes de confirmar.",
+          "privilege-updated": "Privilégios atualizados com sucesso",
+          "error-updating": "Erro ao atualizar privilégios"
+        },
+        "revoke": {
+          "title": "Remover Banco de Dados",
+          "desc": "Esta ação removerá o acesso do usuário ao banco de dados.",
+          "user-revoked": "Usuário revogado",
+          "error-revoke": "Erro ao revogar o usuário"
+        },
+        "rename": {
+          "database-renamed": "Banco de dados renomeado com sucesso",
+          "error-renaming": "Erro ao renomear o banco de dados"
+        },
+        "check-up": {
+          "title": "Verificar banco de dados",
+          "r-title": "Relatório de verificação",
+          "desc": "Tem certeza de que deseja realizar uma verificação no banco de dados <strong>{{name}}</strong> ?",
+          "database-healthy": "A base de dados está saudável",
+          "checkup-completed-success": "Verificação concluída com sucesso",
+          "database-checked": "Base de dados verificada",
+          "error-checking": "Erro ao verificar a base de dados"
+        },
+        "repair": {
+          "title": "Reparar banco de dados",
+          "r-title": "Relatório de reparo",
+          "desc": "Tem certeza de que deseja reparar o banco de dados <strong>{{database}}</strong> ? Isso pode levar algum tempo.",
+          "nothing-repaired": "Nada para reparar",
+          "database-repaired": "Base de dados reparada com sucesso",
+          "error-repairing": "Erro ao reparar a base de dados"
+        },
+        "error": {
+          "exist": "já existe",
+          "invalid": "Nome do DB já em uso!",
+          "invalid-DB": "Nome do DB inválido",
+          "invalid-DB-user": "Nome de usuário do DB inválido",
+          "invalid-user": "Nome de usuário necessário",
+          "user-exist": "Nome de usuário já em uso!",
+          "missmatch": "As senhas não coincidem.",
+          "required": "Senha necessária!",
+          "DB-required": "Nome do DB necessário!"
+        }
+      },
+      "info": {
+        "database": {
+          "repair-db": {
+            "wp_commentmeta": "Metadados de Comentários do WordPress",
+            "wp_comments": "Comentários do WordPress",
+            "wp_links": "Links do WordPress",
+            "wp_options": "Opções do WordPress",
+            "wp_postmeta": "Metadados de Postagens do WordPress",
+            "wp_posts": "Postagens do WordPress",
+            "wp_term_relationships": "Relacionamentos de Termos do WordPress",
+            "wp_term_taxonomy": "Taxonomia de Termos do WordPress",
+            "wp_termmeta": "Metadados de Termos do WordPress",
+            "wp_terms": "Termos do WordPress",
+            "wp_usermeta": "Metadados de Usuários do WordPress",
+            "wp_users": "Usuários do WordPress"
+          }
+        },
+        "common": {
+          "summary": "Resumo",
+          "request": "Solicitações Hoje",
+          "infected": "Arquivos Infectados",
+          "blocked-by-waf": "Bloqueado pelo WAF",
+          "bot-attacks": "Ataques de Bot",
+          "apps-installed": "Aplicativos Instalados",
+          "manage": "Gerenciar",
+          "empty": "Ainda não há aplicativos instalados"
+        }
+      },
+      "ssl": {
+        "title": "Certificados SSL",
+        "placeholder": "Selecione o Provedor de SSL",
+        "certificate": "CERTIFICADO",
+        "issuer": "Emissor:",
+        "status": "Status:",
+        "expiry": "Expiração:",
+        "renew": "Renova:",
+        "redirect": "Redirecionar de http para https",
+        "ssl-provider": "Provedor de SSL",
+        "renew-btn": "Renovar SSL",
+        "auto-btn": "Habilitar Auto SSL",
+        "deploy-ssl": "Implantar SSL",
+        "auto": {
+          "title": "SSL Automático Gratuito",
+          "sub-title": "SSL Automático com",
+          "desc": "O cPGuard solicita automaticamente um SSL gratuito da Lets Encrypt e o renova automaticamente a cada 45 dias",
+          "alert-title": "Houve problemas ao obter um certificado SSL gratuito da Lets Encrypt",
+          "alert-desc": "O domínio não está apontado para este servidor ou a configuração do servidor web tem erros que estão impedindo a Lets Encrypt de verificar o domínio usando o método de arquivo de validação. Para mais informações, leia este artigo"
+        },
+        "custom": {
+          "title": "Personalizado SSL",
+          "private-key": "Chave Privada",
+          "certificate": "Certificado",
+          "or": "OU",
+          "key-btn": "Carregar Arquivo",
+          "cert-btn": "Carregar Arquivo",
+          "key-placeholder": "Digite a Chave Privada",
+          "cert-placeholder": "Digite o Certificado"
+        },
+        "self": {
+          "title": "Criar Certificado Autoassinado",
+          "bits": "Bits",
+          "bits-placeholder": "Selecione bits",
+          "country": "País",
+          "country-placeholder": "Selecione o país",
+          "state": "Estado ou província",
+          "city": "Localização (cidade)",
+          "organization": "Nome da organização (empresa)",
+          "orgUnit": "Departamento da organização",
+          "orgUnit-placeholder": "Nome do departamento ou divisão da organização"
+        },
+        "errors": {},
+        "message": {
+          "renew-success": "Certificado SSL renovado com sucesso",
+          "renew-error": "Erro ao renovar o certificado SSL",
+          "auto-success": "Auto SSL habilitado com sucesso",
+          "auto-error": "Erro ao habilitar Auto SSL",
+          "deploy-success": "SSL implantado com sucesso",
+          "deploy-error": "Erro ao implantar SSL",
+          "create-success": "Certificado SSL criado com sucesso",
+          "create-error": "Erro ao criar certificado SSL",
+          "certificate-not-applied": "Certificado não encontrado",
+          "failed-to-install-ssl": "Erro ao instalar SSL",
+          "ssl-not-expired": "SSL não expirou",
+          "ssl-not-found": "Certificado SSL não encontrado",
+          "ssl-not-valid": "Certificado SSL não válido",
+          "ssl-not-supported": "Certificado SSL não suportado"
+        }
+      },
+      "domains-list": {
+        "title": "Domínios",
+        "search": "Buscar Domínio",
+        "addon": "Complemento",
+        "alias": "Apelido",
+        "addon-sub": "Tem uma raiz de documento separada e servirá conteúdo diferente.",
+        "alias-sub": "Compartilha a mesma raiz de documento que seu domínio principal e servirá o mesmo conteúdo.",
+        "checkbox": "Redirecionar para o domínio principal",
+        "doc-root": "raiz do documento",
+        "doc-root-placeholder": "Digite a raiz do documento",
+        "main": "Principal",
+        "redirect": "Redirecionamento",
+        "ssl": "SSL"
+      },
+      "settings": {
+        "title": "Configurações",
+        "webspace": {
+          "heading": "Configurações do espaço web",
+          "title": "Credenciais do usuário do sistema",
+          "sub-title": "Gerencie os arquivos e pastas do site via FTP ou Gerenciador de Arquivos. Acesse o servidor via SSH, se permitido.",
+          "username": "Nome de usuário",
+          "password": "Senha",
+          "password-sub": "Especifique uma nova senha aqui para alterar a senha do usuário do sistema.",
+          "ipv4": "Endereço IPv4",
+          "ipv4-desc": "O endereço IP no qual o site está hospedado é um endereço de rede do host virtual do site.",
+          "redirect-http": "Redirecionar para HTTPS",
+          "redirect-http-desc": "Redireciona todas as solicitações HTTP para HTTPS. Isso é uma boa prática de segurança.",
+          "webspace-settings-updated": "Configurações do espaço web atualizadas com sucesso"
+        }
+      },
+      "logs": {
+        "access": "Logs de Acesso",
+        "ngnix": "Logs do Nginx",
+        "php": "Logs do PHP",
+        "search": "Buscar Logs",
+        "empty": "Nenhum log encontrado",
+        "download": "Baixar",
+        "result": "Resultado Encontrado",
+        "found-for": "Nenhum resultado encontrado para",
+        "error-logs": "Logs de Erro"
+      },
+      "ssh": {
+        "title": "Chaves SSH",
+        "add-btn": "Adicionar chave SSH",
+        "paste-btn": "Colar chave",
+        "create-title": "Criar chave SSH",
+        "edit-title": "Editar chave SSH",
+        "key": "Chave",
+        "key-placeholder": "Digite sua chave SSH",
+        "comment": "Comentário",
+        "comment-placeholder": "Digite um comentário para sua chave SSH",
+        "authorize-key": "Autorizar chave",
+        "key-size": "Tamanho da chave",
+        "key-size-placeholder": "Selecionar tamanho da chave",
+        "paste-title": "Colar chave autorizada",
+        "no-keys": "Nenhuma chave SSH encontrada",
+        "no-keys-desc": "Você pode adicionar uma nova chave SSH clicando no botão 'Adicionar chave SSH'.",
+        "table": {
+          "comment": "Comentário",
+          "key": "Chave",
+          "type": "Tipo",
+          "size": "Tamanho",
+          "global-key": "Chave global",
+          "actions": "Ações"
+        }
+      }
+    },
+    "file-manager": {
+      "table": {
+        "no-data-available": "Nenhum dado disponível",
+        "folder-successfully-created": "Pasta criada com sucesso",
+        "file-successfully-created": "Arquivo criado com sucesso",
+        "file-downloaded-successfully": "Arquivo baixado com sucesso",
+        "file-compressed-successfully": "Arquivo compactado com sucesso",
+        "file-extracted-successfully": "Arquivo extraído com sucesso",
+        "file-deleted-successfully": "Arquivo excluído com sucesso",
+        "file-copied-successfully": "Arquivo copiado com sucesso",
+        "file-moved-successfully": "Arquivo movido com sucesso",
+        "folder-renamed-successfully": "Pasta renomeada com sucesso",
+        "file-renamed-successfully": "Arquivo renomeado com sucesso",
+        "permission-changed-successfully": "Permissões alteradas com sucesso"
+      },
+      "progress-dialog": {
+        "title": "Progresso do arquivo {{operation}}",
+        "details": "{{copied}} arquivos copiados de {{total}} arquivos ({{percent}}%) concluído",
+        "close": "Fechar",
+        "compression-results": "Resultados da Compressão",
+        "extract-results": "Resultados da Extração"
+      },
+      "error-popup": {
+        "warning": "Aviso",
+        "failed-to-copy-single": "Não foi possível copiar o arquivo.",
+        "failed-to-copy-multiple": "Não foi possível copiar os arquivos.",
+        "continue-question": "Tem certeza de que deseja continuar?",
+        "file": "O arquivo:",
+        "files": "Os arquivos:",
+        "can-be-copied-single": "pode ser copiado. Deseja continuar com este arquivo?",
+        "can-be-copied-multiple": "podem ser copiados. Deseja continuar com estes arquivos?",
+        "can-be-moved-single": "pode ser movido. Deseja continuar com este arquivo?",
+        "can-be-moved-multiple": "podem ser movidos. Deseja continuar com estes arquivos?",
+        "continue": "Continuar",
+        "download-multiple-confirm": "Você está prestes a baixar vários arquivos de uma só vez. Tem certeza de que deseja fazer isso?",
+        "duplicate-file": "Arquivo duplicado",
+        "file-already-exist": "O arquivo já existe.",
+        "files-already-exist": "Os arquivos já existem.",
+        "overwrite-question": "Tem certeza de que deseja sobrescrever?",
+        "overwrite": "Sobrescrever"
+      },
+      "errors": {
+        "invalid-request": "Solicitação inválida",
+        "source-not-found": "Fonte não encontrada",
+        "source-and-destination-are-same": "A origem e o destino são os mesmos",
+        "failed-to-copy": "Falha ao copiar",
+        "directory-does-not-exist": "O diretório não existe",
+        "file-already-exists": "O arquivo já existe",
+        "failed-to-move-folder-to-trash": "Falha ao mover a pasta para a lixeira",
+        "destination-directory-not-found": "Diretório de destino não encontrado",
+        "failed-to-move": "Falha ao mover",
+        "destination-is-subdirectory-of-source": "O destino é um subdiretório da origem",
+        "source-and-destination-path-are-same": "O caminho de origem e destino são os mesmos",
+        "source-and-destination-are-same-folder": "A origem e o destino são a mesma pasta",
+        "invalid-response-from-agent": "Resposta inválida do agente",
+        "invalid-username-length": "Comprimento de nome de usuário inválido",
+        "invalid-domain-name": "Nome de domínio inválido",
+        "website-already-exist": "O site já existe",
+        "invalid-username": "Nome de usuário inválido",
+        "unsupported-php": "Versão do PHP não suportada",
+        "invalid-ip": "Endereço IP inválido",
+        "unsupported-ip": "Endereço IP não suportado",
+        "php-doesnot-exist": "A versão do PHP não existe",
+        "user-creation-failed": "Falha ao criar usuário",
+        "user-update-failed": "Falha ao atualizar usuário",
+        "folder-name-exists": "O nome da pasta já existe",
+        "file-name-exists": "O nome do arquivo já existe",
+        "domain-exists": "O domínio já existe",
+        "domain-not-found": "Domínio não encontrado",
+        "website-not-found": "Site não encontrado",
+        "path-not-allowed": "Caminho não permitido",
+        "invalid-docroot": "Raiz do documento inválida",
+        "docroot-in-use": "Raiz do documento em uso",
+        "failed-load-subfolders": "Falha ao carregar subpastas"
+      },
+      "context-dialog": {
+        "compress-type": "Tipo de compactação",
+        "compress": "Compactar",
+        "extract": "Extrair",
+        "zip-archive": "Arquivo Zip",
+        "gzip-archive": "Arquivo Gzip",
+        "confirm": "Confirmar",
+        "destination": "Destino",
+        "destination-placeholder": "Digite o caminho para onde deseja extrair este arquivo",
+        "confirmation-compress": "Tem certeza de que deseja compactar",
+        "confirmation-permission": "Tem certeza de que deseja alterar as permissões",
+        "cut-placeholder": "Digite o caminho para onde deseja cortar este arquivo",
+        "cut-confirmation": "Tem certeza de que deseja cortar",
+        "cut-selected-file": "arquivo selecionado?",
+        "cut-selected-files": "arquivos selecionados?",
+        "domain": "Domínio",
+        "move-placeholder": "Digite o caminho para onde deseja mover este arquivo",
+        "move-confirmation": "Tem certeza de que deseja mover",
+        "move-selected-file": "arquivo selecionado?",
+        "move-selected-files": "arquivos selecionados?",
+        "copy-placeholder": "Digite o caminho para onde deseja copiar este arquivo",
+        "old-file-name": "Nome antigo do arquivo",
+        "new-file-name": "Novo nome do arquivo",
+        "old-folder-name": "Nome antigo da pasta",
+        "new-folder-name": "Novo nome da pasta",
+        "rename-file-placeholder": "Digite o novo nome do arquivo",
+        "rename-folder-placeholder": "Digite o novo nome da pasta",
+        "delete-move-confirm": "Tem certeza de que deseja mover",
+        "delete-to-trash": "para a lixeira?",
+        "delete-permanent-confirm": "Tem certeza de que deseja excluir",
+        "delete-permanent": "permanentemente?",
+        "delete-selected-file": "arquivo selecionado",
+        "delete-selected-files": "arquivos selecionados",
+        "delete": "Excluir",
+        "add-a-file-to": "Adicionar um arquivo ao",
+        "add-file-placeholder": "Digite o nome do arquivo",
+        "create-new-file": "Criar novo arquivo",
+        "add-a-folder-to": "Adicionar uma pasta ao",
+        "add-folder-placeholder": "Digite o nome da pasta",
+        "create-new-folder": "Criar nova pasta",
+        "select-file-archive": "Selecionar arquivo compactado",
+        "extract-file-placeholder": "Digite o caminho para onde deseja extrair este arquivo compactado",
+        "user-access": "Acesso do usuário",
+        "group-access": "Acesso do grupo",
+        "world-access": "Acesso mundial",
+        "permissions": "Permissões",
+        "no-access": "Sem acesso"
+      },
+      "upload": {
+        "title": "Importação de Arquivo",
+        "title-sub": "para",
+        "sub-title": "Enviar e anexar arquivos",
+        "option1": "Enviar",
+        "option2": "Baixar",
+        "option3": "Clonar",
+        "click": "Clique para enviar",
+        "drag": "ou Arraste e solte os arquivos aqui",
+        "overwrite": "Sobrescrever arquivos existentes",
+        "exist": "O arquivo {{file}} já existe. Por favor, selecione uma ação que você gostaria de realizar.",
+        "download-file": "Baixar arquivo",
+        "download-file-placeholder": "Digite a URL para baixar o arquivo",
+        "save-file": "Salvar arquivo como",
+        "save-file-placeholder": "Digite o nome para salvar o arquivo como",
+        "download-file-warning": "Aviso: Este link pode não ser confiável ou seguro. O usuário assume total responsabilidade por quaisquer problemas ou consequências que possam surgir ao acessá-lo.",
+        "clone-file": "Clonar arquivo",
+        "clone-file-placeholder": "Digite a URL para clonar o arquivo",
+        "clone-file-warning": "Aviso: Certifique-se de que o caminho do arquivo esteja correto para evitar sobrescrever arquivos existentes.",
+        "cancelled-by-user": "Cancelado pelo usuário",
+        "cancelled" : "Cancelado",
+        "left": "esquerda",
+        "exist-title": "O arquivo já existe",
+        "apply-to-all": "Aplicar a todos os arquivos",
+        "replace": "Substituir",
+        "skip": "Omitir",
+        "upload-cancelled": "Upload cancelado",
+        "message": {
+          "success": "Arquivo enviado com sucesso!",
+          "error": "Falha no envio do arquivo!",
+          "alert": "Um upload está em andamento. Por favor, espere até que seja concluído.",
+          "cancelled": "Upload de arquivo cancelado!"
+        }
+      }
+    },
+    "nginx": {
+      "title": "Configurações do Nginx",
+      "index_files": "Arquivos de índice",
+      "index_file_example": "Exemplo: index.php index.html",
+      "static_files": "Arquivos estáticos servidos diretamente pelo nginx",
+      "static_files_desc": "Extensões de arquivos para servir diretamente pelo NGINX sem passar pelo backend. Use | para separar os tipos, por exemplo: jpg|png|css|js.",
+      "expires": "Expiração do Cache",
+      "expires_desc": "Define por quanto tempo os navegadores devem armazenar em cache os arquivos estáticos servidos pelo NGINX. Ajuda a melhorar o tempo de carregamento e reduzir a carga do servidor.",
+      "additional_headers": "Cabeçalhos adicionais",
+      "additional_headers_desc": "Cabeçalhos HTTP personalizados para adicionar em todas as respostas do NGINX. Útil para segurança, cache ou comportamento personalizado.",
+      "cors_domains": "Domínios CORS adicionais",
+      "cors_domains_desc": "Lista de domínios permitidos para fazer solicitações de origem cruzada. Controla o cabeçalho Access-Control-Allow-Origin nas respostas do NGINX.",
+      "custom_nginx_config": "Configuração personalizada do Nginx",
+      "custom_config_desc": "Insira diretivas adicionais para a configuração do Nginx.",
+      "save_success": "Configurações do Nginx salvas com sucesso!",
+      "save_error": "Falha ao salvar as configurações do Nginx. Por favor, tente novamente.",
+      "enter_key": "Insira a chave",
+      "enter_value": "Insira o valor",
+      "add_button": "Adicionar",
+      "invalid_header_key": "Nome de cabeçalho inválido. Deve estar em um formato válido de cabeçalho HTTP (exemplo: Cache-Control, X-Frame-Options).",
+      "key_exists": "Esta chave já existe.",
+      "example": "Exemplo: ",
+      "custom_config": "Personalizada",
+      "default_template": "Padrão",
+      "block_top": "Antes de fechar o bloco do servidor",
+      "block_bottom": "Iniciando dentro do bloco do servidor",
+      "outer_top": "Fora do bloco do servidor",
+      "days": "Dias",
+      "hours": "Horas",
+      "minutes": "Minutos",
+      "seconds": "Segundos",
+      "weeks": "Semanas",
+      "months": "Meses",
+      "no-headers": "Nenhum cabeçalho adicional adicionado",
+      "index_files_error": "Formato inválido — use nomes de arquivos separados por espaço, exemplo: index.html default.html.",
+      "global_index_files_error": "Formato inválido — use nomes de arquivos separados por espaço",
+      "use_only_alnum_pipe_example": "Use apenas caracteres alfanuméricos, sublinhado, ponto ou hífen separados por | (exemplo: jpg|png|css|js).",
+      "use_only_alnum_pipe": "Use apenas caracteres alfanuméricos, sublinhado, ponto ou hífen separados por |.",
+      "invalid_domains_example": "Domínios inválidos — forneça URLs válidas separadas por espaço, exemplo: https://example.com https://example2.com.",
+      "static_expiry_numeric": "A expiração estática deve ser um valor numérico.",
+      "preview_config": "Visualizar Configuração",
+      "available_variables": "Variáveis disponíveis",
+      "default": "Padrão",
+      "custom": "Personalizado",
+      "confirm_switch_custom": "Tem certeza de que deseja mudar para Personalizado?",
+      "confirm_switch_default": "Tem certeza de que deseja mudar para Padrão?",
+      "confirm_unsaved_switch_default": "Tem a certeza de que pretende descartar as alterações não guardadas e mudar para o modo Padrão?",
+      "confirm_unsaved_switch_custom": "Tem certeza de que pretende descartar as alterações não guardadas e mudar para o modo Personalizado?",
+      "nginx-error-popup": "Opa, o teste de configuração falhou!"
+    },
+    "php": {
+      "title": "Configurações do PHP",
+      "performance": "PHP",
+      "php_ini": "Configurações básicas do PHP INI",
+      "general": "Mais configurações de PHP",
+      "additional": "Diretivas adicionais",
+      "php_fpm": "Configurações do PHP-FPM",
+      "php_version": "Versão do PHP",
+      "php_engine": "Motor PHP",
+      "php_engine_desc": "Altere a versão do PHP que seu site está usando. Recomendamos usar a versão mais recente do PHP para obter o melhor desempenho.",
+      "version": "Versão",
+      "restart_php": "Reiniciar PHP",
+      "restart_php_desc": "Isso reiniciará o contêiner PHP, recarregará o php.ini e o redis.conf para este site e seus domínios adicionais.",
+      "restart_button": "Reiniciar",
+      "php-settings-updated": "Definições de PHP atualizadas com sucesso",
+      "error-in-the-config": "Erro na configuração",
+      "invalid-php-version-selected": "Versão de PHP selecionada inválida",
+      "error-updating-php": "Ocorreu um erro ao atualizar as definições de PHP",
+      "error-fetching-default-php": "Erro ao obter as definições padrão de PHP",
+      "config-not-available": "Configuração não disponível",
+      "invalid-value-config": "Valor inválido para a configuração",
+      "directive-exist": "Esta diretiva já existe, utilize a opção de edição",
+      "directive-unsupported": "Esta diretiva não pode ser personalizada aqui. Por favor, altere-a na opção fornecida acima",
+      "addition-config-removed": "Configuração adicional removida com sucesso",
+      "addition-config-saved": "Configuração adicional guardada com sucesso",
+      "additional-config-added": "Configuração adicional adicionada com sucesso",
+      "error-removing-config": "Ocorreu um erro ao remover a configuração",
+      "error-saving-config": "Ocorreu um erro ao guardar a configuração",
+      "error-adding-config": "Ocorreu um erro ao adicionar a configuração",
+      "php-restarted": "PHP reiniciado com sucesso",
+      "failed-restart-php": "Falha ao reiniciar o PHP",
+      "unsupported-php-version": "Versão PHP não suportada",
+      "select-supported-php-version": "Por favor, selecione uma versão PHP suportada",
+      "php-settings-saved": "Configurações de PHP salvas com sucesso",
+      "unable-to-save-php-settings": "Não foi possível salvar as configurações de PHP",
+      "unable-to-fetch-php-settings": "Não foi possível obter as configurações de PHP",
+      "php_ini_block": {
+        "title": "Configurações básicas do PHP INI",
+        "memory_limit": "memory_limit",
+        "memory_limit_desc": "A quantidade máxima de memória em bytes que um script pode alocar.",
+        "max_execution_time": "max_execution_time",
+        "max_execution_time_desc": "O tempo máximo em segundos que um script pode ser executado antes de ser encerrado.",
+        "max_input_time": "max_input_time",
+        "max_input_time_desc": "O tempo máximo em segundos que um script pode analisar dados de entrada.",
+        "post_max_size": "post_max_size",
+        "post_max_size_desc": "O tamanho máximo em bytes de dados que podem ser enviados com o método POST. Normalmente, deve ser maior que upload_max_filesize e menor que memory_limit.",
+        "upload_max_filesize": "upload_max_filesize",
+        "upload_max_filesize_desc": "O tamanho máximo em bytes de um arquivo enviado.",
+        "error_reporting": "error_reporting",
+        "error_reporting_desc": "O nível de relatório de erros.",
+        "display_errors": "display_errors",
+        "display_errors_desc": "Determina se os erros devem ser exibidos como parte da saída.",
+        "log_errors": "log_errors",
+        "log_errors_desc": "Habilita o registro de erros do PHP."
+      },
+      "php_general": {
+        "title": "Mais configurações de PHP",
+        "include_path": "include_path",
+        "include_path_desc": "A lista de diretórios onde os scripts procuram arquivos (semelhante à variável PATH do sistema). Para separar diretórios, use dois pontos (:) no Linux e um ponto e vírgula (;) no Windows.",
+        "session_save_path": "session.save_path",
+        "session_save_path_desc": "O diretório para armazenar arquivos de sessão do PHP.",
+        "mail_force_extra_parameters": "mail.force_extra_parameters",
+        "mail_force_extra_parameters_desc": "Permite passar parâmetros adicionais para a função mail(). Isso é útil para definir cabeçalhos ou outras opções.",
+        "open_basedir": "open_basedir",
+        "open_basedir_desc": "Os arquivos nos diretórios especificados podem ser acessados por scripts PHP. Para separar diretórios, use dois pontos (:) no Linux e um ponto e vírgula (;) no Windows.",
+        "allow_url_fopen": "allow_url_fopen",
+        "allow_url_fopen_desc": "Permite que as funções de arquivo do PHP recuperem dados de locais remotos via FTP ou HTTP.",
+        "file_uploads": "file_uploads",
+        "file_uploads_desc": "Permite o envio de arquivos via HTTP.",
+        "short_open_tag": "short_open_tag",
+        "short_open_tag_desc": "Permite a forma curta (<? ?>) da tag de abertura do PHP.",
+        "opcache_enable": "opcache.enable",
+        "opcache_enable_desc": "Habilita o cache de opcode. Quando desabilitado, o código não é otimizado ou armazenado em cache.",
+        "disable_functions": "disable_functions",
+        "disable_functions_desc": "Esta diretiva permite desabilitar certas funções. Aceita uma lista de nomes de funções separados por vírgulas."
+      },
+      "additional_directives": {
+        "title": "Diretivas PHP adicionais",
+        "php_ini_editor": "Editor de php.ini",
+        "alert": "Adicione configurações aqui apenas se tiver sido instruído ou souber o que elas fazem. Valores incorretos podem afetar o funcionamento do seu site.",
+        "php_ini_editor_desc": "Use esta seção para definir diretivas de configuração PHP adicionais que ainda não estão listadas acima. Esses valores serão incluídos no php.ini final ou na configuração do FPM e permitem uma personalização avançada do seu ambiente PHP.",
+        "add_directive_button": "Adicionar diretiva",
+        "directive_label": "Diretiva*",
+        "type_label": "Tipo",
+        "value_label": "Valor*",
+        "key_exists_error": "A chave já existe.",
+        "cancel_button": "Cancelar",
+        "create_button": "Criar",
+        "save_button": "Salvar",
+        "directive_column": "Diretiva",
+        "settings_column": "Valor",
+        "no_directives_message": "Nenhum cabeçalho adicional adicionado"
+      },
+      "php_fpm_block": {
+        "title": "Configurações do PHP-FPM",
+        "pm": "pm",
+        "pm_desc": "Escolha como o gerenciador de processos controlará o número de processos filhos. Valores possíveis: estático, sob demanda, dinâmico. Esta opção é obrigatória.",
+        "pm_max_children": "pm.max_children",
+        "pm_max_children_desc": "O número de processos filhos a serem criados quando pm estiver configurado como estático e o número máximo de processos filhos a serem criados quando pm estiver configurado como dinâmico.",
+        "pm_max_requests": "pm.max_requests",
+        "pm_max_requests_desc": "O número de solicitações que cada processo filho deve executar antes de reiniciar. Isso pode ser útil para contornar vazamentos de memória em bibliotecas de terceiros. Para processamento de solicitações sem fim, especifique '0'. Equivalente a PHP_FCGI_MAX_REQUESTS. Valor padrão: 0.",
+        "pm_start_servers": "pm.start_servers",
+        "pm_start_servers_desc": "O número de processos filhos criados na inicialização. Usado apenas quando pm está configurado como dinâmico. Valor padrão: (min_spare_servers + max_spare_servers) / 2.",
+        "pm_min_spare_servers": "pm.min_spare_servers",
+        "pm_min_spare_servers_desc": "O número mínimo desejado de processos filhos inativos. Usado apenas quando pm está configurado como dinâmico. Também é obrigatório neste caso.",
+        "pm_max_spare_servers": "pm.max_spare_servers",
+        "pm_max_spare_servers_desc": "O número máximo desejado de processos filhos inativos. Usado apenas quando pm está configurado como dinâmico. Também é obrigatório neste caso.",
+        "numeric_error": "Por favor, insira um valor numérico válido."
+      },
+      "process_manager": {
+        "ondemand": "Sob Demanda",
+        "dynamic": "Dinâmico",
+        "static": "Estático"
+      }
+    }
+  }
+}

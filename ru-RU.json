@@ -1,0 +1,3897 @@
+{
+  "feedback": "Обратная связь",
+  "off": "ВЫКЛЮЧЕННЫЙ",
+  "view": "Вид",
+  "recommended": "рекомендуемые",
+  "on": "НА",
+  "add": "Добавлять",
+  "save": "Сохранить",
+  "cancel": "Отмена",
+  "back": "Назад",
+  "close": "Закрыть",
+  "delete": "Удалить",
+  "and": "и",
+  "common": {
+    "type-here": "Введите здесь",
+    "select": "Выберите",
+    "no-results": "Результаты не найдены",
+    "no-data-in-table": "Нет данных в таблице — хороший знак",
+    "clear-all": "Очистить все",
+    "no-matching-results": "Совпадений не найдено",
+    "paginate-info": "Показано от {{start}} до {{end}} из {{total}} записей",
+    "no-records": "Нет записей для отображения",
+    "not-prepared-records": "Еще не подготовлен",
+    "user-not-copy-hint": "Отправьте ссылку на регистрацию предполагаемому пользователю, чтобы создать учетную запись OPSSHIELD и принять приглашение.",
+    "user-copied-hint": "Ссылка скопирована. ",
+    "Items-per-page": "Элементы на странице",
+    "search-by-hostname": "Поиск по имени хоста или IP",
+    "troubleshoot": "Устранение неполадок",
+    "days": "дней",
+    "day": "день",
+    "actions": "Действия",
+    "yes": "Да",
+    "no": "Нет",
+    "scanner-logs-drawer": {
+      "time": "время регистрации",
+      "title": "Деталь вируса",
+      "proccessed": "Обработанный",
+      "path": "Дорожка",
+      "scan_id": "Идентификатор сканирования",
+      "file_name": "Имя файла",
+      "definition": "Описание вируса",
+      "user": "Пользователь",
+      "file_size": "Размер файла",
+      "identifier": "Идентификатор",
+      "quarantine_path": "Карантинный путь",
+      "reason": "Категория",
+      "cleanup_status": "Статус очистки",
+      "permission": "Разрешение",
+      "file_ctime": "время изменения файла",
+      "http_upload_whitelist_status": "Статус загрузки в белый список",
+      "btns": {
+        "restore": "Восстановить",
+        "view": "Вид",
+        "disable": "Запрещать",
+        "delete": "Удалить",
+        "quarantine": "Карантин",
+        "whitelist-path": "Путь из белого списка",
+        "report": "Сообщить о ложном срабатывании",
+        "whitelist-file": "Файл белого списка",
+        "whitelist-file-path": "Файл/путь белого списка",
+        "http-whitelist-add": "Добавить белый список",
+        "http-whitelist-remove": "Удалить белый список",
+        "archive": "Архивировать",
+        "unarchive": "Разархивировать",
+        "whitelist-signature": "Подпись из белого списка",
+        "whitelist-rule": "Правило из белого списка",
+        "http-add-whitelist": "Добавить в белый список",
+        "http-remove-whitelist": "Удалить из белого списка"
+      }
+    },
+    "table": {
+      "buffering": "Загрузка данных с серверов"
+    },
+    "scanner": {
+      "queued": {
+        "title": "{{value}} on {{value2}} files will be processed in the background.",
+        "status": "Queued"
+      },
+      "true": {
+        "title": "{{value}} on {{value2}} file has been processed.",
+        "status": "Success"
+      },
+      "false": {
+        "title": "{{value}} on {{value2}} file has not been processed.",
+        "status": "Failed"
+      },
+      "error": {
+        "title": "{{value}} on {{value2}} file has not been processed due to an error.",
+        "status": "Error"
+      },
+      "empty": {
+        "title": "Nothing to Show",
+        "status": "Error"
+      }
+    },
+    "settings-warn": {
+      "automatic": {
+        "disabled": {
+          "title": "Эта функция отключена",
+          "desc": "Чтобы использовать функцию автоматической приостановки на этом сервере, добавьте специальный сценарий приостановки учетной записи пользователя/домена, как указано в разделе ",
+          "link-btn": "этой статье базы знаний"
+        }
+      },
+      "notifications": {
+        "disabled": {
+          "title": "Эта функция отключена",
+          "desc": "JSON списка пользователей отсутствует в файле конфигурации cpguard.ini",
+          "link-btn": "подробнее здесь"
+        }
+      }
+    },
+    "pop-up": {
+      "title": "",
+      "desc-scanner": "Действия будут выполняться только над соответствующими файлами",
+      "desc-protection": "Выбранные строки будут удалены из журналов cPGuard",
+      "desc-cms": ""
+    }
+  },
+  "messages": { "delete-success": "Удалено успешно" },
+  "user": {
+    "title": "Права Пользователя",
+    "add-btn": "Добавить Пользователя",
+    "license-manager": "Менеджер Лицензий",
+    "edit-privileges": "Редактировать Права",
+    "add-new-user": "Добавить Нового Пользователя",
+    "client-id": "ID Клиента",
+    "invitation-pending": "Ожидание Приглашения",
+    "email-placeholder": "введите действительный адрес электронной почты",
+    "email-placeholder-2": "электронная почта / имя пользователя учетной записи OPSSHIELD",
+    "no-user": "Пользователи не найдены",
+    "server-added": "Сервер добавлен",
+    "servers-added": "Серверы добавлены",
+    "copy-placeholder": "Введите свое имя пользователя, чтобы сбросить пароль.",
+    "invitation-sent": "Приглашение отправлено",
+    "invitation-sent-to": "Приглашение отправлено на ",
+    "invitation-link": "Ссылка на приглашение",
+    "validation": {
+      "false": "Имя пользователя не существует! Введите действительный адрес электронной почты",
+      "true": "Имя пользователя существует",
+      "create": "Пожалуйста, предоставьте действительный адрес электронной почты для создания нового пользователя",
+      "invalid": "Пожалуйста, предоставьте действительный адрес электронной почты или имя пользователя",
+      "exist_1": "Пользователь уже существует. Используйте",
+      "exist_2": "вариант вместо этого.",
+      "self": "Вы не можете добавить себя",
+      "invite": "У пользователя нет учетной записи, на этот адрес электронной почты будет отправлено приглашение с инструкциями по настройке новой учетной записи",
+      "invite_blesta": "Пользователь еще не принял приглашение для создания учетной записи OPSSHIELD.",
+      "error": "Произошла ошибка при обработке вашего запроса. Пожалуйста, попробуйте еще раз позже.",
+      "invite_pending": "Приглашение пользователя ожидает.",
+      "suspended": "Привилегии пользователя приостановлены.",
+      "suspended_2": "учетная запись пользователя."
+    },
+    "permissions": {
+      "activateMsg": "Вы уверены, что хотите активировать этого пользователя?",
+      "suspendMsg": "Вы уверены, что хотите приостановить этого пользователя?",
+      "deleteMsg": "Вы уверены, что хотите удалить этого пользователя?",
+      "suspend": "Приостановить",
+      "activate": "Активировать",
+      "delete": "Удалить",
+      "suspendResp": "Пользователь приостановлен",
+      "activateResp": "Пользователь активирован",
+      "deleteResp": "Пользователь удалён",
+      "suspendRespErr": "Ошибка при приостановке пользователя",
+      "activateRespErr": "Ошибка при активации пользователя",
+      "deleteRespErr": "Ошибка при удалении пользователя",
+      "suspendTitle": "Подтвердите Приостановку Пользователя",
+      "activateTitle": "Подтвердите Активацию Пользователя",
+      "deleteTitle": "Подтвердите Удаление Пользователя"
+    },
+    "actions": {
+      "suspend": "Приостановить Пользователя",
+      "activate": "Активировать",
+      "resend": "Отправить Приглашение Повторно",
+      "copy": "Скопировать Приглашение",
+      "edit": "Редактировать",
+      "delete": "Удалить"
+    },
+    "invoice-alert": {
+      "title": "С возвращением, {{name}}!",
+      "desc": "На вашем аккаунте есть задолженность. Пожалуйста, произведите оплату как можно скорее.",
+      "btn": "Оплатить Задолженность"
+    }
+  },
+  "support": {
+    "title": "Поддержка cPGuard",
+    "true": "Разрешить доступ к порталу (и сбор журналов)",
+    "false": "Разрешить доступ к порталу (и сбор журналов)",
+    "optional": " ",
+    "click": "нажмите здесь",
+    "credential": {
+      "server": "Сервер",
+      "heading": "Доступ root/SSH",
+      "access": {
+        "grand": {
+          "title": "Добавить ключи (предпочтительно)",
+          "desc": "Чтобы избежать передачи пароля root, вы можете запустить следующую команду со своего сервера, чтобы установить наши ключи ssh",
+          "sub-desc": "Также добавить в белый список следующие IP-адреса на вашем сервере"
+        },
+        "share": {
+          "title": "Поделиться учетными данными",
+          "label": "Пожалуйста, введите свой логин root Учетные данные",
+          "username": "Имя пользователя",
+          "password": "Пароль",
+          "ip": "IP-адрес",
+          "ip-error": "Пожалуйста, введите действительный IP-адрес",
+          "port": "Порт SSH",
+          "notes": "Заметки",
+          "notes-placeholder": "Дополнительные заметки...",
+          "additional": "Чтобы избежать передачи пароля root, вы можете запустить следующую команду со своего сервера, чтобы установить наши ключи ssh0"
+        }
+      }
+    },
+    "ticket": {
+      "title": "Создать тикет",
+      "access": "Доступ",
+      "label": "Вы можете создать новый тикет здесь",
+      "ticket-alert": "У вас есть открытый тикет. чтобы проверить ответ и управлять заявкой, ",
+      "ticket-alerts": "У вас есть открытые заявки. для проверки ответов и управления заявками, ",
+      "form": {
+        "priority": "Приоритет",
+        "subject": "Тема",
+        "place-subject": "Обзор проблемы",
+        "description": "Описание",
+        "place-description": "Пожалуйста, подробно опишите проблему",
+        "agree": "Я согласен с ",
+        "terms": "Правила и условия",
+        "btn-open": "Открыть заявку",
+        "btn-submit": "Отправить",
+        "btn-cancel": "Перезагрузить"
+      },
+      "success": {
+        "title": "Спасибо, что связались!",
+        "desc": {
+          "1": "Мы ценим, что вы связались с cPGuard. идентификатор вашего билета",
+          "2": "Вы можете проверить статус вашего билета",
+          "3": "Один из наших коллег скоро свяжется с вами!",
+          "4": "Хорошего дня!",
+          "visit": "посетив"
+        },
+        "btn-add": "Добавить еще один билет"
+      }
+    },
+    "api": {
+      "loading": "Идет загрузка...",
+      "error": {
+        "title": "Ошибка",
+        "message": "Произошла ошибка Пожалуйста, повторите попытку позже"
+      },
+      "success": {
+        "title": "Успешно",
+        "message": "Доступ к серверу изменен"
+      }
+    }
+  },
+  "error": {
+    "ERROR_FOLLOW_LINK": "Перейти по ссылке:",
+    "ERROR_LINK_CLICK": "Кликните сюда",
+    "ERROR_CODE": "Код ошибки : {{value}}",
+    "ERROR": "Произошла ошибка",
+    "AGENT_ERROR": {
+      "AGENT_DEFAULT": {
+        "title": "Не удалось связаться с агентом cPGuard, работающим на вашем сервере.",
+        "message": "Проверьте, есть ли ваш IP в белом списке на сервере",
+        "link_btn": "Исправление проблем",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-C6": {
+        "title": "Сервер недоступен",
+        "message": "Мы не можем связаться с вашим сервером. Убедитесь, что ваш сервер подключен к сети и доступен с наших IP-адресов",
+        "link_btn": "Исправление проблем",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-C28": {
+        "title": "Время ожидания подключения истекло",
+        "message": "Не удается связаться со службой агента, работающей на вашем сервере. Проверьте, есть ли наши IP-адреса в белом списке на сервере",
+        "link_btn": "Исправление проблем",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view",
+        "faq": {
+          "title": "Ошибка тайм-аута — A-C28",
+          "desc-1": "Службы портала приложений должны иметь возможность взаимодействовать со службой агента, которая работает на порту 9098 на серверах. ",
+          "desc-2": "Во время установки cPGuard мы вносим в белый список необходимые IP-адреса в CSF, который является рекомендуемым брандмауэром вместе с cPGuard.",
+          "desc-3": "Если у вас есть собственный брандмауэр на вашем сервере или перед вашим сервером, вы должны внести в белый список следующие IP-адреса. "
+        }
+      },
+      "A-C7-1": {
+        "title": "Агент недоступен",
+        "message": "Не удалось подключиться к агенту cPGuard через порт 9098: в соединении отказано",
+        "message-ip": "Не удалось подключиться к агенту cPGuard({{server_ip}}) в порту {{port}}: В соединении отказано",
+        "link_btn": "Поиск неисправностей",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view",
+        "faq": {
+          "cmd": "cpgcli license --status",
+          "title": "Не удалось подключиться к агенту cPGuard через порт 9098: в соединении отказано",
+          "title-ip": "Не удалось подключиться к агенту cPGuard({{server_ip}}) в порту {{port}}: В соединении отказано",
+          "desc-1": "Эта проблема возникает, если служба агента работает неправильно и не отвечает на запрос от портала приложений. ",
+          "desc-2": "В таком случае выполните следующую команду и убедитесь, что у вас хороший статус лицензии.",
+          "desc-3": "Если есть ошибка лицензии, исправьте ее или обратитесь в службу поддержки за любой соответствующей помощью. "
+        }
+      },
+      "A-C7-2": {
+        "title": "Агент недоступен",
+        "message": "Не удалось подключиться к агенту cPGuard через порт 9098: нет маршрута к хосту",
+        "message-ip": "Не удалось подключиться к агенту cPGuard ({{server_ip}}) в порту {{port}}: Нет маршрута к хосту",
+        "link_btn": "Поиск неисправностей",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view",
+        "faq": {
+          "title": "Не удалось подключиться к агенту cPGuard через порт 9098: нет маршрута к хосту",
+          "title-ip": "Не удалось подключиться к агенту cPGuard ({{server_ip}}) в порту {{port}}: Нет маршрута к хосту",
+          "desc-1": "Эта проблема возникает, если сервер или сетевой брандмауэр блокирует подключение портала приложений к службе агента cPGuard. ",
+          "desc-2": "Обратите внимание, что вам необходимо добавить вышеуказанный белый список в брандмауэр вашего сервера и сетевой брандмауэр, если это применимо (это обычно для облачных серверов, таких как AWS, Azure, DigitalOcean, Vultr, Hetzner и т. д.).",
+          "desc-3": "Пожалуйста, свяжитесь со службой поддержки, если вам нужна дополнительная помощь."
+        }
+      },
+      "A-502": {
+        "title": "cPGuard PHP-FPM не запущен",
+        "message": "служба агента cPGuard на вашем сервере не запущена или недоступна.",
+        "link_btn": "Исправление проблем",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-500": {
+        "title": "Недопустимый ответ от агента",
+        "message": "Неожиданная ошибка/ответ получен от службы агента, работающей на сервере. Пожалуйста, попробуйте позже.",
+        "link_btn": "Исправление проблем",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-503": {
+        "title": "Недопустимый ответ от агента",
+        "message": "Неожиданная ошибка/ответ получен от службы агента, работающей на сервере. Пожалуйста, попробуйте позже.",
+        "link_btn": "Исправление проблем",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-504": {
+        "title": "Запрос выполняется слишком долго",
+        "message": "Время ожидания истекло перед выполнением запроса на вашем сервере. Попробуйте еще раз с меньшим набором данных или проверьте загрузку сервера",
+        "link_btn": "Исправление проблем",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-401": {
+        "title": "Неавторизованный вызов API",
+        "message": "Агент не в сети. Пожалуйста, попробуйте позже.",
+        "link_btn": "Исправление проблем",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": null,
+        "type": "block_view"
+      },
+      "A-403": {
+        "title": "Неверные учетные данные",
+        "message": "Не удалось получить данные с вашего сервера из-за ошибки аутентификации API",
+        "link_btn": "Исправление проблем",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Puzzle.svg",
+        "type": "block_view"
+      },
+      "A-400": {
+        "title": "Ошибка в запросе",
+        "message": "Неожиданная ошибка/ответ получен от службы агента, работающей на сервере. Пожалуйста, попробуйте позже.",
+        "link_btn": "Retry Now",
+        "link_url": "reload",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-417": {
+        "title": "Ошибка в запросе",
+        "message": "Неожиданная ошибка/ответ получен от службы агента, работающей на сервере. Пожалуйста, попробуйте позже.",
+        "link_btn": "Retry Now",
+        "link_url": "reload",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "A-license-expired": {
+        "title": "Срок действия лицензии истек",
+        "message": "Срок действия вашей лицензии истек. Пожалуйста, свяжитесь с вашим администратором.",
+        "link_url": null,
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      },
+      "A-license-canceled": {
+        "title": "Лицензия отменена",
+        "message": "Ваша лицензия была аннулирована. Пожалуйста, свяжитесь с вашим администратором.",
+        "link_url": null,
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      },
+      "A-license-suspended": {
+        "title": "Лицензия приостановлена",
+        "message": "Действие вашей лицензии приостановлено. Пожалуйста, свяжитесь с вашим администратором.",
+        "link_url": null,
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      },
+      "A-license-invalid-location": {
+        "title": "Неверное расположение лицензии",
+        "message": "Ваша лицензия недействительна для этого местоположения. Вы можете повторно выдать лицензионный ключ в случае изменения IP.",
+        "link_url": null,
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      },
+      "A-license-trial-done": {
+        "message": "Ваша лицензия была приостановлена ​​из-за злоупотреблений. Пожалуйста, свяжитесь с вашим администратором.",
+        "title": "Злоупотребление пробной лицензией",
+        "link_url": null,
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      },
+      "A-license-limit-exceeded": {
+        "title": "Превышен лимит разрешенных учетных записей",
+        "message": "Ваша лицензия превысила допустимое количество пользователей. Обновите свою лицензию, чтобы обеспечить безопасность вашего сервера",
+        "link_url": "https://opsshield.com/help/cpguard/how-do-we-calculate-the-number-of-users-on-a-server/",
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      },
+      "A-license-abuse": {
+        "title": "Обнаружено злоупотребление лицензией",
+        "message": "службы cPGuard были приостановлены из-за обнаружения неправомерных действий",
+        "link_url": null,
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      },
+      "unknown": {
+        "title": "Неизвестная ошибка лицензии",
+        "message": "Ваша лицензия недействительна для этого местоположения. Продлите лицензию, чтобы обеспечить безопасность вашего сервера",
+        "link_url": null,
+        "src": "Error Lamp Robot.svg",
+        "type": "block_view"
+      }
+    },
+    "SERVER_ERROR": {
+      "UNKNOWN": {
+        "title": "Произошла непредвиденная ошибка",
+        "message": "Кажется, что-то пошло не так. Пожалуйста, попробуйте позже.",
+        "link_btn": "Перезагрузить соединение",
+        "link_url": "reload",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "SERVER": {
+        "message": "Ваше устройство не подключено к Интернету.",
+        "link_btn": "Перезагрузить соединение",
+        "title": "Не удается подключиться к Интернету",
+        "link_url": "reload",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "SERVER_DEFAULT": {
+        "title": "Произошла непредвиденная ошибка",
+        "message": "Кажется, что-то пошло не так. Пожалуйста, попробуйте позже.",
+        "link_btn": "Перезагрузить соединение",
+        "link_url": "reload",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "204": {
+        "title": "Без содержания",
+        "message": "Контент не найден",
+        "link_url": null,
+        "src": null,
+        "type": "toastr"
+      },
+      "401": {
+        "title": "Неавторизованный",
+        "message": "Несанкционированный доступ к ресурсу",
+        "link_url": null,
+        "src": "Error Fall Down.svg",
+        "type": "logout"
+      },
+      "403": {
+        "title": "В доступе отказано!",
+        "message": "Вы не авторизованы для доступа к этому серверу. Спросите разрешения у владельца сервера",
+        "link_url": null,
+        "src": "Astronaut-01.svg",
+        "type": "logout"
+      },
+      "404": {
+        "title": "не обнаружена",
+        "message": "Ресурс не найден",
+        "link_url": null,
+        "src": null,
+        "type": "toastr"
+      },
+      "408": {
+        "title": "Произошло время ожидания",
+        "message": "Подтвердите, что наши IP-адреса, перечисленные в /etc/cpguard/cpgips.txt, занесены в белый список на сервере",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Astronaut-01.svg",
+        "type": "block_view"
+      },
+      "417": {
+        "title": "Ожидание не оправдалось",
+        "message": "Ожидание не оправдалось",
+        "link_url": null,
+        "src": null,
+        "type": "toastr"
+      },
+      "429": {
+        "title": "Слишком много запросов",
+        "message": "Вы отправили слишком много запросов на сервер за короткое время. Пожалуйста, попробуйте снова позже.",
+        "link_btn": "Попробовать снова",
+        "link_url": "reload",
+        "src": "Too_many_requests.svg",
+        "type": "block_and_cancel"
+      },
+      "500": {
+        "link_btn": "Перезагрузить соединение",
+        "title": "Внутренняя ошибка сервера",
+        "message": "Внутренняя ошибка сервера",
+        "link_url": "reload",
+        "src": "Error Server.svg",
+        "type": "block_view"
+      },
+      "522": {
+        "title": "Произошло время ожидания",
+        "message": "Подтвердите, что наши IP-адреса, перечисленные в /etc/cpguard/cpgips.txt, занесены в белый список на сервере",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Astronaut-01.svg",
+        "type": "block_view"
+      },
+      "504": {
+        "title": "Произошло время ожидания",
+        "message": "Подтвердите, что наши IP-адреса, перечисленные в /etc/cpguard/cpgips.txt, занесены в белый список на сервере",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Astronaut-01.svg",
+        "type": "block_view"
+      },
+      "524": {
+        "title": "Произошло время ожидания",
+        "message": "Подтвердите, что наши IP-адреса, перечисленные в /etc/cpguard/cpgips.txt, занесены в белый список на сервере",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Astronaut-01.svg",
+        "type": "block_view"
+      },
+      "CF": {
+        "title": "Произошло время ожидания",
+        "message": "Подтвердите, что наши IP-адреса, перечисленные в /etc/cpguard/cpgips.txt, занесены в белый список на сервере",
+        "link_url": "https://opsshield.com/help/cpguard/agent-connection-issues/",
+        "src": "Astronaut-01.svg",
+        "type": "block_view"
+      }
+    },
+    "ACTION_SUCCESS": "Действие выполнено успешно",
+    "INVALID_REQUEST": "Неверный запрос. Пожалуйста, попробуйте позже.",
+    "ACTION_FAILED": "Действие не выполнено. Пожалуйста, попробуйте позже.",
+    "csf": {
+      "csf_not_installed": "Интеграция CSF не может быть включена, так как CSF не установлен"
+    },
+    "MSCAN": {
+      "SCAN_UNKNOWN_ERROR_MSG": "Неизвестная ошибка. Пожалуйста, попробуйте позже.",
+      "SCAN_STOP_INVALID": "Неверный идентификатор сканирования",
+      "SCAN_STOP_ERROR": "Не удалось остановить ручное сканирование {{target}}",
+      "SCAN_START_SUCCESS": "Сканирование началось",
+      "SCAN_START_ERROR": "Не удалось запустить сканирование",
+      "SCAN_COMPLETED": "Сканирование завершено",
+      "SCAN_STOP_ERROR_MSG": "Не удалось остановить сканирование. Пожалуйста, попробуйте позже.",
+      "QUEUE_SCAN_TITLE": "Скан добавлен в очередь",
+      "SCAN_START_ERROR_MSG": "Не удалось запустить сканирование. Пожалуйста, попробуйте позже.",
+      "SCAN_COMPLETED_MSG": "Сканирование завершено успешно.",
+      "SCAN_STOP_INVALID_MSG": "Недопустимый идентификатор сканирования. Пожалуйста, попробуйте позже.",
+      "SCAN_START_SUCCESS_MSG": "Сканирование успешно запущено. Вы будете уведомлены, когда сканирование будет завершено.",
+      "SCAN_STOP_SUCCESS": "Сканирование остановлено",
+      "SCAN_UNKNOWN_ERROR": "Неизвестная ошибка",
+      "SCAN_STOP_SUCCESS_MSG": "Сканирование успешно остановлено.",
+      "SCAN_FAILED": "Ошибка сканирования",
+      "QUEUE_SCAN_MSG": "Скан добавлен в очередь. Сканирование начнется в ближайшее время.",
+      "SCAN_FAILED_MSG": "Сканировать не удалось. Пожалуйста, попробуйте позже.",
+      "SCANS_DELETED": "Всего {{value}} из {{value2}} сканирований удалено",
+      "SCANS_DELETE_ERROR": "Не удалось удалить сканы",
+      "SCANS_DELETED_MSG": "Сканы успешно удалены.",
+      "SCANS_DELETE_ERROR_MSG": "Не удалось удалить сканы. Пожалуйста, попробуйте позже."
+    },
+    "COMMON": {
+      "title": "Неизвестная ошибка",
+      "msg": "Произошла неизвестная ошибка"
+    }
+  },
+  "language": {
+    "label": "Выберите язык",
+    "spanish": "español",
+    "russian": "Русский",
+    "english": "English",
+    "portuguese": "Portugués"
+  },
+  "notifications": {
+    "common": {
+      "yearago": "год назад",
+      "secondsago": "несколько секунд назад",
+      "weekago": "неделю назад",
+      "hourago": "час назад",
+      "weeksago": "{{value}} недель назад",
+      "minutesago": "{{value}} минут назад",
+      "yearsago": "{{value}} много лет назад",
+      "daysago": "{{value}} дней назад",
+      "monthsago": "{{value}} несколько месяцев назад",
+      "dayago": "день назад",
+      "minuteago": "минуту назад",
+      "monthago": "месяц назад",
+      "hoursago": "{{value}} несколько часов назад",
+      "protection": {
+        "waf_title": "Подходящий журнал WAF не найден",
+        "waf_desc": "WAF работает и блокирует атаки, но на вашем сервере не найден подходящий журнал ModSecurity. Пожалуйста, свяжитесь с ",
+        "waf_desc2": " для получения более подробной информации",
+        "btn": "Поддержка",
+        "scanner_title": "Набор правил СКАНЕРА ВЫКЛЮЧЕН",
+        "scanner_desc": "Набор правил СКАНЕРА ВЫКЛЮЧЕН в настройках WAF. Включите его для лучшей защиты от атак веб-ботов",
+        "scanner_waf": "WAF выключен",
+        "scanner_waf_desc": "Включите WAF для защиты ваших веб-сайтов от веб-атак",
+        "waf_scanner_off": "Вам следует включить интеграцию WAF и правила сканера WAF для максимального обнаружения и предотвращения атак ботов."
+      }
+    },
+    "alerts": {
+      "blacklisted_ip": {
+        "alert": "{{value}} IP-адрес из черного списка найден",
+        "color": "default",
+        "icon": "ri-shield-check-line",
+        "varaible": "value",
+        "hasDesc": true,
+        "description": {
+          "title": "IP-адрес, занесенный в черный список, обнаружен в результатах сканирования.",
+          "content": "Проверьте, что вызывает попадание IP-адреса в черный список, и устраните проблему, чтобы почта с вашего IP не помечалась как спам.",
+          "link_text": "Перейти к репутации IP",
+          "link_to_kb": "ip-reputation",
+          "action": "goto"
+        }
+      },
+      "blacklisted_ips": {
+        "alert": "{{value}} Найдено IP-адресов из черного списка",
+        "color": "default",
+        "icon": "ri-shield-check-line",
+        "varaible": "value",
+        "hasDesc": true,
+        "description": {
+          "link_text": "Перейти к репутации IP",
+          "content": "Проверьте, что вызывает попадание IP-адреса в черный список, и устраните проблему, чтобы почта с вашего IP не помечалась как спам.",
+          "title": "В результатах сканирования обнаружены IP-адреса из черного списка.",
+          "link_to_kb": "ip-reputation",
+          "action": "goto"
+        }
+      },
+      "blacklisted_domain": {
+        "alert": "{{value}} Обнаружен домен из черного списка",
+        "color": "default",
+        "icon": "ri-shield-check-line",
+        "varaible": "value",
+        "hasDesc": true,
+        "description": {
+          "title": "Домен, занесенный в черный список, обнаружен в результатах сканирования.",
+          "content": "",
+          "link_to_kb": "domain-blacklist",
+          "link_text": "Перейти к черному списку доменов",
+          "action": "goto"
+        }
+      },
+      "blacklisted_domains": {
+        "alert": "Найдено {{value}} доменов из черного списка",
+        "color": "default",
+        "icon": "ri-shield-flash-line",
+        "varaible": "value",
+        "hasDesc": true,
+        "description": {
+          "title": "Домен, занесенный в черный список, обнаружен в результатах сканирования.",
+          "content": "",
+          "link_to_kb": "domain-blacklist",
+          "link_text": "Перейти к черному списку доменов",
+          "action": "goto"
+        }
+      },
+      "manual_scan_count": {
+        "alert": "Ручное сканирование {{value}} файлов завершено",
+        "color": "default",
+        "icon": "ri-alert-line",
+        "varaible": "value",
+        "hasDesc": false,
+        "description": {
+          "title": "Ручное сканирование {{value}} файлов завершено",
+          "link_text": "Учить больше",
+          "content": "",
+          "link_to_kb": "https://opsshield.com/help/",
+          "action": "false"
+        }
+      },
+      "scanner_errors": {
+        "alert": "Двигатель сканера не работает",
+        "color": "warning",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Двигатель сканера не работает",
+          "content": "Сканер вредоносных программ включен, но не запускается из-за неизвестной ошибки. Попробуйте перезапустить сканер или обратитесь в службу поддержки.",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "scanner_off": {
+        "alert": "Сканер выключен",
+        "color": "danger",
+        "icon": "ri-search-2-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "link_text": "Учить больше",
+          "title": "Сканер выключен.",
+          "content": "Включите наш фоновый сканер для автоматического сканирования новых файлов на наличие инфекций",
+          "link_to_kb": "https://opsshield.com/help/",
+          "action": "false"
+        }
+      },
+      "auto_clean_off": {
+        "alert": "Автоочистка отключена",
+        "color": "warning",
+        "icon": "ri-file-shield-2-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Автоочистка зараженных файлов ВЫКЛЮЧЕНА",
+          "link_text": "Учить больше",
+          "content": "Включите автоматическую очистку зараженных файлов, чтобы устранить инъекции вредоносного кода и сократить время простоя веб-сайта.",
+          "link_to_kb": "https://opsshield.com/help/",
+          "action": "false"
+        }
+      },
+      "brute_force_off": {
+        "alert": "Защита от грубой силы отключена",
+        "color": "danger",
+        "icon": "ri-robot-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Защита от грубой силы отключена",
+          "link_text": "Учить больше",
+          "content": "",
+          "link_to_kb": "https://opsshield.com/help/",
+          "action": "false"
+        }
+      },
+      "ipdb_errors": {
+        "alert": "Обнаружены ошибки IPDB. Атаки не блокируются!",
+        "color": "default",
+        "icon": "ri-alert-line",
+        "varaible": "value",
+        "hasDesc": false,
+        "description": {
+          "title": "В результатах сканирования были обнаружены некоторые ошибки IPDB.",
+          "content": "",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "ipdb_off": {
+        "alert": "Защита IPDB отключена",
+        "color": "danger",
+        "icon": "ri-shield-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "IPDB отключен",
+          "content": "",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "waf_off": {
+        "alert": "Защита WAF отключена",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "ВАФ выключен.",
+          "content": "Включите WAF в настройках, чтобы защитить свой сервер от большого количества веб-атак.",
+          "link_to_kb": "https://opsshield.com/help/cpguard/turn-on-off-waf-rules/",
+          "link_text": "Учить больше",
+          "action": "link"
+        }
+      },
+      "waf_errors": {
+        "alert": "Обнаружены ошибки WAF",
+        "color": "warning",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "В результатах сканирования были обнаружены ошибки WAF.",
+          "content": "",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "waf_scanner_off": {
+        "alert": "Защита сканера WAF отключена",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Защита сканера WAF отключена",
+          "content": "",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-web-application-firewall/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "waf_rbl_off": {
+        "alert": "Защита WAF RBL отключена",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "link_text": "открыть настройки",
+          "title": "WAF RBL выключен.",
+          "content": "Включите дополнительную защиту от веб-атак, включив набор правил брандмауэра.",
+          "link_to_kb": "waf",
+          "action": "settings"
+        }
+      },
+      "waf_captcha_off": {
+        "alert": "Защита WAF Captcha отключена",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "проверка с помощью капчи отключена",
+          "content": "Защитите свой вход администратора WordPress и других CMS от ботов, включив удаленную проверку капчи",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "waf_webshell_off": {
+        "alert": "Защита WAF Webshell отключена",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Веб-оболочка WAF отключена.",
+          "content": "Включите дополнительную защиту от веб-атак, включив набор правил брандмауэра.",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "waf_block_fail": {
+        "alert": "Waf не работает из-за неизвестных проблем.",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Атаки не блокируются",
+          "content": "Атаки не блокируются, так как правила cPGuard WAF неправильно загружаются в ModSecurity. Проверьте конфигурацию cPGuard/ModSecurity и веб-сервер.",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-waf-required-settings-and-depencies/",
+          "link_text": "Учить больше",
+          "action": "link"
+        }
+      },
+      "waf_no_log": {
+        "alert": "WAF не удалось обнаружить подходящий файл журнала",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Не удалось обнаружить подходящий файл журнала.",
+          "content": "Нам не удалось найти подходящий файл/каталог для чтения журналов ModSecurity. Пожалуйста, обновите конфигурацию modsecurity, чтобы использовать стандартное местоположение/методы audit_log.",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-waf-required-settings-and-depencies/",
+          "link_text": "Учить больше",
+          "action": "link"
+        }
+      },
+      "waf_fields_missing": {
+        "alert": "Требуемые данные недоступны в audit_log",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Audit_log не соответствует требованиям cPGuard",
+          "content": "cPGuard может показать вам больше информации об атаках, если вы переключите журнал аудита modsecurity на стандартные форматы.",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-waf-required-settings-and-depencies/",
+          "link_text": "Учить больше",
+          "action": "link"
+        }
+      },
+      "waf_license_error": {
+        "alert": "Лицензия WAF недействительна.",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Лицензия WAF недействительна.",
+          "content": "Проверка лицензии на вредоносное ПО. ",
+          "queued": "Повторите попытку через 2 минуты, чтобы узнать, устранена ли проблема с лицензией.",
+          "btn_label": "Переиздание",
+          "btn_label_loading": "Переиздание",
+          "on_action": "waf-license-reissue",
+          "action": "btn",
+          "disabled": false,
+          "action_called": false
+        },
+        "api": {
+          "called": "Переиздание",
+          "queued": "Повторите попытку через 2 минуты, чтобы узнать, устранена ли проблема с лицензией.",
+          "error": "Пожалуйста, попробуйте еще раз"
+        }
+      },
+      "waf_modsec_error": {
+        "alert": "Не удается включить WAF. ModSecurity не установлен.",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Не удается включить WAF. ModSecurity не установлен.",
+          "content": "Убедитесь, что ModSecurity установлен и работает правильно.",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-waf-required-settings-and-depencies/",
+          "link_text": "Учить больше",
+          "action": "link"
+        }
+      },
+      "waf_secrule_off": {
+        "alert": "SecRuleEngine отключен в конфигурации ModSecurity.",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "SecRuleEngine отключен в конфигурации ModSecurity.",
+          "content": "Директива ModSecurity SecRuleEngine должна быть включена для модуля cPGuard WAF.",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-waf-required-settings-and-depencies/",
+          "link_text": "Учить больше",
+          "action": "link"
+        }
+      },
+      "waf_owasp_conflict": {
+        "alert": "OWASP для ModSecurity включен.",
+        "color": "danger",
+        "icon": "ri-shield-flash-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "OWASP для ModSecurity включен.",
+          "content": "cPGuard WAF несовместим с правилами OWASP. Пожалуйста, отключите OWASP, чтобы использовать cPGuard WAF",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-waf-required-settings-and-depencies/",
+          "link_text": "Учить больше",
+          "action": "link"
+        }
+      },
+      "rootkit_off": {
+        "alert": "Защита от сканера руткитов отключена",
+        "color": "danger",
+        "icon": "ri-shield-cross-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Проверка руткитов выключена",
+          "content": "Включите его, чтобы проверить наличие бэкдоров, руткитов, локальных эксплойтов и скрытых дыр в безопасности.",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "weekly_scan_off": {
+        "alert": "Еженедельное сканирование отключено",
+        "color": "warning",
+        "icon": "ri-shield-cross-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Еженедельное сканирование отключено.",
+          "content": "Включите его, чтобы автоматически повторно сканировать все файлы, созданные/измененные за неделю.",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "daily_scan_off": {
+        "alert": "Ежедневное сканирование отключено",
+        "color": "warning",
+        "icon": "ri-shield-cross-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Ежедневное сканирование отключено.",
+          "content": "Включите его для автоматического повторного сканирования всех файлов",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Узнать больше",
+          "action": "false"
+        }
+      },
+      "update_error": {
+        "alert": "Ошибка обновления",
+        "color": "default",
+        "icon": "ri-alert-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "В результатах сканирования обнаружена ошибка обновления.",
+          "content": "",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "scan_all_warning": {
+        "alert": "Давно не сканировал!",
+        "color": "warning",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Похоже, вы давно не сканировали все файлы.",
+          "content": "Настоятельно рекомендуется выполнить ручное сканирование всех файлов с помощью нашей последней обновленной логики сканера и определений вирусов.",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "license_error": {
+        "alert": "Ошибка лицензии",
+        "color": "default",
+        "icon": "ri-alert-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "В результатах сканирования обнаружена ошибка лицензии.",
+          "content": "",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "secrule_off": {
+        "alert": "ModSecurity SecRule отключен",
+        "color": "default",
+        "icon": "ri-alert-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "ModSecurity SecRule отключен",
+          "content": "",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "owasp_conflict": {
+        "alert": "Правила ModSecurity OWASP несовместимы с cPGuard WAF.",
+        "color": "default",
+        "icon": "ri-alert-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Правила ModSecurity OWASP несовместимы с cPGuard WAF.",
+          "content": "На вашем сервере включены правила OWASP WAF. Отключите его, используя правила cPGuard WAF.",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "block_fail": {
+        "alert": "Блокировка не удалась",
+        "color": "default",
+        "icon": "ri-alert-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "В результатах сканирования обнаружен сбой блока.",
+          "content": "",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "updateerror": {
+        "alert": "Ошибка обновления программного обеспечения cPGuard!",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "Ошибка обновления программного обеспечения cPGuard!",
+          "content": "Через некоторое время мы попытаемся снова выполнить автоматическое обновление программного обеспечения. Обратитесь в службу поддержки, если ошибка повторится",
+          "link_to_kb": "https://opsshield.com/help/",
+          "link_text": "Учить больше",
+          "action": "false"
+        }
+      },
+      "waf_conf_error": {
+        "alert": "Параметры конфигурации WAF не указаны в cpguard.ini.",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Конфигурация сервера WAF отсутствует/неверна",
+          "content": "Укажите правильные значения параметров конфигурации WAF в cpguard.ini для использования модуля cPGuard WAF.",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-standalone-configuration/",
+          "on_action": "waf-config-update",
+          "link_text": "Настроить сейчас",
+          "action": "action"
+        }
+      },
+      "user_list": {
+        "alert": "Список пользователей недоступен",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Список пользователей для этого автономного сервера не указан или содержит ошибки",
+          "content": "Входной файл с данными о пользователях и электронной почте не предоставлен или содержит ошибки. Пожалуйста, проверьте и обновите автономную конфигурацию «user_list» для правильного функционирования соответствующих модулей.",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-standalone-configuration/",
+          "link_text": "Учить больше",
+          "action": "link"
+        }
+      },
+      "domain_list": {
+        "alert": "В списке доменов есть ошибки",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Список доменов, предоставленный для автономного сервера, содержит ошибки",
+          "content": "Входной файл с именем домена, корнем документа и именем пользователя не указан или содержит ошибки. Пожалуйста, проверьте и обновите автономную конфигурацию «domain_list» для правильного функционирования соответствующих модулей.",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-standalone-configuration/",
+          "link_text": "Учить больше",
+          "action": "link"
+        }
+      },
+      "watchlist_empty": {
+        "alert": "Список наблюдения сканера вредоносных программ пуст",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "",
+          "content": "Фоновое сканирование файлов не будет работать, потому что список наблюдения пуст.",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-standalone-configuration/",
+          "link_text": "Учить больше",
+          "action": "link"
+        }
+      },
+      "waf_restart": {
+        "alert": "Команда перезапуска сервера WAF не указана/неверна",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "Требуется команда перезапуска сервера WAF для автономного сервера.",
+          "content": "Проверьте и обновите автономную конфигурацию «waf_server_restart_cmd» с помощью команды для перезапуска сервера WAF.",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-standalone-configuration/",
+          "link_text": "Учить больше",
+          "action": "link"
+        }
+      },
+      "missing_required": {
+        "alert": "Требуемые значения в автономной конфигурации cPGuard отсутствуют или содержат ошибки",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": true,
+        "description": {
+          "title": "",
+          "content": "Проверьте и обновите все необходимые значения в автономном файле конфигурации.",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-standalone-configuration/",
+          "link_text": "Учить больше",
+          "action": "link"
+        }
+      },
+      "waf_unsupported_server": {
+        "alert": "WAF-сервер не поддерживается",
+        "color": "danger",
+        "icon": "ri-error-warning-line",
+        "varaible": "false",
+        "hasDesc": false,
+        "description": {
+          "title": "",
+          "content": "Please check and  update all required values in the standalone configuration file",
+          "link_to_kb": "https://opsshield.com/help/cpguard/cpguard-standalone-configuration/",
+          "link_text": "Learn more",
+          "action": "link"
+        }
+      },
+      "waf_default": {
+        "alert": "Ваф правила не работают на сервере. Проверьте конфигурацию ModSecurity на сервере."
+      }
+    },
+    "incidents": {
+      "ipdb-stopped": "Брандмауэр IPDB остановлен",
+      "ipdb-started": "Брандмауэр IPDB запущен",
+      "ipdb-reloaded": "Обновлен брандмауэр IPDB",
+      "ipdb-restarted": "Брандмауэр IPDB перезапущен",
+      "malware-process": "Вредоносный процесс под пользователем {{user}} с PID {{pid}} {{process}}",
+      "mscan-completed": "Ручное сканирование завершено для {{target}} - {{total_files}} просканировано {{count}} зараженных файлов, просканировано {{status}}",
+      "scanner-filess": "{{count}} Вирусных заражений, обнаруженных cPGuard",
+      "rootkit-detecteds": "Обнаружено {{count}} руткитов",
+      "scanner-status": "Служба ядра сканера {{status}}.",
+      "scanner-service-started": "Служба ядра сканера запущена.",
+      "scanner-service-restarted": "Служба ядра сканера перезапущена.",
+      "scanner-service-start-failed": "Ошибка запуска службы ядра сканера.",
+      "rootkit": "Обнаружено заражение {{count}} руткитом",
+      "rootkit-detected": "Обнаружен {{count}} руткит",
+      "waf-blocked": "{{count}} атака заблокирована правилами WAF",
+      "scanner-files": "{{count}} Вирусное заражение, обнаруженное cPGuard",
+      "waf-blockeds": "{{count}} атак, заблокированных правилами WAF",
+      "mscan-started": "Ручное сканирование {{target}} {{status}}",
+      "mscan-failed": "Ручное сканирование {{target}} {{status}}",
+      "mscan-stopped": "Ручное сканирование {{target}} {{status}}",
+      "mscan-stop-failed": "Ручное сканирование {{target}} {{status}}",
+      "scanner-service-stopped": "Служба сканера остановлена",
+      "bruteforce-blocked": "{{count}} Атака ботов заблокирована cPGuard",
+      "bruteforce-blockeds": "{{count}} Атаки ботов заблокированы cPGuard",
+      "brute-force": "Статус сканера ботов — {{count}}.",
+      "rootkits": "Обнаружено {{count}} заражения руткитами",
+      "accsuspend-domain": "{{user}} {{reason}} на {{domain}} {{type}}",
+      "accsuspend-virus": "{{user}} {{reason}} на {{count}} {{time}}",
+      "waf": "атаки заблокированы правилами WAF",
+      "ip-blacklisted": "Проверка репутации IP завершена. {{count}} IP-адрес занесен в черный список",
+      "ip-blacklisteds": "Проверка репутации IP-адреса завершена. {{count}} IP-адресов занесены в черный список",
+      "ipdb": "Сканер IPDB - {{status}}.",
+      "daily-scan": "Ежедневное сканирование завершено, {{total}} файлов проверено и {{found}} файлов обнаружено",
+      "weekly-scan": "Еженедельное сканирование завершено, {{total}} файлов проверено и {{found}} файлов обнаружено",
+      "brute-force-enabled": "проверка атак ботов и скриптов включена",
+      "brute-force-disabled": "проверка атак атак ботов и скриптов отключена",
+      "waf-enabled": "правила WAF включены",
+      "waf-disabled": "правила WAF отключены",
+      "waf-updated": "Обновлена конфигурация WAF и перезапущен веб-сервер",
+      "report-false-positive": "{{count}} файл отмечен как ложноположительный",
+      "report-false-positives": "{{count}} файлов отмечен как ложноположительный ",
+      "report-virus": "{{count}} файл зарегистрирован как вирус",
+      "report-viruss": "{{count}} файлы, отмеченные как вирус",
+      "scanner-restores": "{{count}} файлов восстановлено в исходное местоположение",
+      "scanner-restore": "{{path}} восстановлено",
+      "scanner-quarantines": "Проверка репутации IP завершена. {{count}} IP-адрес занесен в черный список",
+      "scanner-quarantine": "Проверка репутации IP завершена. {{count}} IP-адрес занесен в черный список",
+      "scanner-disable": "Проверка репутации IP завершена. {{count}} IP-адрес занесен в черный список",
+      "scanner-disables": "Проверка репутации IP завершена. {{count}} IP-адрес занесен в черный список",
+      "scanner-delete": "Проверка репутации IP завершена. {{count}} IP-адрес занесен в черный список",
+      "scanner-deletes": "Проверка репутации IP завершена. {{count}} IP-адрес занесен в черный список",
+      "csf-lf-action-suspended": "Действие по исходящей электронной почте, инициированное из {{email}} сценарием CSF LF. Учетная запись электронной почты заблокирована",
+      "csf-lf-action-error": "Исходящее действие по электронной почте инициировано с {{email}} сценарием CSF LF. Ошибка приостановки учетной записи электронной почты",
+      "csf-lf-action-duplicate": "Действие исходящей электронной почты инициировано из {{email}} сценарием CSF LF. Учетная запись электронной почты уже заблокирована",
+      "custom-ip-check-true": "Проверка репутации IP {{ip}} завершена. IP-адрес занесен в черный список",
+      "custom-ip-check-false": "Проверка репутации IP {{ip}} завершена. IP-адрес не занесен в черный список",
+      "cleanup-invalid-file-format": "Неподдерживаемый формат файла, {{путь}} не очищен",
+      "cleanup-file-not-found": "{{путь}} не может быть очищен. Файл не существует",
+      "cleanup-huge-file": "{{путь}} не может быть очищен. Размер файла больше поддерживаемого",
+      "cleanup-autoclean-disabled": "Авточистка отключена, {{путь}} не очищен",
+      "cleanup-failed": "Файл {{path}} не очищается автоматически",
+      "scanner-cleanup-success": "Файл {{путь}} очищен",
+      "scanner-cleanup-multiple": "Очистка завершена. {{count}}/{{total}} файлы были очищены",
+      "scanner-cleanup-multiple-none": "Очистка завершена. Файлы не были очищены",
+      "malware-cron": "{{count}} cron задания {{user}} приостановлены на {{file}}",
+      "wordpress-checksum": "Несоответствие контрольной суммы Wordpress для {{count}} файл в {{domain}} в {{path}}",
+      "wordpress-checksums": "Несоответствие контрольной суммы Wordpress для {{count}} файлы в {{domain}} в {{path}}",
+      "wp-checksum-fail": "Обнаружено несоответствие контрольной суммы WordPress для файла {{file}} на {{domain}}. Файл был заменён.",
+      "waf-license-reissued": "Лицензия WAF перевыпущена и обновлена ​​на сервере",
+      "waf-failed": "",
+      "waf-false-reported": "Запись журнала WAF для идентификатора правила{{rule_id}} зарегистрировано как ложноположительное",
+      "upload-blocked": "{{count}} загрузка файла была заблокирована",
+      "upload-blockeds": "{{count}} загрузка файлов была заблокирована",
+      "dos-blockeds": "{{ip}} заблокирован из-за попытки DoS",
+      "theme-updated": "Тема WP {{name}} обновлена с {{from}} до {{to}} на домене {{domain}} пользователя {{user}}.",
+      "plugin-updated": "Плагин WP {{name}} обновлен с {{from}} до {{to}} на домене {{domain}} пользователя {{user}}.",
+      "core-updated": "WP core обновлен с {{from}} до {{to}} на домене {{domain}} пользователя {{user}}.",
+      "plugin-disabled": "Плагин отключен для {{user}} на домене {{domain}}.",
+      "service-restarted": "Служба {{service}} перезапущена",
+      "service-restart-failed": "Не удалось перезапустить службу {{service}}",
+      "service-started": "Служба {{service}} запущена",
+      "service-start-failed": "Не удалось запустить службу {{service}}",
+      "service-stopped": "Служба {{service}} остановлена",
+      "service-stop-failed": "Не удалось остановить службу {{service}}",
+      "service-reloaded": "Служба {{service}} перезагружена",
+      "service-reload-failed": "Не удалось перезагрузить службу {{service}}",
+      "website-rebuild-success": "Веб-сайт {{domain}} пользователя {{user}} успешно восстановлен",
+      "website-rebuild-failed": "Не удалось восстановить веб-сайт {{domain}} пользователя {{user}}"
+    },
+    "scanner_status": {
+      "license_status": "Ошибка лицензии",
+      "rootkit_switch": "Защита от руткитов отключена",
+      "multiple": "Несколько переключателей выключены",
+      "on": "Сканер работает",
+      "weekly_scan_switch": "Еженедельное сканирование отключено",
+      "off": "Сканер не работает",
+      "auto_clean_switch": "Автоочистка отключена"
+    },
+    "web_status": {
+      "off": "Веб-защита не работает",
+      "multiple": "несколько выключателей выключены",
+      "on": "Веб-защита работает",
+      "wpcron": "Переключатель WP-CRON выключен",
+      "waf_rbl_switch": "waf_rbl_switch выключен",
+      "waf_scanner_switch": "waf_scanner_switch выключен",
+      "waf_captcha_switch": "переключатель waf captcha выключен",
+      "waf_switch": "ваф переключатель выключен",
+      "brute_force_switch": "Переключатель brute_force выключен"
+    }
+  },
+  "links": {
+    "dashboard": "Приборная доска",
+    "virus-scanner": "Сканер вирусов",
+    "ipdb": "IPDB",
+    "scanner-logs": "Журналы сканера",
+    "csf-configuration": "Конфигурация CSF",
+    "web-security": "Состояние сервера",
+    "bot-attacks": "Атаки ботов",
+    "protection": "Защита",
+    "rootkit-scanner-logs": "Журналы сканера руткитов",
+    "ip-reputation": "IP-репутация",
+    "server": "Сервер",
+    "domain-reputation": "Репутация домена",
+    "overview": "Обзор",
+    "manual-scans": "Ручное сканирование",
+    "cms-threat-alerts": "CMS-угрозы",
+    "server-list": "Список серверов",
+    "mass-operations": "Массовые операции",
+    "waf-logs": "Журналы WAF",
+    "captcha-events": "События капчи(Beta)",
+    "report": "Отчет о ручном сканировании",
+    "reports": "Отчет",
+    "incidents": "Инциденты",
+    "db-scanner": "Сканер базы данных",
+    "services": "Сервисы",
+    "websites": "Веб-сайты",
+    "monitoring": "Мониторинг системы"
+  },
+  "header": {
+    "logout": "Выход",
+    "switch-server": "перейти на сервер...",
+    "manage-users": "Пользователи",
+    "no-results": "Подходящий сервер не найден",
+    "account": "Счет",
+    "loading": "Загрузка...",
+    "placeholder": "Введите имя хоста или IP",
+    "language": "Язык",
+    "mode": "Режим",
+    "dark": "Тёмный",
+    "light": "Светлый",
+    "auto": "Автоматический",
+    "licenses": "Лицензии",
+    "theme": "Тема"
+  },
+  "side-bar": {
+    "support": "Поддерживать",
+    "knowledge-base": "База знаний"
+  },
+  "overview": {
+    "secure": "Безопасный",
+    "title": "Обзор",
+    "quick-access": "Быстрый доступ",
+    "graph-connections-title": "Заблокированные соединения",
+    "graph-group-title": "Атаки",
+    "graph-virus-attacks-title": "Обнаружены инфекции",
+    "graph-web-attacks-title": "Веб-атаки остановлены",
+    "chart-no-data": "Данных за этот период пока нет",
+    "cards": {
+      "active-servers": "Активные серверы",
+      "server-with-alerts": "Сервер с оповещениями",
+      "connections-blocked": "Заблокированные соединения",
+      "threats-stopped": "Обнаруженные угрозы",
+      "blacklisted-domains": "Домены из черного списка",
+      "blacklisted-ip": "Публичные IP-адреса из черного списка",
+      "web-attacks-blocked": "Веб-атаки остановлены",
+      "files-in-quarantine": "Файлы на карантине",
+      "total-public-ips": "Всего общедоступных IP-адресов",
+      "total-domains": "Всего доменов",
+      "log-disabled": "Журнал отключен",
+      "IPDB-off": "IPDB выключен",
+      "IPDB-errors": "Ошибки IPDB",
+      "no-data": "Нет данных",
+      "next-page": "Следующая страница"
+    },
+    "days-filter": {
+      "7-days": "7 Дней",
+      "30-days": "30 Дней",
+      "60-days": "60 Дней",
+      "90-days": "90 Дней"
+    }
+  },
+  "server-list": {
+    "title": "Все серверы",
+    "card-header": {
+      "grid-server-name": "Сервер",
+      "dashboard": "Приборная доска",
+      "on": "НА",
+      "off": "ВЫКЛЮЧЕННЫЙ",
+      "virus-attacks": "Вирусные атаки",
+      "domains": "Домены",
+      "health": "Здоровье",
+      "action": "Действие",
+      "license": "Лицензионный ключ",
+      "grid-web-attacks": "Веб-атаки",
+      "server-name": "Имя сервера",
+      "ip": "IP",
+      "control-panel": "Панель управления",
+      "operating-system": "Операционная система",
+      "ip-blacklist": "Черный список IP-адресов",
+      "domain-blacklist": "Черный список доменов",
+      "webserver": "Веб сервер",
+      "alerts": "Оповещения",
+      "ipdb": "Брандмауэр IPDB",
+      "settings": "Настройки",
+      "hostname": "Имя хоста",
+      "info": "Информация",
+      "waf-bruteforce": "ваф и брутфорс",
+      "license-expire": "Статус лицензии"
+    },
+    "add-server": "Добавить сервер",
+    "page-info-2": "Кнопка для добавления",
+    "no-servers": "Нет серверов для отображения",
+    "page-info-1": "Нажмите «+»",
+    "page-info-3": "ваши серверы здесь",
+    "assign-tag": "Назначить тег",
+    "no-tag-found": "Теги не найдены",
+    "tags": "Теги...",
+    "manage": "Управлять",
+    "apply": "Применить",
+    "manage-tags": "Управлять тегами",
+    "tag-warning": "Это действие необратимо!",
+    "tag-warning-info": "Вы уверены, что хотите продолжить?",
+    "no-tag-created": "Теги еще не созданы",
+    "create-tag": "Создать новый тег",
+    "tag-name-required": "Требуется имя тега",
+    "already-exist": "Имя тега уже существует",
+    "tags-sorted-success": "Теги успешно отсортированы",
+    "tags-sorted-failed": "Не удалось отсортировать теги, пожалуйста, попробуйте еще раз позже",
+    "tag-deleted-success": "Удалено успешно",
+    "tag-deleted-failed": "Не удалось удалить тег, пожалуйста, попробуйте еще раз позже",
+    "tag-updated-success": "{{tag}} обновлен успешно",
+    "tag-updated-failed": "Не удалось обновить тег, пожалуйста, попробуйте еще раз позже",
+    "tag-created-success": "{{tag}} создан успешно",
+    "tag-created-failed": "Не удалось создать тег, пожалуйста, попробуйте еще раз позже",
+    "server-added" : "Сервер добавлен в",
+    "server-removed" : "Сервер удален из",
+    "tags-title" : "Теги обновлены",
+    "add-tag": "Добавить тег",
+    "tag-table": {
+      "label": "Тег",
+      "servers": "Серверы",
+      "action": "Действие"
+    },
+    "alerts": {
+      "manage-request-secondary": "Пожалуйста, не принимайте запросы из неизвестных источников.",
+      "manage-request": "хочет, чтобы вы управляли {{value}} серверами. Вы хотите принять?"
+    },
+    "error": {
+      "server-list-loading": "Не удалось загрузить список серверов, повторите попытку позже.",
+      "server-list-invite-reject": "Не удалось отклонить приглашение. Повторите попытку позже.",
+      "copy": "Не удалось скопировать в буфер обмена. Повторите попытку.",
+      "server-list-invite-accepted": "Не удалось принять приглашение. Повторите попытку позже."
+    },
+    "success": {
+      "server-list-invite-accepted": "Вы приняли приглашение управлять {{value}} серверами.",
+      "server-list-invite-reject": "Вы отклонили приглашение управлять {{value}} серверами.",
+      "copy": "Скопировано в буфер обмена"
+    },
+    "instructions": {
+      "buy": "Купить",
+      "setp-2-title": "Установить на свой сервер",
+      "setp-1-info-3": "если вы еще этого не сделали",
+      "trouble-shoot": "Дополнительные сведения об устранении неполадок",
+      "contact-support": "Контактная поддержка",
+      "setp-2-info-3": "руководство по началу работы",
+      "try": "Попробовать бесплатно",
+      "setp-1-title": "Получить лицензию",
+      "setp-1-info-1": "Вы можете получить новый лицензионный ключ,",
+      "setp-1-info-2": "подписка на наш сервис",
+      "setp-2-info-2": "Вы также можете найти подробные инструкции по установке cPGuard на нашем сайте.",
+      "setp-2-info-1": "Проверьте зарегистрированную электронную почту для получения инструкций по установке cPGuard на ваш сервер.",
+      "setp-3-title": "Вот и все!",
+      "setp-3-info-1": "После установки лицензионного ключа ваш сервер будет автоматически привязан к облаку. Вы можете обновить список серверов, чтобы увидеть, указан ли новый сервер.",
+      "setp-3-info-2": "Если вашего сервера нет в списке, попробуйте выполнить следующие шаги по устранению неполадок",
+      "setp-3-info-3": {
+        "li-1": "Проверьте и подтвердите, все ли IP-адреса нашего облака (перечисленные здесь) находятся в белом списке на вашем сервере",
+        "li-2": "Наш агент по умолчанию использует порт 9098. Убедитесь, что порт не используется другими службами",
+        "li-3": "Попробуйте перезапустить нашу службу агента, запустив /opt/cpguard/restart.sh от имени пользователя root"
+      },
+      "support-list-title": "Поддерживает cPGard",
+      "support-list-info-1": "",
+      "support-os": "Поддерживаемые операционные системы"
+    },
+    "adv-filter": {
+      "category": "Категория",
+      "ip-address-placeholder": "фильтровать по IP-адресу",
+      "by-labels": "По ярлыкам",
+      "ip-address": "Айпи адрес",
+      "hostname": "Имя хоста",
+      "category-placeholder": "фильтровать по категории",
+      "hostname-placeholder": "фильтровать по имени хоста",
+      "filter-by": "Фильтровать по",
+      "filter-all": "Фильтровать всё",
+      "filter-all-placeholder": "Введите для фильтрации",
+      "db-name": "Имя базы данных",
+      "db-name-placeholder": "фильтр по имени базы данных",
+      "user": "Пользователь",
+      "user-placeholder": "фильтр по пользователю",
+      "signature-name": "Имя сигнатуры",
+      "signature-name-placeholder": "фильтр по имени сигнатуры",
+      "table-name": "Имя таблицы",
+      "table-name-placeholder": "фильтр по имени таблицы",
+      "date": "Дата",
+      "date-placeholder": "фильтр по дате",
+      "time": "Время",
+      "ip": "IP-адрес",
+      "ip-placeholder": "фильтр по IP-адресу",
+      "domain-name": "Имя домена",
+      "domain-name-placeholder": "фильтр по имени домена",
+      "uri": "URI",
+      "uri-placeholder": "фильтр по URI",
+      "rule-id": "ID правила",
+      "rule-id-placeholder": "фильтр по ID правила",
+      "http-method": "HTTP-метод",
+      "http-method-placeholder": "фильтр по HTTP-методу",
+      "justification": "Обоснование",
+      "justification-placeholder": "фильтр по обоснованию",
+      "action": "Действие",
+      "action-placeholder": "фильтр по действию",
+      "cvss-status": "Статус CVSS",
+      "cvss-status-placeholder": "фильтр по статусу CVSS",
+      "path": "Путь",
+      "path-placeholder": "фильтр по пути",
+      "version-status": "Статус версии",
+      "version-status-placeholder": "фильтр по версии",
+      "file-name": "Имя файла",
+      "file-name-placeholder": "фильтр по имени файла",
+      "virus-description": "Описание вируса",
+      "virus-description-placeholder": "фильтр по описанию вируса",
+      "status": "Статус",
+      "status-placeholder": "фильтр по статусу",
+      "php-version": "Версия PHP",
+      "php-version-placeholder": "фильтровать по версии PHP",
+      "package-type": "Тип",
+      "package-type-placeholder": "фильтровать по типу пакета",
+      "cms-type": "Тип CMS",
+      "cms-type-placeholder": "фильтр по типу CMS"
+    },
+    "common": {
+      "add-server": "Добавить сервер",
+      "manage-license": "Управление лицензией",
+      "admin": "Это действие удалит всю информацию о сервере с этого портала. Вы уверены?",
+      "user": "Вы уверены, что хотите удалить свой доступ к этому серверу?",
+      "offline": {
+        "title": "Агент не запущен",
+        "desc": "Мы не получили пинг от агента, работающего на сервере"
+      }
+    },
+    "manage-license": {
+      "title": "Управление лицензией",
+      "buy": "Купить",
+      "try": "Попробовать бесплатно",
+      "trouble-shoot": "Дополнительные способы устранения неполадок",
+      "contact-support": "Обратиться в службу поддержки",
+      "setp-1-title": "Получить лицензию",
+      "setp-1-info-1": "Если у вас уже есть действующая лицензия",
+      "setp-1-info-2": "пожалуйста, повторно выпустите лицензионный ключ",
+      "setp-1-info-3": "Если у вас уже есть действующая лицензия, повторно выпустите лицензионный ключ",
+      "setp-2-title": "Примените лицензионный ключ на своем сервере с помощью следующей команды",
+      "setp-2-info-1": "Проверьте зарегистрированную электронную почту для получения инструкций по установке cPGuard на ваш сервер",
+      "setp-2-info-2": "Вы также можете найти подробные инструкции по установке cPGuard на нашем сайте",
+      "setp-2-info-3": "сохраните его",
+      "setp-3-title": "Всё!",
+      "setp-3-info-1": "После установки лицензионного ключа ваш сервер будет автоматически привязан к облаку. Вы можете обновить список серверов, чтобы увидеть, указан ли новый сервер.",
+      "setp-3-info-2": "Если вы получаете сообщение об ошибке «Неизвестно/тайм-аут» при загрузке панели управления cPGuard или других страниц, убедитесь, что",
+      "setp-3-info-3": {
+        "li-1": "Белый список наших IP-адресов, указанных ниже, на вашем сервере и в сетевом брандмауэре. Они должны иметь возможность подключаться к службе агента, работающей на TCP-порту 9098 на вашем сервере.",
+        "li-2": "Ни один другой процесс не использует порт 9098 на вашем сервере"
+      },
+      "support-list-title": "Поддерживаемые панели управления",
+      "support-list-info-1": "cPGuard в настоящее время доступен для серверов с установленными WHM/cPanel и Direct Admin",
+      "support-os": "Поддерживаемые операционные системы"
+    }
+  },
+  "server-details": {
+    "view": "Вид",
+    "info-waf-attacks": "Веб-атаки",
+    "tile-attacks": "Атаки заблокированы",
+    "alerts": "Оповещения",
+    "tile-quarantine": "Файлы на карантине",
+    "graph-virus": "Вирусные инфекции",
+    "tile-overview": "Обзор атак",
+    "tile-scnner": "Сканер",
+    "graph-virus-types": "Типы вирусов",
+    "view-all": "Посмотреть все",
+    "info-waf-attacks-desc": "Всего атак заблокировано",
+    "tile-threat": "Угрозы остановлены",
+    "tile-overview-desc": "Уменьшение на {{value}}%",
+    "quick-scan": "Быстрое сканирование",
+    "scan": "Сканировать",
+    "attacks-blocked-desc": "Снижение на {{value}}% по сравнению с предыдущим месяцем",
+    "tile-web": "веб-защита",
+    "incidents": "Инциденты",
+    "attacks-blocked": "Атаки заблокированы",
+    "notifications": "Уведомления",
+    "summary": {
+      "title": "Резюме",
+      "cms-issues": "Проблемы с CMS",
+      "domains-blacklisted": "Домены занесены в черный список",
+      "rootkit-found": "Найден руткит",
+      "ips-blacklisted": "IP-адреса в черном списке",
+      "outdated-cms": "Устаревшая CMS"
+    },
+    "card": {
+      "threats-stopped": "Угрозы остановлены",
+      "connections-blocked": "Заблокированные соединения",
+      "quarantined": "Карантин",
+      "web-attacks-blocked": "Веб-атаки заблокированы",
+      "overall": "Общий"
+    },
+    "chart": {
+      "pie": {
+        "prev": "Предыдущее {{value}}"
+      },
+      "bar": {
+        "current": "Текущий",
+        "web-attacks": "Веб-атаки заблокированы",
+        "connections": "Заблокированные соединения",
+        "previous": "Предыдущий",
+        "threats": "Угрозы остановлены"
+      },
+      "bar-virus": {
+        "symbolic": "Символический",
+        "virus": "Вирус",
+        "binary": "Бинарный",
+        "suspicious": "Подозрительный"
+      }
+    },
+    "scan-btn": {
+      "path-scan": "Сканирование пути",
+      "full-scan-desc": "Начать полную проверку всех учетных записей",
+      "full-scan": "Полное сканирование",
+      "path-scan-desc": "Абсолютный путь для сканирования"
+    },
+    "common": {
+      "no-alerts": "Нет предупреждений",
+      "alerts-desc": "Все выглядит нормально"
+    },
+    "host-errors": {
+      "invalid": {
+        "title": "Имя хоста по умолчанию не является допустимым доменом",
+        "message": "Имя хоста по умолчанию сервера не является допустимым доменом. Для правильной работы определенных функций панели управления требуется допустимый домен"
+      },
+      "error": {
+        "title": "DNS домена не указывает на сервер",
+        "message": "Домен по умолчанию не указывает на IP-адрес этого сервера. DNS должен быть правильно настроен для полной функциональности панели управления"
+      },
+      "ssl": {
+        "title": "Не удалось получить SSL-сертификат",
+        "message": "Автоматическая настройка SSL не удалась для домена по умолчанию. Это может ограничить доступ к некоторым функциям панели управления. Пожалуйста, убедитесь, что домен действителен, общедоступен и правильно указывает на этот сервер."
+      }
+    }
+  },
+  "csf-config": {
+    "title": "Конфигурация CSF",
+    "off": "ВЫКЛЮЧЕННЫЙ",
+    "cancel": "Отмена",
+    "save": "Сохранять",
+    "on": "НА",
+    "sub-title": "Настоятельно рекомендуемые конфигурации, которые могут повысить безопасность вашего сервера",
+    "lf-alerts": {
+      "lf-script": "СЦЕНАРИЙ ЛФ",
+      "lf-ssh-email-alert-desc": "Отправьте оповещение по электронной почте, если кто-либо успешно войдет в систему с помощью SSH.",
+      "desc": "Эти параметры помогут предупредить вас или запустить действие, когда на сервере происходят определенные действия.",
+      "title": "LF ПРЕДУПРЕЖДЕНИЯ",
+      "lf-ssh-email-alert": "LF_SSH_EMAIL_ALERT",
+      "lf-script-action": "LF_SCRIPT_ACTION",
+      "alert": "LF_SCRIPT_ALERT",
+      "lf-cpanel-alert-users": "LF_CPANEL_ALERT_USERS",
+      "lf-cpanel-alert-users-desc": "Список аккаунтов для отправки оповещений; использовать все для ВСЕХ пользователей",
+      "alert-desc": "Оповещение об обнаружении спам-скриптов",
+      "lf-script-action-desc": "Включить скрипт cPGuard для проверки отчета и приостановки учетной записи электронной почты при срабатывании события LF_SCRIPT_ALERT",
+      "lf-cpanel-alert-desc": "Отправить оповещение по электронной почте, если кто-либо получает доступ к WHM/cPanel через учетную запись, указанную в LF_CPANEL_ALERT_USERS."
+    },
+    "local-host-relay": {
+      "title": "Отслеживание реле",
+      "localhost-relay-desc": "Отслеживание реле. Это позволяет отслеживать электронную почту, которая ретранслируется через сервер. Существуют также варианты отправки предупреждений и блокировки внешних IP-адресов, если количество электронных писем, ретранслируемых в час, превышает установленные пределы.",
+      "rt-localhost-relay-limit": "RT_LOCALHOSTRELAY_LIMIT",
+      "rt-localhost-relay-alert-desc": "Включить оповещение для электронных писем, отправленных через локальные IP-адреса",
+      "rt-localhost-relay-alert": "RT_LOCALHOSTRELAY_ALERT",
+      "rt-localhost-relay-limit-desc": "Пороговое значение электронной почты для RT_LOCALHOSTRELAY_ALERT",
+      "RT_RELAY_ALERT": "RT_RELAY_ALERT",
+      "RT_RELAY_ALERT-desc": "Эта опция срабатывает для внешней электронной почты",
+      "RT_RELAY_LIMIT": "RT_RELAY_LIMIT",
+      "RT_RELAY_LIMIT-desc": "",
+      "RT_RELAY_BLOCK": "RT_RELAY_BLOCK",
+      "RT_RELAY_BLOCK-desc": "",
+      "RT_AUTHRELAY_ALERT": "RT_AUTHRELAY_ALERT",
+      "RT_AUTHRELAY_ALERT-desc": "Эта опция срабатывает для электронной почты, прошедшей проверку подлинности с помощью SMTP AUTH",
+      "RT_AUTHRELAY_LIMIT": "RT_AUTHRELAY_LIMIT",
+      "RT_AUTHRELAY_LIMIT-desc": "",
+      "RT_AUTHRELAY_BLOCK": "RT_AUTHRELAY_BLOCK",
+      "RT_AUTHRELAY_BLOCK-desc": "",
+      "RT_ACTION": "RT_ACTION",
+      "RT_ACTION-desc": "",
+      "RT_ACTION-warn": "Включение этого параметра приведет к перезаписи существующей пользовательской конфигурации",
+      "RT_POPRELAY_ALERT": "Эта опция срабатывает для внешней электронной почты0",
+      "RT_POPRELAY_ALERT-desc": "Эта опция срабатывает для внешней электронной почты1",
+      "RT_POPRELAY_LIMIT": "Эта опция срабатывает для внешней электронной почты2",
+      "RT_POPRELAY_LIMIT-desc": "",
+      "RT_POPRELAY_BLOCK": "Эта опция срабатывает для внешней электронной почты3",
+      "RT_POPRELAY_BLOCK-desc": ""
+    },
+    "synflood": {
+      "synflood-rate": "SYNFLOOD_RATE",
+      "title": "Конфигурация SYNFLOOD",
+      "synflood-burst": "SYNFLOOD_BURST",
+      "synflood": "СИНФЛУД",
+      "synflood-sub-desc": "Включить защиту SYNFLOOD",
+      "synflood-desc": "Включите защиту от SYN-флуда. Этот параметр настраивает iptables для обеспечения некоторой защиты от попыток DOS-пакета SYN tcp. Вы должны установить RATE таким образом, чтобы ложные срабатывания были сведены к минимуму, иначе посетители могут увидеть проблемы с подключением (проверьте /var/log/messages для *SYNFLOOD Blocked*)."
+    },
+    "allow-deny": {
+      "title": "РАЗРЕШИТЬ/ЗАПРЕТИТЬ СТРАНУ",
+      "cc-deny-desc": "Запретить соединения из перечисленных стран",
+      "cc-allow": "CC_ALLOW",
+      "cc-deny": "CC_DENY",
+      "cc-allow-desc": "Разрешить подключения из перечисленных стран",
+      "desc": "Код страны для CIDR разрешить/запретить. В следующих двух параметрах вы можете разрешить или запретить диапазоны CIDR для всей страны. Блоки CIDR генерируются из базы данных MaxMind GeoLite2 Country по адресу: https://dev.MaxMind.com/geoip/geoip2/geolite2/ Эта функция полностью зависит от доступности этой службы."
+    },
+    "disabled": {
+      "title": "CSF не запущен",
+      "desc": "брандмауэр CSF не запущен на сервере. Пожалуйста, установите/включите его, чтобы использовать эту функцию",
+      "standalone": "CSF несовместим с этой панелью управления."
+    },
+    "LF_EMAIL_ALERT": {
+      "title": "Блокировка ошибок входа и оповещения",
+      "desc": "Следующие значения зависят от приложения, а триггер — это количество сбоев в этом приложении, которое инициирует LFD для блокировки IP-адреса",
+      "LF_EMAIL_ALERT": "Отправить оповещение по электронной почте, если IP-адрес заблокирован одним из пороговых триггеров LF",
+      "LF_SSHD": "Включить обнаружение ошибок входа в систему для соединений sshd ( 0 is disabled )",
+      "LF_FTPD": "Включить обнаружение ошибок входа в систему для соединений ftp ( 0 is disabled )",
+      "LF_SMTPAUTH": "Включить обнаружение ошибок входа в систему для соединений SMTP AUTH ( 0 is disabled )",
+      "LF_EXIMSYNTAX": "Включить обнаружение ошибок синтаксиса соединений Exim ( 0 is disabled )",
+      "LF_POP3D": "Включить обнаружение ошибок входа в систему для соединений pop3 ( 0 is disabled )",
+      "LF_IMAPD": "Включить обнаружение ошибок входа в систему соединений imap ( 0 is disabled )"
+    },
+    "network-port": {
+      "title": "Настройки порта IPv4",
+      "desc": "Порты TCP и UDP разрешены для входящих соединений.",
+      "tcp-in": {
+        "title": "TCP_IN",
+        "desc": "Разрешенные входящие TCP-порты"
+      },
+      "udp-in": {
+        "title": "UDP_IN",
+        "desc": "Разрешенные входящие порты UDP"
+      }
+    },
+    "quick-actions": {
+      "title": "Быстрые действия",
+      "desc": "Управление IP-блоками CSF",
+      "placeholders": {
+        "ip": "Айпи адрес",
+        "comment": "Комментарий",
+        "tooltip": "Используйте свой IP: {{ip}}"
+      },
+      "error": {
+        "ip-required": "Неверный IP-адрес"
+      },
+      "btn": {
+        "allow": "Позволять",
+        "deny": "Отрицать",
+        "ignore": "игнорировать",
+        "unblock": "Разблокировать",
+        "check-ip": "Проверить IP",
+        "check": "Проверять"
+      },
+      "forms": {
+        "allow-ip": {
+          "title": "Разрешить IP-адрес",
+          "desc": "Белый список IP-адресов и добавление в файл разрешений (csf.allow)."
+        },
+        "block-ip": {
+          "title": "Блокировать IP-адрес",
+          "desc": "Черный список IP и добавление в файл запретов (csf.deny)"
+        },
+        "ignore-ip": {
+          "title": "Игнорировать IP-адрес",
+          "desc": "Пусть lfd игнорирует IP и добавляет в файл игнорирования (csf.ignore)"
+        },
+        "unblock-ip": {
+          "title": "Разблокировать IP-адрес",
+          "desc": "Удалить IP-адрес из брандмауэра (временные и постоянные блоки)"
+        },
+        "check-ip": {
+          "title": "Проверьте IP-адрес",
+          "desc": "Проверьте статус вашего IP-адреса в брандмауэре"
+        }
+      }
+    },
+    "response": {
+      "quick-actions": {
+        "added": "{{ip}} добавлен в csf.{{method}}",
+        "exists": "{{ip}} уже существует в csf.{{method}}",
+        "removed": "{{ip}} удален из csf.{{method}}",
+        "not-found": "{{ip}} не в {{method}} список",
+        "allowed": "Не можем отрицать {{ip}}. ",
+        "ignored": "Не можем отрицать {{ip}}. ",
+        "not-installed": "Действие не удалось. ",
+        "failed": "Действие не удалось. ",
+        "invalid": "{{ip}} адрес не является действительным IP/CIDR",
+        "unblock-success": "{{ip}} удален из списка запрещенных и временных",
+        "unblock-not-found": "{{ip}} нет ни в одном черном списке"
+      }
+    }
+  },
+  "manual-scans": {
+    "title": "Ручное сканирование",
+    "manual-scans-logs": "Журналы ручного сканирования",
+    "scanner-tiles": {
+      "full-scan-desc": "Начать полную проверку всех учетных записей",
+      "quick-scan": "Быстрое сканирование",
+      "path-scan-desc": "Абсолютный путь к каталогу, который вы хотите сканировать",
+      "path-scan": "Сканирование пути",
+      "quick-scan-desc": "Выберите каталог",
+      "full-scan": "Полное сканирование",
+      "hint-last-scan-on": "Последнее сканирование {{value}}",
+      "hint-no-scan": "Сканирование еще не проводилось",
+      "attempting": "Начиная...",
+      "choose-path": "Выбрать путь",
+      "run-scan": "Запустить сканирование"
+    },
+    "table": {
+      "user": "Пользователь",
+      "time": "Время",
+      "status": "Статус",
+      "target": "Цель",
+      "infected-files": "Зараженные файлы",
+      "tested-files": "Протестированные файлы",
+      "scan-type": "Тип сканирования"
+    },
+    "scanner-card-error": {
+      "invalid-path-enter": "Пожалуйста, введите правильный путь",
+      "invalid-path": "Неправильный путь",
+      "invalid-path-choose": "Пожалуйста, выберите каталог",
+      "duplicate": "Дубликат",
+      "forbidden": "Запретный путь",
+      "unidentified": "мы столкнулись с неизвестной ошибкой"
+    },
+    "attempt": "Начиная...",
+    "dialog": {
+      "title": "Подтвердить?",
+      "desc": "Вы уверены, что хотите остановить это сканирование.",
+      "btn": {
+        "stop": "Стоп",
+        "cancel": "Отмена"
+      }
+    },
+    "types": {
+      "new": "Новый",
+      "path": "Путь",
+      "all": "Все",
+      "quick": "Быстрый"
+    }
+  },
+  "manual-scan-report": {
+    "second": "{{value}} секунды",
+    "day": "{{value}} день",
+    "minutes": "{{value}} минут",
+    "hour": "{{value}} час",
+    "hours": "{{value}} часов",
+    "days": "{{value}} дней",
+    "title": "Журналы антивирусного сканера",
+    "seconds": "{{value}} секунд",
+    "minute": "{{value}} минуты",
+    "cards": {
+      "target": "Цель",
+      "failed": "Не удалось",
+      "infected-files-found": "Зараженные файлы",
+      "files-scanned": "Отсканированные файлы",
+      "cms-threats-found": "Угрозы CMS",
+      "outdated-wordpress-found": "Устаревший CMS",
+      "scan-duration": "Продолжительность сканирования",
+      "scan-status": "Статус сканирования",
+      "infections-found": "зараженные записи",
+      "database-found": "база данных просканирована",
+      "databases-found": "базы данных просканированы"
+    },
+    "table": {
+      "user": "Пользователь",
+      "time": "Время",
+      "category": "Категория",
+      "status": "Статус",
+      "virus-description": "Описание вируса",
+      "filename": "Имя файла"
+    },
+    "tiles": {
+      "completed": "Завершенный",
+      "failed": "Не удалось",
+      "queued": "В очереди",
+      "stopped": "Остановлено",
+      "running": "Бег",
+      "preparing": "Подготовка",
+      "deleting": "Удаление..."
+    }
+  },
+  "virus-scanner": {
+    "title": "Журналы антивирусного сканера",
+    "table": {
+      "user": "Пользователь",
+      "action": "Действие",
+      "virus-description": "Описание вируса",
+      "filename": "Имя файла",
+      "category": "Категория",
+      "time": "Время"
+    },
+    "drawer": {},
+    "actions": {
+      "no-action": "Нет действия",
+      "deleted": "Удалено",
+      "quarantined": "Карантин",
+      "restore": "Восстановить",
+      "disabled": "Отключено",
+      "cleaned": "Очистить",
+      "replaced": "Заменить",
+      "blocked": "Заблокировано",
+      "loading": "Загрузка..."
+    }
+  },
+  "cms-threat-alerts": {
+    "broken": "СЛОМАНО",
+    "outdated": "Устаревший",
+    "active": "Активный",
+    "title-threat": "Оповещения об угрозах CMS",
+    "title-cms": "версии CMS",
+    "dismissed": "Уволен",
+    "cms-error": {
+      "version": "Данные CMS не найдены",
+      "version-desc": "пожалуйста, повторите попытку позже"
+    },
+    "cards": {
+      "drupal-installations": "Установки Друпала",
+      "cms-issue-found": "CMS с проблемой",
+      "wordpress-installations": "Установки WordPress",
+      "joomla-installations": "Установки Joomla",
+      "opencart-installations": "Установки Opencart"
+    },
+    "table": {
+      "threat": {
+        "time": "Время",
+        "file-name": "Имя файла",
+        "user": "Пользователь",
+        "threat-level": "Уровень угрозы",
+        "reason": "Причина"
+      },
+      "version": {
+        "version": "Версия",
+        "plugins": "Плагины",
+        "cms": "CMS",
+        "themes": "Темы"
+      }
+    },
+    "modal-data": {
+      "version": "Версия",
+      "title-theme": "Детали темы",
+      "warn-cms": "Эта установка {{cms}} не работает. Чтобы быть в безопасности, попробуйте исправить это или удалить, если это не нужно.",
+      "title-plugin": "Сведения о плагине"
+    },
+    "warning": {
+      "addon-check-disabled": "Проверка дополнений CMS отключена"
+    },
+    "expanded": {
+      "update-all": "Обновить все",
+      "update-now": "Обновить сейчас",
+      "auto-update": "Автообновление",
+      "update-to": "Обновить до",
+      "no-plugins": "Плагины не найдены",
+      "no-themes": "Темы не найдены",
+      "no-vulnerabilities": "Уязвимости не найдены",
+      "threats": "Угрозы",
+      "plugins": "Плагины",
+      "themes": "Темы",
+      "vulnerabilities": "Уязвимости",
+      "no-dismissed-threats": "Не найдено отклоненных угроз",
+      "wp-cron": "WordPress Cron",
+      "cvss-score": "Оценка CVSS",
+      "remediation": "Устранение",
+      "safe": "Безопасно",
+      "low": "Низкий",
+      "issues": "Проблемы",
+      "medium": "Средний",
+      "high": "Высокий",
+      "critical": "Критический",
+      "enabled": "Включено",
+      "disabled": "Отключено",
+      "table": {
+        "component": "Компонент",
+        "version": "Версия",
+        "update": "Обновить",
+        "auto-update": "Автообновление",
+        "cvss-score": "Оценка CVSS",
+        "cvss-rating": "Рейтинг CVSS",
+        "issues": "Проблемы"
+      }
+    }
+  },
+  "db-scanner": {
+    "database-details": "Детали базы данных",
+    "title": "Журналы сканера базы данных",
+    "table": {
+      "database": "База данных",
+      "table": "Таблица",
+      "signature-name": "Имя сигнатуры"
+    },
+    "messages": {
+      "archive-success": "Успешно архивировано",
+      "archive-error": "Не удалось архивировать",
+      "unarchive-success": "Успешно разархивировано",
+      "unarchive-error": "Не удалось разархивировать",
+      "whitelist-success": "Успешно добавлено в белый список",
+      "whitelist-error": "Не удалось добавить в белый список",
+      "unwhitelist-success": "Успешно удалено из белого списка",
+      "unwhitelist-error": "Не удалось удалить из белого списка"
+    }
+  },
+  "waf": {
+    "title": "Журналы WAF",
+    "table": {
+      "reason": "Причина",
+      "time": "Время",
+      "request": "Запрос",
+      "ip-method": "IP и метод"
+    },
+    "whitelist": {
+      "success": "Идентификатор правила добавлен в белый список",
+      "failed": "Не удалось добавить идентификатор правила в белый список",
+      "remove": "Идентификатор правила удален из белого списка",
+      "remove-fail": "Не удалось удалить идентификатор правила"
+    },
+    "report": {
+      "true": "Сообщенный журнал как ложное срабатывание",
+      "false": "Что-то пошло не так. Пожалуйста, повторите попытку позже"
+    },
+    "waf_configurations": {
+      "title": "Конфигурации WAF",
+      "waf_server_title": "Веб сервер",
+      "waf_server_desc": "Должен быть загружен сервер, на котором установлен ModSecurity и правила WAF. ",
+      "waf_server_placeholder": "Выберите сервер",
+      "waf_server_conf_title": "Конфигурационный файл",
+      "waf_server_conf_desc": "Файл, в который мы можем включить конфигурацию/правила cPGuard WAF ModSecurity. ",
+      "waf_server_conf_placeholder": "Путь конфигурации ModSecurity",
+      "waf_server_restart_cmd_title": "Команда перезапуска сервера",
+      "waf_server_restart_cmd_desc": "Команда перезагрузки сервера и применения новой конфигурации. ",
+      "waf_server_restart_cmd_placeholder": "Команда перезапуска сервера",
+      "waf_server_error_log_title": "Журнал ошибок",
+      "waf_server_error_log_desc": "Файл, в который сервер WAF записывает ошибки. ",
+      "waf_server_error_log_placeholder": "",
+      "waf_audit_log_title": "Журнал аудита",
+      "waf_audit_log_desc": "Файл, в который мы можем включить конфигурацию/правила cPGuard WAF ModSecurity. ",
+      "waf_audit_log_placeholder": "",
+      "alert": {
+        "warning": "Конфигурационный файл",
+        "error": {
+          "invalid_server": "waf_server",
+          "invalid_path": "Файл не существует или не может быть создан в указанном месте.",
+          "invalid_log_path": "Файл не существует"
+        }
+      }
+    }
+  },
+  "ipdb": {
+    "geo-map-title": "Атаки по странам",
+    "geo-map-desc": "Топ стран по заблокированным атакам",
+    "geo-map-sub": "Показаны данные за последние 7 дней",
+    "attacks-blocked": "Атаки заблокированы",
+    "hourly": "Ежечасно",
+    "live": "Жить",
+    "btn-check-ip": "Проверить IP-адрес",
+    "btn-check-ip-mobile": "Проверить IP",
+    "title": "Статистика черного списка IPDB",
+    "ipdb-live-monitor-desc": "Живой журнал заблокированных подключений с IP-адресов из черного списка.",
+    "desc": "Последняя перезагрузка: {{last_reload}}",
+    "attacks-blocked-desc": {
+      "towards": "в направлении",
+      "blocked-from": "Заблокированная атака от",
+      "at": "в"
+    },
+    "ipdb-live-monitor": "Монитор IPDB в реальном времени",
+    "error": {
+      "live-monitor": "Не удалось загрузить монитор в реальном времени, пожалуйста, что-то пошло не так",
+      "btn": "Повторить попытку"
+    },
+    "disabled": {
+      "on": "НА",
+      "off": "ВЫКЛЮЧЕННЫЙ",
+      "title": "Черный список IPDB не включен на этом сервере",
+      "btn": "читать далее",
+      "desc": "IPDB cPGuard блокирует все подключения с небезопасных IP-адресов, которые попадают в строгий черный список IP-адресов, принадлежащих к последним и актуальным угрозам."
+    },
+    "log_disabled": {
+      "title": "Журнал IPDB отключен",
+      "desc": "IPDB работает и блокирует атаки, но ведение журнала отключено"
+    },
+    "modal": {
+      "title": "Проверить, заблокирован ли IP в IPDB",
+      "placeholder": "Введите IP здесь. Пример: 192.168.1.1",
+      "check": {
+        "blocked": "Заблокировано, так как были",
+        "not-blocked": "Не заблокирован",
+        "whitelisted": "Найден в файле белого списка сервера",
+        "invalid-ip": "данный IP недействителен",
+        "waf": " {{WAF_COUNT}} WAF-атаки {{WAF_RULES_COUNT}} виды",
+        "csfs": " {{CSF_COUNT}} блоки спинномозговой жидкости",
+        "csf": " {{CSF_COUNT}} блокада спинномозговой жидкости",
+        "recaptchas": " {{RECAPTCHA_COUNT}} сбои рекапчи",
+        "recaptcha": " {{RECAPTCHA_COUNT}} ошибка рекапчи",
+        "bfs": " {{BF_COUNT}} атаки ботов",
+        "bf": " {{BF_COUNT}} атака ботов",
+        "hosts": " через {{HOST_COUNT}} разные серверы",
+        "host": " через {{HOST_COUNT}} сервер",
+        "time": " с временным счетом {{TIME_COUNT}}%",
+        "access-log-true": "блокировка из-за повторных брутфорсов",
+        "country-whitelist": "Страна происхождения IP занесена в белый список",
+        "country-blacklist": "Страна происхождения IP занесена в черный список",
+        "blacklisted": "Найдено в файле черного списка сервера.",
+        "REASON": "IP находится в списке временной блокировки ({{REASON}})",
+        "NO-REASON": "IP находится в списке временной блокировки",
+        "remote-blacklist": "IP в удалённом чёрном списке",
+        "remote-whitelist": "IP в удалённом белом списке",
+        "meta-bot-block": "IP находится в списке блокировки мета-ботов",
+        "ai-bot-block": "IP находится в списке блокировки ИИ-ботов"
+      }
+    }
+  },
+  "bruteforce": {
+    "title": "Атаки ботов",
+    "table": {
+      "ip": "IP",
+      "reason": "Причина",
+      "time": "Время",
+      "url": "URI-адрес",
+      "domain": "Домен",
+      "user": "Пользователь"
+    },
+    "allow": "Разрешать",
+    "deny": "Отрицать"
+  },
+  "domain-reputation": {
+    "title": "Репутация домена",
+    "desc": "Последняя перезагрузка: {{last_reload}}",
+    "cards": {
+      "flagged-domains": "Помеченные домены",
+      "domain": "{{domain_count}} домен {{status}}",
+      "domains": "{{domain_count}} доменов {{status}}",
+      "all-domains": "{{domain_count}} доменов {{status}}",
+      "total-domains": "Всего доменов"
+    },
+    "table": {
+      "user": "Пользователь",
+      "reason": "Причина",
+      "domain": "Домен",
+      "status": "Статус"
+    }
+  },
+  "ip-reputation": {
+    "title": "IP-репутация",
+    "search-placeholder": "Поиск IP",
+    "btn": {
+      "add": "Добавлять",
+      "scanning": "Сканирование...",
+      "check-now": "Проверь сейчас",
+      "add-new-ip": "Добавить новый IP для мониторинга"
+    },
+    "sub-title": "Отчет DNSBL — {{dnsblCount}} активных хостов DNSBL",
+    "sub-desc": "Хосты DNSBL сообщили об IP-адресе в черном списке",
+    "cards": {
+      "0": {
+        "title": "ЭТО ХОРОШО",
+        "desc": "IP-адрес не занесен в черный список ни одним хостом DNSBL."
+      },
+      "loading": {
+        "title": "Загрузка...",
+        "desc": "Загрузка данных"
+      },
+      "false": {
+        "title": "Черный список",
+        "desc": "IP-адрес занесен в черный список серверами DNSBL."
+      },
+      "checking": {
+        "title": "Проверка...",
+        "desc": "Выполняется проверка"
+      },
+      "paused": {
+        "desc": "Автоматический мониторинг отключен",
+        "title": "ПРИОСТАНОВЛЕНО"
+      },
+      "new": {
+        "title": "НОВЫЙ",
+        "desc": "IP еще не просканирован"
+      },
+      "failed": {
+        "desc": "Не удалось просканировать IP",
+        "title": "НЕ УДАЛОСЬ"
+      },
+      "scan-duration": "Продолжительность сканирования",
+      "scan-time": "Время сканирования"
+    }
+  },
+  "rootkit": {
+    "title": "Журналы сканера руткитов",
+    "cards": {
+      "true": [
+        {
+          "title": "Good",
+          "sub_title": "All CRONS are ACTIVE & good",
+          "icon": "ri-settings-5-line",
+          "color": "cp-green",
+          "headingSize": "cp-h1"
+        },
+        {
+          "title": "RootKit v{{version}}",
+          "sub_title": "version",
+          "icon": "ri-lock-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        },
+        {
+          "title": "{{found}} Found",
+          "sub_title": "Checked for {{checked}} Rootkits",
+          "for": "found",
+          "icon": "ri-time-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        }
+      ],
+      "running": [
+        {
+          "title": "Running",
+          "sub_title": "Rootkit check is running",
+          "icon": "ri-settings-5-line",
+          "color": "cp-green",
+          "headingSize": "cp-h1"
+        },
+        {
+          "title": "RootKit v{{version}}",
+          "sub_title": "version",
+          "icon": "ri-lock-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        },
+        {
+          "title": "0 Found",
+          "sub_title": "Rootkit check is running",
+          "for": "found",
+          "icon": "ri-time-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        }
+      ],
+      "never": [
+        {
+          "title": "Never",
+          "sub_title": "No Rootkit check yet",
+          "icon": "ri-settings-5-line",
+          "color": "cp-red",
+          "headingSize": "cp-h1"
+        },
+        {
+          "title": "Rootkit v{{version}}",
+          "sub_title": "version",
+          "icon": "ri-lock-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        },
+        {
+          "title": "--- Found",
+          "sub_title": "No Rootkit check yet",
+          "for": "found",
+          "icon": "ri-time-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        }
+      ],
+      "error": [
+        {
+          "title": "Rootkit Check Failed",
+          "sub_title": "Please check the logs",
+          "icon": "ri-settings-5-line",
+          "color": "cp-red",
+          "headingSize": "cp-h1"
+        },
+        {
+          "title": "--",
+          "sub_title": "version",
+          "icon": "ri-lock-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        },
+        {
+          "title": "error",
+          "sub_title": "Rootkit check failed",
+          "for": "found",
+          "icon": "ri-time-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        }
+      ],
+      "false": [
+        {
+          "title": "Bad",
+          "sub_title": "CRONS are not ACTIVE",
+          "icon": "ri-settings-5-line",
+          "color": "cp-red",
+          "headingSize": "cp-h1"
+        },
+        {
+          "title": "RootKit v{{version}}",
+          "sub_title": "version",
+          "icon": "ri-lock-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        },
+        {
+          "title": "{{found}} Found",
+          "sub_title": "Checked for {{checked}} Rootkits",
+          "for": "found",
+          "icon": "ri-time-line",
+          "color": "cp-blue",
+          "headingSize": "cp-h2"
+        }
+      ]
+    },
+    "no-data": "Данные не найдены",
+    "rk-hunter-log": "Журнал RKHunter"
+  },
+  "settings": {
+    "notifications": "Уведомления",
+    "scanner": "Сканер вирусов",
+    "about": "О",
+    "title": "Настройки",
+    "security-tools": "Инструменты безопасности",
+    "additional-settings": "Дополнительные настройки",
+    "automatic-suspension": "Автоматическая подвеска",
+    "exim-reputation": "Репутация RBL и IP",
+    "auto-save": "Автосохранение",
+    "learn-more": "Learn More...",
+    "waf": "ВАФ",
+    "panel": {
+      "general": "Общие настройки",
+      "webserver": "Веб-сервер",
+      "backup": "Резервное копирование",
+      "PHP-FPM": "Настройки PHP-FPM",
+      "PHP-INI": "Конфигурация PHP INI",
+      "PHP-modules": "Модули PHP"
+    },
+    "common-error": {
+      "file-not-found": "Файл не существует",
+      "already-exists": "Файл уже существует",
+      "tool-missing": "Инструмент для подписи отсутствует"
+    },
+    "virus-scanner": {
+      "recommended": "рекомендуемые",
+      "restart-scanner": "Перезапустить службу",
+      "main-title": "Сканер вирусов",
+      "secondary-title": "Что делать с",
+      "scanner-sub-desc": "Начато {{значение}}",
+      "suspicious-tab": "Подозрительные файлы",
+      "scanner-desc-running": "Движок сканера cPGuard работает.",
+      "binary-tab": "Двоичные файлы",
+      "virus-tab": "Вирусные файлы",
+      "scanner-desc-not-running": "Механизм сканера cPGuard не работает.",
+      "notifications-tab-data": {
+        "quarantine": "Карантин",
+        "quarantine-desc": "Надежно переместите файл в каталог карантина",
+        "email-only": "Только электронная почта",
+        "email-desc": "Используйте это для ручной обработки обнаруженных файлов. ",
+        "disable-file": "Отключить файл",
+        "disable-file-desc": "Отключает обнаруженный файл, устанавливая разрешение на 000"
+      },
+      "blacklist-files": "Файлы черного списка",
+      "no-blacklisted-files": "Нет файлов в черном списке",
+      "whitelist-users": "Белый список пользователей",
+      "no-custom-virus-file-def": "Нет пользовательских определений вирусных файлов",
+      "whitelist-files": "Файлы белого списка",
+      "blacklist-files-desc": "Добавить имя файла в этот список для распространения и карантина",
+      "whitelist-files-desc": "Имя файла или путь к файлу, который вы хотите исключить из антивирусного сканера",
+      "whitelist-users-desc": "Белый список пользователей, которых вы хотите исключить из антивирусного сканера",
+      "add": "Добавлять",
+      "custom-virus-file-def": "Пользовательские определения вирусных файлов",
+      "select-a-user": "Выберите пользователя",
+      "auto-clean-title": "Автоматическая очистка зараженных файлов",
+      "no-whitelisted-files": "Нет файлов из белого списка",
+      "no-whitelisted-user": "Нет пользователей из белого списка",
+      "plugin-blacklist": "Чёрный список плагинов WordPress",
+      "plugin-blacklist-desc": "Автоматически отключать плагины WordPress во время проверок CMS",
+      "no-plugin-blacklist": "Нет плагинов в черном списке",
+      "invalid-plugin": "Неверный плагин",
+      "auto-clean-desc": "Автоматически очищать инъекции вирусных файлов",
+      "ai-switch-title": "AI сканер",
+      "ai-switch-desc": "Проверьте подозрительные файлы с помощью AI сканера",
+      "db-switch-title": "Сканер баз данных",
+      "db-switch-desc": " Сканировать базы данных CMS на наличие вредоносных/подозрительных внедрений кода",
+      "scanner_symbolic_action-title": "Удалить небезопасные символические ссылки",
+      "scanner_symbolic_action-desc": "Действие для символической ссылки на файл, который иначе не доступен пользователю.",
+      "custom-virus-file-def-desc": "Добавить определения локальных файлов в базу данных вирусов",
+      "excluded_users": {
+        "title": "Исключить пользователей из автоматических патчей",
+        "description": "CMS для этих пользователей не будут обновляться, патчиться или иметь автоматически отключенные плагины."
+      },
+      "whitelist_db_files": "Файлы белого списка базы данных",
+      "whitelist_db_files_desc": "ID подписи, которую вы хотите исключить из сканера базы данных",
+      "errors": {
+        "already-whitelisted": "уже находится в белом списке",
+        "invalid-signature": "не является допустимой подписью"
+      },
+      "type-signature-id-here": "Введите идентификатор подписи здесь",
+      "daily-scans-options": {
+        "every-hour": "Каждый час",
+        "every-2-hours": "Каждые 2 часа",
+        "every-3-hours": "Каждые 3 часа",
+        "every-4-hours": "Каждые 4 часа",
+        "every-6-hours": "Каждые 6 часа",
+        "every-8-hours": "Каждые 8 часа",
+        "every-12-hours": "Каждые 12 часа"
+      },
+      "log-options": {
+        "always": "Всегда",
+        "1-month": "1 месяц",
+        "2-months": "2 месяца",
+        "3-months": "3 месяца",
+        "6-months": "6 месяца"
+      }
+    },
+    "sec-tools": {
+      "main-title": "Инструменты безопасности",
+      "recommended": "рекомендуемые",
+      "whitelisted-domains": "Белые домены",
+      "no-whitelisted-domains": "Нет доменов в белом списке",
+      "bruteforce-title": "Защита от грубой силы",
+      "log-ipdb-switch": "Включить ведение журнала IPDB",
+      "ipdb-country-whitelist": "Белый список стран IPDB",
+      "ipdb-dos-switch": "Снижение DoS-угроз",
+      "ipdb-dos-switch-desc": "Защита от атак на отказ в обслуживании (DoS)",
+      "ipdb_dos_threshold": "Порог DoS",
+      "ipdb_dos_threshold-desc": "Максимальное количество запросов в минуту перед блокировкой",
+      "ipdb_dos_threshold_success": "Порог успешно обновлён",
+      "whitelisted-ips": "IP-адреса из белого списка",
+      "ipdb-firewall": "Распределенный брандмауэр IPDB",
+      "blacklisted-ips": "IP-адреса из черного списка",
+      "no-blacklisted-ips": "Нет занесенных в черный список IP-адресов",
+      "whitelisted-ips-desc": "Выберите IP-адреса, которые всегда должны быть разрешены движком брутфорса и брандмауэром IPDB.",
+      "security-tools-desc": "Настройки, связанные с модулем защиты от атак распределенных веб-приложений",
+      "blacklisted-ips-desc": "Добавьте IP-адреса, которые всегда должны блокироваться механизмом брутфорса и брандмауэром IPDB.",
+      "whitelisted-domains-desc": "Выберите домены, которые всегда должны быть разрешены правилами капчи и брутфорса",
+      "csf-integration-sub-desc": "Продолжительность, до которой IP-адрес должен быть занесен в черный список CSF (в секундах)",
+      "csf-integration-desc": "Расширенная интеграция грубой силы с CSF для предотвращения атак грубой силы в системном брандмауэре.",
+      "ipdb-country-whitelist-desc": "Исключить IP-адреса, принадлежащие перечисленным странам, из брандмауэра IPDB.",
+      "ipdb-country-blacklist": "Черный список стран IPDB",
+      "ipdb-country-blacklist-desc": "Включить IP-адреса, принадлежащие указанным странам, в брандмауэр IPDB.",
+      "csf-integration": "Интеграция с CSF",
+      "no-whitelisted-ips": "Нет IP-адресов в белом списке",
+      "ip-placeholder": "Введите IP-адрес",
+      "reason-placeholder": "Введите причину",
+      "ip-blacklist-add": "IP добавлен в черный список",
+      "ip-blacklist-remove": "IP удален из черного списка",
+      "ip-whitelist-add": "IP добавлен в белый список",
+      "ip-whitelist-remove": "IP удален из белого списка",
+      "add-country": "+ Добавить страну",
+      "errors": {
+        "valid-ip": "Требуется действительный IP",
+        "blacklist-already-listed": "IP или диапазон уже в черном списке",
+        "whitelist-already-listed": "IP или диапазон уже в белом списке",
+        "blacklist-exists": "Добавление не удалось! IP или диапазон присутствует в черном списке",
+        "whitelist-exists": "Добавление не удалось! IP или диапазон присутствует в белом списке",
+        "dos-threshold-range": "Рекомендуется значение выше 100 для снижения ложных срабатываний.",
+        "blacklist-invalid": "Неверный IP или диапазон",
+        "whitelist-invalid": "Неверный IP или диапазон"
+      }
+    },
+    "waf-settings": {
+      "scanner-protection": "Защита СКАНЕРА",
+      "webshell-protection": "ВЕБШЕЛЛ Защита",
+      "rbl-protection": "Защита РБЛ",
+      "webshell-protection-desc": "Защита от атак через веб-шелл",
+      "whitelisted-rules": "Правила из белого списка",
+      "scanner-protection-desc": "Предотвращение плохих пользовательских агентов и поисковых роботов",
+      "captcha-protection": "Защита от капчи",
+      "title": "Интеграция с WAF",
+      "captcha-protected-urls": "URL-адреса, защищенные капчей",
+      "whitelisted-rules-desc": "Отключите определенные правила WAF, добавив определенный идентификатор правила.",
+      "captcha-protected-urls-desc": "Список URI, защищенных модулем капчи WAF",
+      "true": "WAF включен в конфигурации веб-сервера с {{value}}.",
+      "false": "WAF отключен в конфигурации веб-сервера с {{value}}.",
+      "will_start": "Конфигурация WAF будет немедленно обновлена",
+      "captcha-protection-desc": "Распределенная защита от брутфорса с проверкой по капче",
+      "rbl-protection-desc": "Распределенная защита от POST-атак",
+      "bad_bot_blocker": "Блокировщик плохих ботов",
+      "bad_bot_blocker-desc": "Блокируйте веб-запросы от перечисленных ниже плохих ботов с помощью modsecurity",
+      "waf_crawler_switch": "Плохая защита сканера",
+      "waf_crawler_switch-desc": "Останавливает вредоносных сканеров, отправляющих ненужные запросы.",
+      "waf_cdn_proxy": "Проверка IP через прокси CDN",
+      "waf_cdn_proxy-desc": "Включает проверку черного списка IP, используя реальный IP клиента за CDN или прокси"
+    },
+    "rbl-ip": {
+      "title": "Почтовый сервер RBL и IP-репутация",
+      "desc": "Настройки, связанные с почтовым сервером RBL и проверкой IP-репутации cPGuard",
+      "exim-rbls": "Почтовый сервер RBL RBL",
+      "exim-rbls-desc": "Выберите RBL для добавления в конфигурацию почтового сервера RBL",
+      "ip-reputation-monitoring": "Мониторинг IP-репутации",
+      "additional-rbls": "Дополнительные RBL",
+      "select-all": "Выбрать все",
+      "deselect-all": "Убрать выделение со всего",
+      "choose-rbls": "Выберите RBL",
+      "ip-reputation-monitoring-desc": "Выберите IP-адреса серверов для включения в мониторинг репутации IP-адресов.",
+      "choose-rbls-desc": "Выберите RBL для включения в мониторинг репутации IP-адресов.",
+      "additional-rbls-desc": "Добавьте дополнительные RBL, которые вы хотите добавить в контрольный список",
+      "suggest-exim-rbls": "SRBL покрывает другие RBL. Отключение избыточных RBL",
+      "mail-rbls-availability": "Почтовые RBL для Exim/Postfix доступны только в cPanel, DirectAdmin или Plesk.",
+      "valid-url": "Требуется действительный URL",
+      "rbl-exists": "RBL уже существует"
+    },
+    "add-setting": {
+      "title-wpchecksum_switch": "Проверка контрольной суммы файла WordPress",
+      "wpchecksum_switch-info": "Проверьте целостность файла WordPress и замените исходный файл из нашего CDN.",
+      "disable_user_switch": "Отключить вход пользователя в систему при подозрительной активности",
+      "disable_user_switch-info": "Отслеживайте и отключайте вход пользователя в систему, когда для пользователя происходит подозрительная последовательность действий",
+      "rootkit-scanner-info": "Включить задание cron сканера руткитов",
+      "weekly-scan": "Еженедельное сканирование",
+      "rootkit-scanner": "Сканер руткитов",
+      "title-override-wordpress": "Переопределить wordpress wp-cron.php",
+      "keep-log-dropdown": "Ведите журналы для",
+      "sub-title": "Все общие настройки cPGuard",
+      "daily-scan-dropdown-info": "Как часто следует запускать wp-cron.php",
+      "weekly-scan-info": "Запланировать сканирование всех файлов, измененных за последние 7 дней.",
+      "daily-scan-info": "Запланировать сканирование всех файлов, измененных за последние 24 часа.",
+      "language-dropdown-info": "Выберите язык интерфейса cPGuard",
+      "title-anonymous-error": "Отчет об ошибках",
+      "daily-scan": "Ежедневное сканирование",
+      "anonymous-error-info": "Отправка отчетов на сервер отчетов об ошибках cPGuard",
+      "override-wordpress-info": "Добавляет DISABLE_WP_CRON в wp-config и создает записи в файле cron.",
+      "keep-log-dropdown-info": "Как долго хранить журналы cPGuard и файлы в карантине на сервере.",
+      "language-dropdown": "Язык пользовательского интерфейса cPGard",
+      "daily-scan-sub-head": "Интервал запуска wp-cron.php",
+      "proactive-process-monitor": "Проактивный монитор процессов",
+      "proactive-process-monitor-info": "периодически сканировать и убивать подозрительные процессы, запущенные под пользователями",
+      "block_upload_php_file": "Блокировать загрузку файлов PHP",
+      "block_upload_php_file-info": "Запретить загрузку или создание php-файлов через формы или скрипты"
+    },
+    "wp-cms": {
+      "title": "WordPress и CMS",
+      "title-desc": "управляйте элементами управления WordPress и CMS с единой консоли",
+      "wp-autoupdate-title": "Автоматическое обновление уязвимого ядра, плагина или темы Wordpress",
+      "wp-autoupdate-title-desc": "Принудительно обновить ядро ​​WordPress, плагины или темы, соответствующие условиям ниже.",
+      "wp-auto-if": "если",
+      "wp-auto-if-1": "есть уязвимости с рейтингом CVE выше, чем ",
+      "wp-auto-if-2": "это было больше, чем",
+      "wp-auto-if-3": " дней с момента выхода обновления"
+    },
+    "auto_suspension": {
+      "whitelisted-domains": "Белые домены",
+      "sus-threshold": "Порог подвески",
+      "whitelisted-users": "Пользователи из белого списка",
+      "sus-domain-blacklist": "Заблокировать домен в черном списке",
+      "threshold-time": "Пороговое время",
+      "threshold-time-info": "Временные рамки, в течение которых должно происходить обнаружение вирусов",
+      "whitelisted-domains-info": "Домены, которые вы хотите исключить из запуска автоматической приостановки",
+      "sus-domain-blacklist-info": "Автоматически приостанавливать действие учетной записи пользователя, когда домен занесен в черный список",
+      "whitelisted-users-info": "Пользователи, которых вы хотите исключить из запуска автоматической приостановки",
+      "sus-threshold-info": "Количество обнаружений вирусов на учетную запись, необходимое для приостановки",
+      "sub-title": "Автоматически приостанавливать работу пользователей с плохими записями, чтобы сохранить репутацию сервера",
+      "sus-virus-detection": "Приостанавливать при обнаружении вирусов",
+      "title": "Автоматическая блокировка аккаунта",
+      "sus-virus-detection-info": "Приостановить действие учетной записи пользователя при обнаружении вирусов",
+      "select-whitelist-user": "Выбрать пользователей для белого списка",
+      "add-domains": "Добавить домены в белый список",
+      "threshold-time-options": {
+        "3-hours": "3 часа",
+        "6-hours": "6 часов",
+        "12-hours": "12 часов",
+        "18-hours": "18 часов",
+        "1-day": "1 день"
+      }
+    },
+    "notification": {
+      "main-email-address-info": "Основной адрес электронной почты для получения уведомлений",
+      "notify-ip-blacklist": "в черный список IP-адресов",
+      "additional-email-address-info": "Необязательный адрес электронной почты для получения уведомлений",
+      "notify-irus-detections": "Обнаружение вирусов",
+      "notify-brute-force-attacks": "Атаки грубой силы",
+      "sub-title": "Настройки для управления всеми уведомлениями по электронной почте от cPGuard",
+      "notify-binary-file-detections": "Обнаружение двоичных файлов",
+      "user-notifications-info": "Отправить уведомление об устаревшем CMS",
+      "user-notifications": "Уведомления пользователей",
+      "main-email-address": "Основной адрес электронной почты",
+      "daily-reports": "Ежедневные отчеты",
+      "notify-sus-pattern-detections": "Обнаружение подозрительных шаблонов",
+      "additional-email-address": "Дополнительный адрес электронной почты",
+      "user-cms-notifications": "Исключенные пользователи",
+      "user-cms-notifications-info": "Выбранные пользователи не будут получать уведомления",
+      "delivery-method": "Метод доставки",
+      "from-address": "Адрес отправителя",
+      "from-address-placeholder": "Адрес электронной почты отправителя",
+      "notify_user_infected_files": {
+        "title": "Зараженные файлы",
+        "description": "Отправить уведомление по электронной почте пользователю, когда под учетной записью обнаружены зараженные файлы"
+      },
+      "notify_user_account_suspension": {
+        "title": "Приостановка аккаунта",
+        "description": "Отправить уведомление пользователю, когда его учетная запись автоматически приостановлена."
+      },
+      "out_dated_CMS": {
+        "title": "Устаревшая CMS",
+        "description": "Уведомлять пользователей о устаревшей CMS, уязвимостях CVE и плагинах под их учетной записью"
+      },
+      "notify_automatic_cms_patch": {
+        "title": "Автоматические патчи CMS",
+        "description": "Уведомлять пользователей, когда применяются автоматические обновления, патчи безопасности или изменения плагинов."
+      },
+      "notify-options": {
+        "never": "Никогда",
+        "daily": "Ежедневно",
+        "weekly": "Еженедельно",
+        "monthly": "Ежемесячно"
+      }
+    },
+    "about-page": {
+      "title": "О cPGuard",
+      "version": "Версия",
+      "desc-1": "cPGuard разработан и поддерживается преданной командой в",
+      "desc-2": ", стремящейся предоставлять передовые решения для безопасности в средах веб-хостинга.",
+      "expiry": "Срок действия",
+      "package": "Пакет",
+      "license-key": "Лицензионный ключ",
+      "related": "Связанные",
+      "support": "Поддержка",
+      "manage-license": "Управление лицензией",
+      "get-help": "Получить помощь или сообщить о проблеме",
+      "kb": "База знаний",
+      "privacy-policy": "Политика конфиденциальности",
+      "copyright": "Авторское право 2025 OPSSHIELD LLP. Все права защищены.",
+      "terms-of-service": "Условия обслуживания"
+    },
+    "panel-settings": {
+      "general": {
+        "title": "Общие настройки",
+        "hostname": "Имя хоста",
+        "current-date": "Текущая дата",
+        "current-time": "Текущее время",
+        "timezone": "Ваш часовой пояс",
+        "retain-web-traffic": "Сохранять статистику веб-трафика в течение",
+        "months": "месяцев",
+
+        "success": {
+          "hostname": "Имя хоста успешно обновлено",
+          "timezone": "Часовой пояс успешно обновлён",
+          "retain-web-traffic": "Период хранения веб-трафика успешно обновлён"
+        },
+        "error": {
+          "fetch": "Не удалось получить общие настройки",
+          "hostname": "Не удалось обновить имя хоста",
+          "timezone": "Не удалось обновить часовой пояс",
+          "retain-web-traffic": "Не удалось обновить период хранения веб-трафика"
+        }
+      },
+      "webserver": {
+        "title": "Веб-сервер",
+        "switch": "Переключить",
+        "view": "Просмотреть",
+        "warning": "Подтвердите переключение веб-сервера",
+        "desc": "Вы собираетесь переключить ваш веб-сервер с <strong class='text-green-500'>{{from}}</strong> на <strong class='text-green-500'>{{to}}</strong>.",
+        "sub-desc": "Это значительное изменение конфигурации и может привести к:",
+        "sub-desc-2": "Временной недоступности сайта.",
+        "sub-desc-3": "Настройке конфигураций (vhost-правила, поведение кэша).",
+        "sub-desc-4": "Перезапуску служб, который может занять несколько минут.",
+        "conflict": "Некоторые сайты используют версии PHP, которые не поддерживаются {{webserver}}",
+        "conflict-header": "Обнаружен конфликт PHP",
+        "conflict-desc": "PHP <strong class='text-green-500'>{{versions}}</strong> не входит в текущий пакет <strong class='text-green-500'>{{webserver}}</strong>.",
+        "conflict-desc-2": "Чтобы продолжить, переключите эти сайты на поддерживаемую версию PHP."
+      },
+      "php-module": {
+        "title": "Настройки для приложения FPM {{version}}",
+        "desc-1": "Эти настройки общие для следующих обработчиков PHP:",
+        "desc-2": "Настройки применяются ко всем сайтам, использующим эти обработчики"
+      },
+      "backup": {
+        "title": "Резервное Копирование Сайта",
+        "backup-type": "Тип Резервной Копии",
+        "backup-type-desc": "Выберите способ сохранения данных. Каждый тип по-разному балансирует между скоростью, объемом хранения и полнотой.",
+        "backup-type-compressed": "Сжатый",
+        "backup-type-compressed-desc": "Сохраняет всю информацию, занимает меньше места, но требует больше времени.",
+        "backup-type-uncompressed": "Несжатый",
+        "backup-type-uncompressed-desc": "Сохраняет всю информацию, занимает больше места, но создается быстрее.",
+        "backup-type-incremental": "Инкрементальный",
+        "backup-type-incremental-desc": "Сохраняет только изменения с момента последнего бэкапа, требует меньше времени и места.",
+        "disk-space": "Проверка Доступного Места на Диске",
+        "disk-space-desc": "Убедитесь, что на диске достаточно места. В противном случае резервное копирование завершится с ошибкой.",
+        "disk-limit": "Установить лимит памяти для резервной копии",
+        "schedule-and-retenton": "Расписание и Хранение",
+        "schedule-and-retention-desc": "Установите частоту создания и срок хранения резервных копий.",
+        "daily-backup": "Ежедневная Копия",
+        "daily-backup-desc": "Создаёт копию каждый день в указанное время.",
+        "weekly-backup": "Еженедельная Копия",
+        "weekly-backup-desc": "Создаёт копию каждую неделю в заданный день и время.",
+        "monthly-backup": "Ежемесячная Копия",
+        "monthly-backup-desc": "Создаёт копию каждый месяц в заданный день и время.",
+        "retention": "Период Хранения",
+        "daily-retention-desc": "Введите количество ежедневных копий, которые вы хотите хранить, прежде чем удалять старые.",
+        "weekly-retention-desc": "Введите количество еженедельных копий, которые вы хотите хранить, прежде чем удалять старые.",
+        "monthly-retention-desc": "Введите количество ежемесячных копий, которые вы хотите хранить, прежде чем удалять старые.",
+        "warning": "Необходимо выбрать как минимум один параметр расписания резервного копирования.",
+        "backup-directory": "Каталог для Резервных Копий",
+        "backup-directory-desc": "Выберите, где будут храниться копии. Убедитесь, что достаточно места.",
+        "exclude-websites": "Исключить веб-сайты",
+        "exclude-websites-desc": "Выберите веб-сайты, которые вы не хотите включать в резервную копию.",
+        "no-websites-excluded": "Нет сайтов, исключённых из резервного копирования"
+      },
+      "errors": {
+        "unsupported-version": "Неподдерживаемая версия PHP",
+        "desc": "Пожалуйста, выберите поддерживаемую версию PHP.",
+        "fpm-fetch-error": "Не удалось получить настройки FPM",
+        "php-module-fetch-error": "Не удалось получить настройки модуля PHP",
+        "fpm-update-error": "Не удалось обновить настройки FPM",
+        "php-module-update-error": "Не удалось обновить настройки модуля PHP",
+        "server-switch-error": "Не удалось переключить веб-сервер",
+        "server-fetch-error": "Не удалось получить настройки веб-сервера"
+      },
+      "success": {
+        "fpm-update": "Настройки FPM успешно обновлены",
+        "php-module-update": "Настройки модуля PHP успешно обновлены",
+        "server-switch": "Веб-сервер успешно переключен"
+      }
+    }
+  },
+  "server-list-bulk-actions": {
+    "title": "Массовые операции",
+    "btn-tooltip-desc": "Массовые операции — выполнение действий на нескольких серверах.",
+    "no-servers-found": "Соответствующие серверы не найдены",
+    "step": {
+      "1": "Шаг 1 - Выберите серверы",
+      "2": "Шаг 2 — выберите действие",
+      "server-selection-page": " - {{current}}/{{total}} Выбрано",
+      "server-selection-all": " - Все выбрано",
+      "empty": ""
+    },
+    "filter": {
+      "all-selected": "Выбраны все серверы",
+      "count-selected": "{{selected}} выбранный сервер",
+      "counts-selected": "{{selected}} выбранных серверов",
+      "complete-selected": "Выбирать {{total}} на этой странице",
+      "select-all-servers": "Добавить все {{count}} серверы",
+      "filtered": "(отфильтровано)",
+      "selection-text": "Показано {{count}} выбранных серверов",
+      "selection-btn": "Добавить больше серверов",
+      "all-servers": "Все серверы"
+    },
+    "btn": {
+      "choose-action": "Выбрать действие",
+      "applying": "Применение {{applied}}/{{total}}",
+      "reset": "Перезагрузить",
+      "apply": "Применять",
+      "save": "Сохранить"
+    },
+    "forms": {
+      "select-action": "Выберите действие",
+      "ipdb-country-whitelist": "Белый список стран IPDB",
+      "ipdb-country-blacklist": "Черный список стран IPDB",
+      "file-action": "Действие файла",
+      "date-from": "Дата, с",
+      "date-to": "Дата до",
+      "signature": "Подпись",
+      "file-name": "Имя файла",
+      "add": "Добавлять",
+      "delete": "Удалить",
+      "scanner_action_for_virus": "Действие для вирусного файла",
+      "scanner_action_for_suspicious": "Действия для подозрительного файла",
+      "scanner_action_for_binary": "Действие для бинарного файла",
+      "ai_scan_switch": "Переключатель сканирования ИИ",
+      "error-hint": {
+        "add-more": "Пожалуйста, добавьте больше информации",
+        "hint-rule-id": "Введите идентификаторы правил через запятую или по одному в каждой строке.",
+        "hint-ip": "Введите IP-адреса через запятую или по одному в каждой строке.",
+        "rule-id-required": "Идентификатор правила должен быть целым числом.",
+        "ip-required": "Требуется действующий IP-адрес"
+      },
+      "label": {
+        "waf-rule": "Идентификатор правила WAF в белом списке",
+        "ip-whitelist": "Белый список IP-адресов",
+        "ipdb-whitelist": "Белый список стран в IPDB",
+        "ipdb-blacklist": "Черный список стран в IPDB",
+        "scanner-log": "Выполнить действие с журналами сканера",
+        "blacklisted_ips": "Черный список IP-адресов",
+        "scanner_blacklisted_files": "Файлы в чёрном списке сканера",
+        "scanner_whitelisted_files": "Файлы из белого списка сканера",
+        "scanner_settings": "Настройки сканера",
+        "waf_captcha_url_list": "URL-адрес WAF-капчи",
+        "waf_badbot_list": "Список плохих ботов WAF",
+        "web_application_settings": "Инструменты безопасности",
+        "security_tools": "IPDB и Bruteforce",
+        "waf_settings": "Настройки WAF",
+        "quarantine": "Карантин",
+        "delete": "Удалить",
+        "restore": "Восстановить",
+        "unchanged": "Без изменений",
+        "on": "НА",
+        "off": "ВЫКЛЮЧЕННЫЙ",
+        "email": "Электронная почта",
+        "disable": "Запрещать",
+        "blacklisted_WP_plugins": "Чёрный список плагинов WordPress",
+        "cms_settings": "Настройки CMS",
+        "cleanup": "Очистка",
+        "dismiss": "Отклонить",
+        "retain": "Сохранить",
+        "dos_threshold_placeholder": "Введите порог DoS"
+      },
+      "cms_settings": {
+        "cve_score": "Обновить, если балл CVE больше чем",
+        "switch": "Автоматическое обновление уязвимого WordPress",
+        "days": "Дни с момента выпуска обновления"
+      }
+    },
+    "response-dialog": {
+      "title": "Массовые операции - ",
+      "requesting": "Запрос {{current}}/{{total}}",
+      "requested": "Запрос отправлен {{current}}/{{total}}",
+      "applied-on": "Подано {{success}}/{{total}}",
+      "btn-close": "Закрывать",
+      "api-error": "Ошибка API"
+    }
+  },
+  "job": {
+    "cms": {
+      "refresh": {
+        "title": "Освежающий {{type}} {{domain}}",
+        "action": "связь",
+        "goto": "смс",
+        "stages": {
+          "start": "Обновление информации",
+          "closed": "Детали получены и обновлены",
+          "command-failed": "Не удалось обновить детали"
+        }
+      },
+      "auto-update-disable": {
+        "title": "Отключение автоматического обновления для {{type}} {{domain}} {{component}} {{name}}",
+        "action": "прогресс",
+        "stages": {
+          "start": "Настройка автоматического обновления",
+          "closed": "Автоматическое обновление отключено"
+        }
+      },
+      "auto-update-disable-all": {
+        "title": "Отключение автоматического обновления для всех {{component}}s из {{type}} {{domain}}",
+        "action": "прогресс",
+        "stages": {
+          "start": "Настройка автоматического обновления",
+          "closed": "Автоматическое обновление отключено"
+        }
+      },
+      "auto-update-enable": {
+        "title": "Включение автоматического обновления для {{type}} {{domain}} {{component}} {{name}}",
+        "action": "прогресс",
+        "stages": {
+          "start": "Настройка автоматического обновления",
+          "closed": "Автоматическое обновление включено"
+        }
+      },
+      "auto-update-enable-all": {
+        "title": "Включение автоматического обновления для всех {{component}}s из {{type}} {{domain}}",
+        "action": "прогресс",
+        "stages": {
+          "start": "Настройка автоматического обновления",
+          "closed": "Автоматическое обновление включено"
+        }
+      },
+      "update": {
+        "title": "Обновление {{type}} {{domain}}",
+        "action": "прогресс",
+        "stages": {
+          "updating": "Загрузка и обновление",
+          "refreshing": "Обновление деталей",
+          "closed": "Обновление завершено",
+          "failed.command-failed": "Обновление не выполнено из-за непредвиденной ошибки.",
+          "failed.cms-not-found": "CMS не найдена на сервере"
+        }
+      },
+      "update-component": {
+        "title": "Обновление {{type}} {{component}} {{name}}",
+        "action": "прогресс",
+        "command-failed": "Обновление не выполнено из-за непредвиденной ошибки.",
+        "stages": {
+          "updating": "Загрузка и обновление",
+          "refreshing": "Обновление деталей",
+          "closed": "Обновление завершено",
+          "failed": "Обновление не выполнено",
+          "failed.incompatible": "Не удалось обновить! ",
+          "failed.command-failed": "Обновление не выполнено из-за непредвиденной ошибки.",
+          "failed.cms-not-found": "CMS не найдена на сервере"
+        }
+      },
+      "update-component-all": {
+        "title": "Обновление {{type}} {{domain}} {{component}}с",
+        "action": "прогресс",
+        "stages": {
+          "updating": "Загрузка и обновление {{name}}",
+          "refreshing": "Обновление деталей",
+          "closed": "Обновление завершено",
+          "failed.command-failed": "Обновление не выполнено из-за непредвиденной ошибки.",
+          "failed.cms-not-found": "CMS не найдена на сервере"
+        }
+      }
+    },
+    "file": {
+      "extract": {
+        "title": "Извлечение",
+        "action": "извлечь",
+        "stages": {
+          "progressing": "Извлечение файлов",
+          "closed": "Извлечение завершено",
+          "stopped": "Ошибка извлечения"
+        }
+      },
+      "copy": {
+        "title": "Копирование",
+        "action": "копировать",
+        "stages": {
+          "progressing": "Копирование файлов",
+          "closed": "Копирование завершено",
+          "stopped": "Ошибка копирования"
+        }
+      },
+      "move": {
+        "title": "Перемещение",
+        "action": "переместить",
+        "stages": {
+          "progressing": "Перемещение файлов",
+          "closed": "Перемещение завершено",
+          "stopped": "Ошибка перемещения"
+        }
+      },
+      "compress": {
+        "title": "Сжатие",
+        "action": "сжать",
+        "stages": {
+          "progressing": "Сжатие файлов",
+          "closed": "Сжатие завершено",
+          "stopped": "Ошибка сжатия"
+        }
+      }
+    },
+    "webserver-switch": {
+      "title": "Смена веб-сервера",
+      "action": "в процессе",
+      "stages": {
+        "start": "Смена веб-сервера",
+        "closed": "Веб-сервер успешно переключён",
+        "nginx-disabled": "Nginx отключён",
+        "apache-disabled": "Apache отключён",
+        "php-7.4-disabled": "PHP 7.4 отключён",
+        "php-8.1-disabled": "PHP 8.1 отключён",
+        "php-8.2-disabled": "PHP 8.2 отключён",
+        "php-8.3-disabled": "PHP 8.3 отключён",
+        "php-8.4-disabled": "PHP 8.4 отключён",
+        "openlitespeed-disabled": "OpenLiteSpeed отключён",
+        "openlitespeed-started": "OpenLiteSpeed запущен",
+        "nginx-started": "Nginx запущен",
+        "apache-started": "Apache запущен",
+        "php-7.4-started": "PHP 7.4 запущен",
+        "php-8.1-started": "PHP 8.1 запущен",
+        "php-8.2-started": "PHP 8.2 запущен",
+        "php-8.3-started": "PHP 8.3 запущен",
+        "php-8.4-started": "PHP 8.4 запущен",
+        "nginx-disable-failed": "Ошибка остановки Nginx",
+        "apache-disable-failed": "Ошибка остановки Apache",
+        "openlitespeed-disable-failed": "Ошибка остановки OpenLiteSpeed",
+        "nginx-start-failed": "Ошибка запуска Nginx",
+        "apache-start-failed": "Ошибка запуска Apache",
+        "openlitespeed-start-failed": "Ошибка запуска OpenLiteSpeed"
+      }
+    }
+  },
+  "services": {
+    "table": {
+      "service": "Сервис",
+      "status": "Статус",
+      "startup": "Запуск",
+      "cpu-usage": "Использование CPU",
+      "memory-usage": "Использование памяти",
+      "actions": "Действия"
+    },
+    "enabled": "включен",
+    "alias": "псевдоним",
+    "disabled": "отключен",
+    "inactive": "неактивен",
+    "not-found": "не найден"
+  },
+  "panel": {
+    "website": "Веб-сайт",
+    "add": "Добавить сайт",
+    "update": "Обновить сайт",
+    "delete-website": "Удалить веб-сайт",
+    "website_404": "Веб-сайт, возможно, был удалён.",
+    "delete-domain-dec": "Удаление сайта приведет к безвозвратному удалению всех файлов, баз данных, пользователей и настроек сайта.",
+    "confirm-website": "Подтвердите сайт для продолжения",
+    "confirm-delete-website": "Я понимаю, удалить сайт",
+    "deleting-website": "Удаление сайта",
+    "website-mismatch": "Несовпадение сайта",
+    "please-type": "Пожалуйста, введите",
+    "to-confirm": "для подтверждения",
+    "auto": "авто",
+    "queued": "в очереди",
+    "custom": "настройка",
+    "self": "самостоятельно",
+    "error": "ошибка",
+    "create-form": {
+      "title": "Добавить домен",
+      "update": "Обновить домен",
+      "register": "Зарегистрировать имя домена",
+      "domain-name": "Имя домена",
+      "web-settings": "Настройки веб-пространства",
+      "IPV4": "IPV4 адрес",
+      "PHP-v": "Версия PHP",
+      "domain-alias-added": "Доменный псевдоним добавлен",
+      "domain-addon-added": "Дополнение домена добавлено",
+      "domain-available": "Домен доступен",
+      "domain-not-available": "Домен недоступен",
+      "copied": "Скопировано...",
+      "deleted": "Удалено",
+      "error-occurred": "Произошла ошибка",
+      "domain-deleted": "Домен удалён",
+      "delete-confirmation": "Вы уверены, что хотите удалить этот домен?",
+      "updated": "обновлён",
+      "error": {
+        "exist": "уже существует",
+        "invalid": "Введите допустимое имя домена",
+        "invalid-user": "Неверное имя пользователя для каталога",
+        "user-exist": "Пользователь {{name}} уже существует",
+        "error-adding-domain": "Ошибка при добавлении домена",
+        "something-went-wrong": "Что-то пошло не так"
+      },
+      "table": {
+        "domain": "Домен",
+        "status": "Статус",
+        "php-version": "Версия PHP",
+        "user": "Пользователь",
+        "disk-usage": "Использование диска",
+        "type": "Тип",
+        "ssl": "SSL"
+      }
+    },
+    "install": {
+      "wp": {
+        "database-created": "База данных создана",
+        "wordpress-downloaded": "Последняя версия WordPress загружена",
+        "wordpress-extracted": "WordPress извлечён",
+        "wordpress-installed": "WordPress установлен",
+        "wordpress-configured": "Конфигурация WordPress завершена",
+        "installation-completed": "Установка WordPress завершена",
+        "wordpress-extract-failed": "Не удалось распаковать WordPress",
+        "wordpress-installation-failed": "Не удалось установить WordPress",
+        "database-configuration-failed": "Не удалось настроить базу данных",
+        "wordpress-download-failed": "Не удалось загрузить WordPress",
+        "wordpress-setup-failed": "Не удалось настроить WordPress",
+        "wordpress-version-fetch-failed": "Не удалось получить версию WordPress",
+        "wordpress-version-parse-failed": "Не удалось разобрать версию WordPress"
+      }
+    },
+    "application": {
+      "title": "Приложения",
+      "add": "Добавить приложение",
+      "wp": {
+        "label": "WordPress",
+        "desc": "Веб-сайт с последней версией WordPress",
+        "header": "Установить WordPress",
+        "create": {
+          "title": "",
+          "sub": "*Случайные значения будут сгенерированы, если поля оставить пустыми.",
+          "compatible": "*будет установлен wordpress {{versions}}",
+          "sub-1": "Общие",
+          "path": "Путь установки",
+          "path-placeholder": "директория установки",
+          "website-title": "Название сайта",
+          "WP-admin": "Администратор WordPress",
+          "table-prefix": "Префикс таблицы БД",
+          "table-prefix-placeholder": "префикс таблицы",
+          "table-name": "Имя пользователя БД",
+          "table-password": "Пароль пользователя БД",
+          "auto-update": "Настройки автоматического обновления",
+          "auto-update-desc": "WP Toolkit может автоматически устанавливать обновления ядра WordPress, плагинов и тем, как только они становятся доступны.",
+          "auto-update-WP": "Автоматически обновлять WordPress",
+          "auto-update-yes": "Да, все (минорные и мажорные) обновления",
+          "auto-update-no": "Нет",
+          "auto-update-plugin": "Автоматически обновлять плагины",
+          "auto-update-plugin-yes": "Обновить все",
+          "auto-update-plugin-desc": "Все плагины будут принудительно автоматически обновляться независимо от их индивидуальных настроек автoобновления",
+          "auto-update-plugin-no": "Определяется индивидуально",
+          "auto-update-plugin-desc-1": "Каждый плагин использует свои собственные настройки автoобновления",
+          "auto-update-theme": "Автоматически обновлять темы",
+          "auto-update-theme-yes": "Обновить все",
+          "auto-update-theme-desc": "Все темы будут принудительно автоматически обновляться независимо от их индивидуальных настроек автoобновления",
+          "auto-update-theme-no": "Определяется индивидуально",
+          "auto-update-theme-desc-1": "Каждая тема использует свои собственные настройки автoобновления"
+        }
+      },
+      "node": {
+        "label": "Node JS",
+        "desc": "Включить Node.js на вашем домене",
+        "header": "Установить Node Js"
+      },
+      "code": {
+        "label": "Пустой сайт",
+        "desc": "Стартовая страница для вашего HTML или PHP сайта (предыдущий по умолчанию)",
+        "header": "импортировать сайт/приложение"
+      },
+      "laravel": {
+        "label": "Laravel",
+        "header": "Установить Laravel",
+        "desc": "Веб-сайт, работающий на фреймворке Laravel"
+      },
+      "woo": {
+        "label": "WordPress + WooCommerce",
+        "header": "Установить WordPress с WooCommerce",
+        "desc": "Веб-сайт с последней версией WordPress и WooCommerce"
+      },
+      "git": {
+        "label": "Git",
+        "header": "Развернуть из Git",
+        "desc": "Загрузить файлы из репозитория Git"
+      },
+      "import": {
+        "label": "Импортировать сайт / приложение",
+        "header": "импортировать сайт/приложение",
+        "desc": "с другого хостинг-сервиса"
+      },
+      "common": {
+        "header": "Выберите способ создания веб-сайта",
+        "soon": "Скоро будет",
+        "install": "установка {{type}} приложения",
+        "completed": "Установка завершена"
+      },
+      "errors": {
+        "invalid-foldername": "Недопустимый символ в имени папки",
+        "folder-exist": "Пожалуйста, выберите пустую директорию для установки."
+      }
+    },
+    "common": {
+      "close": "Закрыть",
+      "confirm": "Подтвердить",
+      "add": "Добавить",
+      "email": "Электронная почта",
+      "username": "Имя пользователя",
+      "password": "Пароль",
+      "back": "Назад",
+      "install": "Установить",
+      "save_button": "Сохранить",
+      "saving": "Сохранение...",
+      "reset_button": "Сбросить",
+      "delete": "Удалить",
+      "delete_confirmation": "Вы уверены, что хотите удалить это?",
+      "cancel": "Отмена",
+      "switch": "Переключить"
+    },
+    "cron": {
+      "title": "Задания Cron",
+      "desc": "Задания Cron позволяют автоматизировать выполнение определенных команд или скриптов на вашем сайте. Вы можете настроить выполнение команды или скрипта в определенное время каждый день, неделю и т.д. Например, вы можете настроить задание cron для удаления временных файлов каждую неделю, чтобы освободить место на диске.",
+      "warning": "<strong>Предупреждение:</strong> Вам необходимо хорошо разбираться в командах Linux, чтобы эффективно использовать задания cron. Проверьте свой скрипт с администратором хостинга перед добавлением задания cron.",
+      "sub": "Текущие задания Cron",
+      "simple": "Простой",
+      "simple-desc": "Выбор <strong class='cp-red'> Общие настройки</strong> заполнит следующие поля или поля можно обновить индивидуально",
+      "advanced": "Продвинутый",
+      "mail": "Электронная почта Cron",
+      "add": {
+        "btn": "Добавить новое задание Cron",
+        "title": "Добавить задание cron",
+        "common": "Общие настройки",
+        "minute": "Минута",
+        "hour": "Час",
+        "day": "День",
+        "week": "День недели",
+        "month": "Месяц",
+        "command": "Команда",
+        "c-placeholder": "Введите команду"
+      },
+      "edit": {
+        "title": "Редактировать задание Cron"
+      },
+      "delete": {
+        "title": "Удалить задание Cron",
+        "desc": "Вы уверены, что хотите удалить это задание cron?"
+      },
+      "email": {
+        "current": "Текущая электронная почта",
+        "placeholder": "Введите новый адрес электронной почты",
+        "remove": "Удалить электронную почту",
+        "remove-btn": "Удалить",
+        "update-btn": "Обновить электронную почту",
+        "desc": "Отправлять электронное письмо с выводом каждый раз, когда выполняется задание cron.",
+        "desc-2": "Вы можете настроить отправку электронной почты каждый раз, когда cron выполняет команду с выводом. Если вы не хотите, чтобы для отдельного задания cron отправлялось электронное письмо, вы можете перенаправить вывод команды в /dev/null. Например:<span class='cp-red ms-2'>mycommand >/dev/null 2>&1"
+      },
+      "message": {
+        "add-success": "Задание cron успешно добавлено",
+        "add-error": "Ошибка при добавлении задания cron",
+        "delete-success": "Задание cron успешно удалено",
+        "delete-error": "Ошибка при удалении задания cron",
+        "update-success": "Задание cron успешно обновлено",
+        "update-error": "Ошибка при обновлении задания cron",
+        "add-email-success": "Электронная почта успешно добавлена",
+        "add-email-error": "Ошибка при добавлении электронной почты",
+        "remove-email-success": "Электронная почта успешно удалена",
+        "invalid-mail": "Пожалуйста, введите действительный адрес электронной почты",
+        "required": "Электронная почта обязательна"
+      }
+    },
+    "info": {
+      "statistics": "Статистика",
+      "glance": "С первого взгляда",
+      "disk-space": "Используемое дисковое пространство",
+      "db-usage": "Используемая база данных",
+      "traffic-today" :"Трафик сегодня",
+      "traffic-month" :"Трафик за этот месяц",
+      "WA": "Веб-атаки",
+      "VA": "Вирусные атаки",
+      "hosting": "Хостинг",
+      "DB": "База данных",
+      "status": {
+        "active": "Активный",
+        "disabled": "Отключен",
+        "suspended": "Приостановлен",
+        "inactive": "Неактивный",
+        "failed": "Неудачный"
+      },
+      "tool": {
+        "title": "Инструмент",
+        "files": "Файлы",
+        "files-desc": "Файлы и папки",
+        "phpMyAdmin": "phpMyAdmin",
+        "phpMyAdmin-desc": "Управляйте своими базами данных",
+        "applications": "Приложения",
+        "applications-desc": "Управляйте своими приложениями",
+        "logs": "Журналы",
+        "logs-desc": "Просматривайте свои журналы",
+        "cron-jobs": "Задания Cron",
+        "cron-jobs-desc": "Запланированные задачи"
+      },
+      "navigation": {
+        "tools": "Инструменты",
+        "ssl": "Настройки SSL",
+        "app": "Приложения",
+        "logs": "Журналы",
+        "cron": "Задания Cron",
+        "files": "Файлы",
+        "domains": "Домены",
+        "database": "База данных",
+        "webspace": "Настройки",
+        "php-settings": "Настройки PHP",
+        "ngnix-settings": "Настройки Nginx",
+        "more": "Больше",
+        "advanced": "Дополнительно"
+      },
+      "common": {
+        "DM": "Манипуляция данными",
+        "structure": "Структура",
+        "administration": "Администрирование",
+        "check-all": "ПРОВЕРИТЬ ВСЕ",
+        "check-none": "НЕ ПРОВЕРЯТЬ НИЧЕГО",
+        "privileges": "Привилегии",
+        "assign": "Назначить",
+        "user": "Пользователь",
+        "select-user": "Выберите пользователя",
+        "select-db": "Выберите базу данных",
+        "rename": "Переименовать",
+        "check-up": "Проверка",
+        "repair": "Ремонт",
+        "assign-user": "Назначить пользователя",
+        "assign-db": "Назначить базу данных",
+        "phpmyadmin": "phpMyAdmin",
+        "revoke-btn": "Отозвать привилегии",
+        "DB-privileges": "Привилегии базы данных",
+        "create-btn": "Создать",
+        "update": "Обновить",
+        "proceed": "Продолжить",
+        "errors": {
+          "phpmyadmin": "Ошибка подключения к phpMyAdmin"
+        }
+      },
+      "users": {
+        "title": "Пользователи",
+        "search": "Поиск пользователя",
+        "add": "Добавить пользователя",
+        "create": "создать пользователя",
+        "placeholder": "Введите ваше имя пользователя",
+        "no-data": "Нет данных",
+        "no-user-found": "Пользователь не найден",
+        "edit": {
+          "title": "Редактировать имя пользователя",
+          "sub-1": "старое имя пользователя",
+          "sub-2": "новое имя пользователя"
+        },
+        "change": {
+          "title": "Изменить пароль",
+          "sub": "Обновить пароль для пользователя <strong>{{name}}</strong>",
+          "password": "Пароль",
+          "p-placeholder": "Введите ваш пароль",
+          "p-confirm": "Подтвердите пароль",
+          "CP-placeholder": "Повторно введите ваш пароль"
+        },
+        "delete": {
+          "title": "Удалить пользователя",
+          "desc": "Вы уверены, что хотите навсегда удалить пользователя",
+          "btn": "Удалить пользователя"
+        },
+        "revoke": {
+          "title": "Удалить пользователя из базы данных",
+          "desc": "Это действие отзовет привилегии пользователя и удалит его из базы данных."
+        },
+        "edit-privilege": {
+          "title": "Редактировать привилегии пользователя",
+          "desc": "Вы собираетесь обновить привилегии базы данных для пользователя <strong class='text-blue-500'>{{user}}</strong> в базе данных <strong class='text-blue-500'> {{database}}</strong>. Пожалуйста, проверьте изменения перед подтверждением."
+        },
+        "errors": {
+          "invalid": "Специальные символы не допускаются",
+          "exist": "Имя пользователя недоступно"
+        }
+      },
+      "database": {
+        "title": "База данных",
+        "search": "Поиск базы данных",
+        "placeholder": "имя",
+        "please-wait": "Пожалуйста, подождите...",
+        "preparing-session": "Мы подготавливаем вашу сессию.",
+        "popup-blocked": "Всплывающее окно заблокировано. Пожалуйста, разрешите всплывающие окна.",
+        "phpmyadmin-url-not-defined": "URL phpMyAdmin не определён.",
+        "add": {
+          "title": "Добавить базу данных",
+          "DB-name-placeholder": "Введите имя вашей базы данных",
+          "DB-username-placeholder": "Введите имя пользователя вашей базы данных",
+          "input-text": "Имя базы данных",
+          "username": "Имя пользователя",
+          "existing-user": "Это создаст новую базу данных с <strong class='text-blue-500'>{{user}}</strong> в качестве владельца.",
+          "new-user": "Создан пользователь базы данных по умолчанию. Этот пользователь будет использоваться для доступа к базе данных от имени вашего приложения.",
+          "database-created": "База данных успешно создана",
+          "error-creating": "Ошибка при создании базы данных"
+        },
+        "edit": {
+          "title": "Редактировать имя базы данных",
+          "sub-1": "Старое имя базы данных",
+          "sub-2": "Новое имя базы данных",
+          "placeholder-1": "старое имя",
+          "placeholder-2": "новое имя"
+        },
+        "assign": {
+          "title": "Назначить пользователя",
+          "user-added": "Пользователь успешно назначен",
+          "error-adding": "Ошибка при назначении пользователя"
+        },
+        "delete": {
+          "title": "Удалить базу данных",
+          "desc": "Вы уверены, что хотите навсегда удалить базу данных",
+          "database-deleted": "База данных успешно удалена",
+          "error-deleting": "Ошибка при удалении базы данных"
+        },
+        "edit-privilege": {
+          "title": "Редактировать привилегии базы данных",
+          "desc": "Вы собираетесь обновить привилегии базы данных для пользователя <strong class='text-blue-500'>{{user}}</strong> в базе данных <strong class='text-blue-500'>{{database}}</strong>. Пожалуйста, проверьте изменения перед подтверждением.",
+          "privilege-updated": "Привилегии успешно обновлены",
+          "error-updating": "Ошибка при обновлении привилегий"
+        },
+        "revoke": {
+          "title": "Удалить базу данных",
+          "desc": "Это действие удалит доступ пользователя к базе данных.",
+          "user-revoked": "Пользователь отозван",
+          "error-revoke": "Ошибка при отзыве пользователя"
+        },
+        "rename": {
+          "database-renamed": "База данных успешно переименована",
+          "error-renaming": "Ошибка при переименовании базы данных"
+        },
+        "check-up": {
+          "title": "Проверка базы данных",
+          "r-title": "Отчет о проверке",
+          "desc": "Вы уверены, что хотите выполнить проверку базы данных <strong>{{name}}</strong>?",
+          "database-healthy": "База данных в порядке",
+          "checkup-completed-success": "Проверка успешно завершена",
+          "database-checked": "База данных проверена",
+          "error-checking": "Ошибка при проверке базы данных"
+        },
+        "repair": {
+          "title": "Ремонт базы данных",
+          "r-title": "Отчет о ремонте",
+          "desc": "Вы уверены, что хотите отремонтировать базу данных <strong>{{database}}</strong>? Это может занять некоторое время.",
+          "nothing-repaired": "Нечего восстанавливать",
+          "database-repaired": "База данных успешно восстановлена",
+          "error-repairing": "Ошибка при восстановлении базы данных"
+        },
+        "error": {
+          "exist": "уже существует",
+          "invalid": "Имя базы данных уже занято!",
+          "invalid-DB": "Недопустимое имя базы данных",
+          "invalid-DB-user": "Недопустимое имя пользователя базы данных",
+          "invalid-user": "Требуется имя пользователя",
+          "user-exist": "Имя пользователя уже занято!",
+          "missmatch": "Пароли не совпадают.",
+          "required": "Требуется пароль!",
+          "DB-required": "Требуется имя базы данных!"
+        }
+      },
+      "info": {
+        "database": {
+          "repair-db": {
+            "wp_commentmeta": "Метаданные комментариев WordPress",
+            "wp_comments": "Комментарии WordPress",
+            "wp_links": "Ссылки WordPress",
+            "wp_options": "Опции WordPress",
+            "wp_postmeta": "Метаданные постов WordPress",
+            "wp_posts": "Посты WordPress",
+            "wp_term_relationships": "Отношения терминов WordPress",
+            "wp_term_taxonomy": "Таксономия терминов WordPress",
+            "wp_termmeta": "Метаданные терминов WordPress",
+            "wp_terms": "Термины WordPress",
+            "wp_usermeta": "Метаданные пользователей WordPress",
+            "wp_users": "Пользователи WordPress"
+          }
+        },
+        "common": {
+          "summary": "Резюме",
+          "request": "Запросы сегодня",
+          "infected": "Зараженные файлы",
+          "blocked-by-waf": "Заблокировано WAF",
+          "bot-attacks": "Атаки ботов",
+          "apps-installed": "Установленные приложения",
+          "manage": "Управлять",
+          "empty": "Приложения еще не установлены"
+        }
+      },
+      "ssl": {
+        "title": "SSL сертификаты",
+        "placeholder": "Выберите поставщика SSL",
+        "certificate": "СЕРТИФИКАТ",
+        "issuer": "Издатель:",
+        "status": "Статус:",
+        "expiry": "Срок действия:",
+        "renew": "Обновление:",
+        "redirect": "Перенаправление с http на https",
+        "ssl-provider": "Поставщик SSL",
+        "renew-btn": "Обновить SSL",
+        "auto-btn": "Включить автоматический SSL",
+        "deploy-ssl": "Развернуть SSL",
+        "auto": {
+          "title": "Бесплатный автоматический SSL",
+          "sub-title": "Автоматический SSL с",
+          "desc": "cPGuard автоматически подает заявку на бесплатный SSL от Lets Encrypt и автоматически обновляет его каждые 45 дней",
+          "alert-title": "Возникли проблемы с получением бесплатного SSL-сертификата от Lets Encrypt",
+          "alert-desc": "Домен либо не направлен на этот сервер, либо конфигурация веб-сервера содержит ошибки, которые мешают Lets Encrypt проверить домен с помощью метода проверки файла. Для получения дополнительной информации прочтите эту статью"
+        },
+        "custom": {
+          "title": "Пользовательский SSL",
+          "private-key": "Закрытый ключ",
+          "certificate": "Сертификат",
+          "or": "ИЛИ",
+          "key-btn": "Загрузить файл",
+          "cert-btn": "Загрузить файл",
+          "key-placeholder": "Введите закрытый ключ",
+          "cert-placeholder": "Введите сертификат"
+        },
+        "self": {
+          "title": "Создать самоподписанный сертификат",
+          "bits": "Биты",
+          "bits-placeholder": "Выберите количество бит",
+          "country": "Страна",
+          "country-placeholder": "Выберите страну",
+          "state": "Штат или провинция",
+          "city": "Местоположение (город)",
+          "organization": "Название организации (компания)",
+          "orgUnit": "Отдел организации",
+          "orgUnit-placeholder": "Название отдела или подразделения организации"
+        },
+        "errors": {},
+        "message": {
+          "renew-success": "SSL сертификат успешно обновлен",
+          "renew-error": "Ошибка при обновлении SSL сертификата",
+          "auto-success": "Автоматический SSL успешно включен",
+          "auto-error": "Ошибка при включении автоматического SSL",
+          "deploy-success": "SSL успешно развернут",
+          "deploy-error": "Ошибка при развертывании SSL",
+          "create-success": "SSL сертификат успешно создан",
+          "create-error": "Ошибка при создании SSL сертификата",
+          "certificate-not-applied": "Сертификат не найден",
+          "failed-to-install-ssl": "Не удалось установить SSL",
+          "ssl-not-expired": "SSL не истек",
+          "ssl-not-found": "Сертификат SSL не найден",
+          "ssl-not-valid": "Сертификат SSL недействителен",
+          "ssl-not-supported": "Сертификат SSL не поддерживается"
+        }
+      },
+      "domains-list": {
+        "title": "Домены",
+        "search": "Поиск домена",
+        "addon": "Дополнение",
+        "alias": "Псевдоним",
+        "addon-sub": "Имеет отдельный корневой каталог и будет обслуживать другой контент.",
+        "alias-sub": "Использует тот же корневой каталог, что и ваш основной домен, и будет обслуживать тот же контент.",
+        "checkbox": "Перенаправить на основной домен",
+        "doc-root": "корневой каталог",
+        "doc-root-placeholder": "Введите корневой каталог",
+        "main": "Основной",
+        "redirect": "Перенаправление",
+        "ssl": "SSL"
+      },
+      "settings": {
+        "title": "Настройки",
+        "webspace": {
+          "heading": "Настройки сайта",
+          "title": "Учетные данные системного пользователя",
+          "sub-title": "Управляйте файлами и папками сайта через FTP или файловый менеджер. Доступ к серверу через SSH, если это разрешено.",
+          "username": "Имя пользователя",
+          "password": "Пароль",
+          "password-sub": "Укажите новый пароль здесь, чтобы изменить пароль системного пользователя.",
+          "ipv4": "IPv4 адрес",
+          "ipv4-desc": "IP-адрес, на котором размещен сайт, является сетевым адресом виртуального хоста сайта.",
+          "redirect-http": "Перенаправить на HTTPS",
+          "redirect-http-desc": "Перенаправляет все HTTP-запросы на HTTPS. Это хорошая практика для обеспечения безопасности.",
+          "webspace-settings-updated": "Настройки веб-пространства успешно обновлены"
+        }
+      },
+      "logs": {
+        "access": "Журналы доступа",
+        "ngnix": "Журналы Nginx",
+        "php": "Журналы PHP",
+        "search": "Поиск в журналах",
+        "empty": "Журналы не найдены",
+        "download": "Скачать",
+        "result": "Результат найден",
+        "found-for": "Результаты не найдены для",
+        "error-logs": "Журналы ошибок"
+      },
+      "ssh": {
+        "title": "SSH Ключи",
+        "add-btn": "Добавить SSH ключ",
+        "paste-btn": "Вставить ключ",
+        "create-title": "Создать SSH ключ",
+        "edit-title": "Редактировать SSH ключ",
+        "key": "Ключ",
+        "key-placeholder": "Введите ваш SSH ключ",
+        "comment": "Комментарий",
+        "comment-placeholder": "Введите комментарий для вашего SSH ключа",
+        "authorize-key": "Авторизовать ключ",
+        "key-size": "Размер ключа",
+        "key-size-placeholder": "Выберите размер ключа",
+        "paste-title": "Вставить авторизованный ключ",
+        "no-keys": "SSH ключи не найдены",
+        "no-keys-desc": "Вы можете добавить новый SSH ключ, нажав кнопку 'Добавить SSH ключ'.",
+        "table": {
+          "comment": "Комментарий",
+          "key": "Ключ",
+          "type": "Тип",
+          "size": "Размер",
+          "global-key": "Глобальный ключ",
+          "actions": "Действия"
+        }
+      }
+    },
+    "file-manager": {
+      "table": {
+        "no-data-available": "Данные отсутствуют",
+        "folder-successfully-created": "Папка успешно создана",
+        "file-successfully-created": "Файл успешно создан",
+        "file-downloaded-successfully": "Файл успешно скачан",
+        "file-compressed-successfully": "Файл успешно сжат",
+        "file-extracted-successfully": "Файл успешно извлечён",
+        "file-deleted-successfully": "Файл успешно удалён",
+        "file-copied-successfully": "Файл успешно скопирован",
+        "file-moved-successfully": "Файл успешно перемещён",
+        "folder-renamed-successfully": "Папка успешно переименована",
+        "file-renamed-successfully": "Файл успешно переименован",
+        "permission-changed-successfully": "Разрешения успешно изменены"
+      },
+      "progress-dialog": {
+        "title": "Прогресс файла {{operation}}",
+        "details": "{{copied}} файлов скопировано из {{total}} файлов ({{percent}}%) завершено",
+        "close": "Закрыть",
+        "compression-results": "Результаты сжатия",
+        "extract-results": "Результаты извлечения"
+      },
+      "error-popup": {
+        "warning": "Предупреждение",
+        "failed-to-copy-single": "Не удалось скопировать файл.",
+        "failed-to-copy-multiple": "Не удалось скопировать файлы.",
+        "continue-question": "Вы уверены, что хотите продолжить?",
+        "file": "Файл:",
+        "files": "Файлы:",
+        "can-be-copied-single": "может быть скопирован. Продолжить с этим файлом?",
+        "can-be-copied-multiple": "могут быть скопированы. Продолжить с этими файлами?",
+        "can-be-moved-single": "может быть перемещён. Продолжить с этим файлом?",
+        "can-be-moved-multiple": "могут быть перемещены. Продолжить с этими файлами?",
+        "continue": "Продолжить",
+        "download-multiple-confirm": "Вы собираетесь скачать несколько файлов одновременно. Вы уверены, что хотите это сделать?",
+        "duplicate-file": "Дубликат файла",
+        "file-already-exist": "Файл уже существует.",
+        "files-already-exist": "Файлы уже существуют.",
+        "overwrite-question": "Вы уверены, что хотите перезаписать?",
+        "overwrite": "Перезаписать"
+      },
+      "errors": {
+        "invalid-request": "Неверный запрос",
+        "source-not-found": "Источник не найден",
+        "source-and-destination-are-same": "Источник и место назначения совпадают",
+        "failed-to-copy": "Не удалось скопировать",
+        "directory-does-not-exist": "Каталог не существует",
+        "file-already-exists": "Файл уже существует",
+        "failed-to-move-folder-to-trash": "Не удалось переместить папку в корзину",
+        "destination-directory-not-found": "Каталог назначения не найден",
+        "failed-to-move": "Не удалось переместить",
+        "destination-is-subdirectory-of-source": "Пункт назначения является подкаталогом источника",
+        "source-and-destination-path-are-same": "Путь источника и назначения совпадают",
+        "source-and-destination-are-same-folder": "Источник и место назначения - одна и та же папка",
+        "invalid-response-from-agent": "Недопустимый ответ от агента",
+        "invalid-username-length": "Недопустимая длина имени пользователя",
+        "invalid-domain-name": "Недопустимое имя домена",
+        "website-already-exist": "Веб-сайт уже существует",
+        "invalid-username": "Недопустимое имя пользователя",
+        "unsupported-php": "Неподдерживаемая версия PHP",
+        "invalid-ip": "Недопустимый IP-адрес",
+        "unsupported-ip": "Неподдерживаемый IP-адрес",
+        "php-doesnot-exist": "Версия PHP не существует",
+        "user-creation-failed": "Не удалось создать пользователя",
+        "user-update-failed": "Не удалось обновить пользователя",
+        "folder-name-exist": "Имя папки уже существует",
+        "folder-name-invalid": "Недопустимое имя папки",
+        "domain-exists": "Домен уже существует",
+        "domain-not-found": "Домен не найден",
+        "website-not-found": "Веб-сайт не найден",
+        "path-not-allowed": "Путь не разрешён",
+        "invalid-docroot": "Недопустимый корневой каталог",
+        "docroot-in-use": "Корневой каталог уже используется",
+        "failed-load-subfolders": "Не удалось загрузить подпапки"
+      },
+      "context-dialog": {
+        "compress-type": "Тип сжатия",
+        "compress": "Сжать",
+        "extract": "Извлечь",
+        "zip-archive": "Архив Zip",
+        "gzip-archive": "Архив Gzip",
+        "confirm": "Подтвердить",
+        "destination": "Назначение",
+        "destination-placeholder": "Введите путь, в который хотите извлечь этот файл",
+        "confirmation-compress": "Вы уверены, что хотите сжать",
+        "confirmation-permission": "Вы уверены, что хотите изменить разрешения",
+        "cut-placeholder": "Введите путь, в который вы хотите переместить этот файл",
+        "cut-confirmation": "Вы уверены, что хотите переместить",
+        "cut-selected-file": "выбранный файл?",
+        "cut-selected-files": "выбранные файлы?",
+        "domain": "Домен",
+        "move-placeholder": "Введите путь, в который вы хотите переместить этот файл",
+        "move-confirmation": "Вы уверены, что хотите переместить",
+        "move-selected-file": "выбранный файл?",
+        "move-selected-files": "выбранные файлы?",
+        "copy-placeholder": "Введите путь, в который вы хотите скопировать этот файл",
+        "old-file-name": "Старое имя файла",
+        "new-file-name": "Новое имя файла",
+        "old-folder-name": "Старое имя папки",
+        "new-folder-name": "Новое имя папки",
+        "rename-file-placeholder": "Введите новое имя файла",
+        "rename-folder-placeholder": "Введите новое имя папки",
+        "delete-move-confirm": "Вы уверены, что хотите переместить",
+        "delete-to-trash": "в корзину?",
+        "delete-permanent-confirm": "Вы уверены, что хотите удалить",
+        "delete-permanent": "навсегда?",
+        "delete-selected-file": "выбранный файл",
+        "delete-selected-files": "выбранные файлы",
+        "delete": "Удалить",
+        "add-a-file-to": "Добавить файл",
+        "add-file-placeholder": "Введите имя файла, который вы хотите добавить",
+        "create-new-file": "Создать новый файл",
+        "add-ad-folder-to": "Добавить папку",
+        "add-folder-placeholder": "Введите имя папки, которую вы хотите добавить",
+        "create-new-folder": "Создать новую папку",
+        "select-file-archive": "Выберите файл архива",
+        "extract-file-placeholder": "Введите имя файла, который вы хотите извлечь",
+        "user-access": "Доступ пользователя",
+        "group-access": "Доступ группы",
+        "world-access": "Доступ к миру",
+        "permissions": "Разрешения",
+        "no-access": "Нет доступа"
+      },
+      "upload": {
+        "title": "Импорт файла",
+        "title-sub":"в",
+        "sub-title": "Загрузить и прикрепить файлы",
+        "option1": "Загрузить",
+        "option2": "Скачать",
+        "option3": "Клонировать",
+        "click": "Нажмите, чтобы загрузить",
+        "drag": "или Перетащите файлы сюда",
+        "overwrite": "Перезаписать существующие файлы",
+        "exist": "Файл {{file}} уже существует. Пожалуйста, выберите действие, которое вы хотите выполнить.",
+        "download-file": "Скачать файл",
+        "download-file-placeholder": "Введите URL для скачивания файла",
+        "save-file": "Сохранить файл как",
+        "save-file-placeholder": "Введите имя для сохранения файла как",
+        "download-file-warning": "Предупреждение: Эта ссылка может быть ненадежной или небезопасной. Пользователь принимает на себя полную ответственность за любые проблемы или последствия, которые могут возникнуть при доступе к ней.",
+        "clone-file": "Клонировать файл",
+        "clone-file-placeholder": "Введите URL для клонирования файла",
+        "clone-file-warning": "Предупреждение: Убедитесь, что путь к файлу правильный, чтобы избежать перезаписи существующих файлов.",
+        "cancelled-by-user": "Отменено пользователем",
+        "cancelled" : "Отменено",
+        "left": "Слева",
+        "exist-title": "Файл уже существует",
+        "apply-to-all": "Применить ко всем файлам",
+        "replace": "Заменить",
+        "skip": "Пропустить",
+        "upload-cancelled": "Загрузка отменена",
+        "message": {
+          "success": "Файл успешно загружен!",
+          "error": "Ошибка загрузки файла!",
+          "alert": "Загрузка в процессе. Пожалуйста, подождите, пока она завершится.",
+          "cancelled": "Загрузка файла отменена!"
+        }
+      }
+    },
+    "nginx": {
+      "title": "Настройки Nginx",
+      "index_files": "Индексные файлы",
+      "index_file_example": "Например: index.php index.html",
+      "static_files": "Статические файлы напрямую через nginx",
+      "static_files_desc": "Расширения файлов для прямой обработки NGINX без передачи на сервер. Используйте | для разделения типов, например, jpg|png|css|js.",
+      "expires": "Срок действия кэша",
+      "expires_desc": "Определяет, как долго браузеры должны кэшировать статические файлы, обслуживаемые NGINX. Помогает улучшить время загрузки и снизить нагрузку на сервер.",
+      "additional_headers": "Дополнительные заголовки",
+      "additional_headers_desc": "Пользовательские HTTP-заголовки для добавления во все ответы NGINX. Полезно для безопасности, кэширования или пользовательского поведения.",
+      "cors_domains": "Дополнительные CORS-домены",
+      "cors_domains_desc": "Список доменов, которым разрешено выполнять кросс-доменные запросы. Управляет заголовком Access-Control-Allow-Origin в ответах NGINX.",
+      "custom_nginx_config": "Пользовательская конфигурация Nginx",
+      "custom_config_desc": "Введите дополнительные директивы для конфигурации Nginx.",
+      "save_success": "Настройки Nginx успешно сохранены!",
+      "save_error": "Не удалось сохранить настройки Nginx. Пожалуйста, попробуйте снова.",
+      "enter_key": "Введите ключ",
+      "enter_value": "Введите значение",
+      "add_button": "Добавить",
+      "invalid_header_key": "Недопустимое имя заголовка. Должно быть в формате HTTP-заголовка (например, Cache-Control, X-Frame-Options).",
+      "key_exists": "Этот ключ уже существует.",
+      "example": "Например: ",
+      "custom_config": "Пользовательский",
+      "default_template": "По умолчанию",
+      "block_top": "Перед закрытием блока сервера",
+      "block_bottom": "Начало внутри блока сервера",
+      "outer_top": "Снаружи блока сервера",
+      "days": "Дни",
+      "hours": "Часы",
+      "minutes": "Минуты",
+      "seconds": "Секунды",
+      "weeks": "Недели",
+      "months": "Месяцы",
+      "no-headers": "Дополнительные заголовки не добавлены",
+      "index_files_error": "Неверный формат — используйте имена файлов, разделённые пробелами, например: index.html default.html.",
+      "global_index_files_error": "Неверный формат — используйте имена файлов, разделённые пробелами",
+      "use_only_alnum_pipe_example": "Используйте только буквы, цифры, подчеркивания, точки или дефисы, разделённые символом | (например: jpg|png|css|js).",
+      "use_only_alnum_pipe": "Используйте только буквы, цифры, подчеркивания, точки или дефисы, разделённые символом |.",
+      "invalid_domains_example": "Недопустимые домены — укажите допустимые URL-адреса, разделённые пробелом, например: https://example.com https://example2.com.",
+      "static_expiry_numeric": "Значение срока действия должно быть числовым.",
+      "preview_config": "Предварительный просмотр конфигурации",
+      "available_variables": "Доступные переменные",
+      "default": "По умолчанию",
+      "custom": "Пользовательский",
+      "confirm_switch_custom": "Вы уверены, что хотите переключиться на пользовательский?",
+      "confirm_switch_default": "Вы уверены, что хотите переключиться на настройки по умолчанию?",
+      "confirm_unsaved_switch_default": "Вы уверены, что хотите отказаться от несохранённых изменений и переключиться на режим по умолчанию?",
+      "confirm_unsaved_switch_custom": "Вы уверены, что хотите отказаться от несохранённых изменений и переключиться на пользовательский режим?",
+      "nginx-error-popup": "Упс, тест конфигурации не удался!"
+    },
+    "php": {
+      "title": "Настройки PHP",
+      "performance": "PHP",
+      "php_ini": "Основные настройки PHP INI",
+      "general": "Дополнительные настройки PHP",
+      "additional": "Дополнительные директивы",
+      "php_fpm": "Настройки PHP-FPM",
+      "php_version": "Версия PHP",
+      "php_engine": "Движок PHP",
+      "php_engine_desc": "Измените версию PHP, используемую вашим сайтом. Мы рекомендуем использовать последнюю версию PHP для достижения наилучшей производительности.",
+      "version": "Версия",
+      "restart_php": "Перезапустить PHP",
+      "restart_php_desc": "Это перезапустит контейнер PHP, перезагрузит php.ini и redis.conf для этого сайта и его дополнительных доменов.",
+      "restart_button": "Перезапустить",
+      "php-settings-updated": "Настройки PHP успешно обновлены",
+      "error-in-the-config": "Ошибка в конфигурации",
+      "invalid-php-version-selected": "Выбрана недопустимая версия PHP",
+      "error-updating-php": "Произошла ошибка при обновлении настроек PHP",
+      "error-fetching-default-php": "Ошибка при получении настроек PHP по умолчанию",
+      "config-not-available": "Конфигурация недоступна",
+      "invalid-value-config": "Недопустимое значение для конфигурации",
+      "directive-exist": "Эта директива уже существует, используйте опцию редактирования",
+      "directive-unsupported": "Эту директиву нельзя изменить здесь. Пожалуйста, измените её в предоставленной выше опции",
+      "addition-config-removed": "Дополнительная конфигурация успешно удалена",
+      "addition-config-saved": "Дополнительная конфигурация успешно сохранена",
+      "additional-config-added": "Дополнительная конфигурация успешно добавлена",
+      "error-removing-config": "Произошла ошибка при удалении конфигурации",
+      "error-saving-config": "Произошла ошибка при сохранении конфигурации",
+      "error-adding-config": "Произошла ошибка при добавлении конфигурации",
+      "php-restarted": "PHP успешно перезапущен",
+      "failed-restart-php": "Не удалось перезапустить PHP. Пожалуйста, попробуйте снова.",
+      "unsupported-php-version": "Неподдерживаемая версия PHP",
+      "select-supported-php-version": "Пожалуйста, выберите поддерживаемую версию PHP",
+      "php-settings-saved": "Настройки PHP успешно сохранены",
+      "unable-to-save-php-settings": "Не удалось сохранить настройки PHP",
+      "unable-to-fetch-php-settings": "Не удалось получить настройки PHP",
+      "php_ini_block": {
+        "title": "Основные настройки PHP INI",
+        "memory_limit": "memory_limit",
+        "memory_limit_desc": "Максимальное количество памяти в байтах, которое может выделить скрипт.",
+        "max_execution_time": "max_execution_time",
+        "max_execution_time_desc": "Максимальное время в секундах, которое скрипт может выполняться до завершения.",
+        "max_input_time": "max_input_time",
+        "max_input_time_desc": "Максимальное время в секундах, которое скрипт может анализировать входные данные.",
+        "post_max_size": "post_max_size",
+        "post_max_size_desc": "Максимальный размер данных в байтах, которые можно отправить методом POST. Обычно должен быть больше upload_max_filesize и меньше memory_limit.",
+        "upload_max_filesize": "upload_max_filesize",
+        "upload_max_filesize_desc": "Максимальный размер загружаемого файла в байтах.",
+        "error_reporting": "error_reporting",
+        "error_reporting_desc": "Уровень отчета об ошибках.",
+        "display_errors": "display_errors",
+        "display_errors_desc": "Определяет, должны ли ошибки отображаться как часть вывода.",
+        "log_errors": "log_errors",
+        "log_errors_desc": "Включает ведение журнала ошибок PHP."
+      },
+      "php_general": {
+        "title": "Дополнительные настройки PHP",
+        "include_path": "include_path",
+        "include_path_desc": "Список каталогов, где скрипты ищут файлы (аналогично переменной PATH системы). Для разделения каталогов используйте двоеточие (:) в Linux и точку с запятой (;) в Windows.",
+        "session_save_path": "session.save_path",
+        "session_save_path_desc": "Каталог для хранения файлов сессий PHP.",
+        "mail_force_extra_parameters": "mail.force_extra_parameters",
+        "mail_force_extra_parameters_desc": "Позволяет передавать дополнительные параметры в функцию mail(). Это полезно для установки заголовков или других опций.",
+        "open_basedir": "open_basedir",
+        "open_basedir_desc": "Файлы в указанных каталогах могут быть доступны скриптам PHP. Для разделения каталогов используйте двоеточие (:) в Linux и точку с запятой (;) в Windows.",
+        "allow_url_fopen": "allow_url_fopen",
+        "allow_url_fopen_desc": "Позволяет функциям работы с файлами PHP получать данные из удаленных мест через FTP или HTTP.",
+        "file_uploads": "file_uploads",
+        "file_uploads_desc": "Позволяет загружать файлы через HTTP.",
+        "short_open_tag": "short_open_tag",
+        "short_open_tag_desc": "Разрешает короткую форму (<? ?>) открывающего тега PHP.",
+        "opcache_enable": "opcache.enable",
+        "opcache_enable_desc": "Включает кэширование опкодов. При отключении код не оптимизируется и не кэшируется.",
+        "disable_functions": "disable_functions",
+        "disable_functions_desc": "Эта директива позволяет отключить определенные функции. Принимает список имен функций, разделенных запятыми."
+      },
+      "additional_directives": {
+        "title": "Дополнительные директивы PHP",
+        "php_ini_editor": "Редактор php.ini",
+        "alert": "Добавляйте настройки здесь только в том случае, если вам это рекомендовали или вы знаете, что они делают. Неверные значения могут повлиять на работу вашего сайта.",
+        "php_ini_editor_desc": "Используйте этот раздел для определения дополнительных директив конфигурации PHP, которые не указаны выше. Эти значения будут включены в итоговый файл php.ini или конфигурацию FPM и позволят расширенно настроить вашу среду PHP.",
+        "add_directive_button": "Добавить директиву",
+        "directive_label": "Директива*",
+        "type_label": "Тип",
+        "value_label": "Значение*",
+        "key_exists_error": "Ключ уже существует.",
+        "cancel_button": "Отмена",
+        "create_button": "Создать",
+        "save_button": "Сохранить",
+        "directive_column": "Директива",
+        "settings_column": "Значение",
+        "no_directives_message": "Дополнительные заголовки не добавлены"
+      },
+      "php_fpm_block": {
+        "title": "Настройки PHP-FPM",
+        "pm": "pm",
+        "pm_desc": "Выберите, как менеджер процессов будет управлять количеством дочерних процессов. Возможные значения: static, ondemand, dynamic. Этот параметр обязателен.",
+        "pm_max_children": "pm.max_children",
+        "pm_max_children_desc": "Количество дочерних процессов, которые будут созданы, если pm установлен на static, и максимальное количество дочерних процессов, которые будут созданы, если pm установлен на dynamic.",
+        "pm_max_requests": "pm.max_requests",
+        "pm_max_requests_desc": "Количество запросов, которые каждый дочерний процесс должен выполнить перед перезапуском. Это может быть полезно для устранения утечек памяти в сторонних библиотеках. Для бесконечной обработки запросов укажите '0'. Эквивалентно PHP_FCGI_MAX_REQUESTS. Значение по умолчанию: 0.",
+        "pm_start_servers": "pm.start_servers",
+        "pm_start_servers_desc": "Количество дочерних процессов, создаваемых при запуске. Используется только при установке pm в dynamic. Значение по умолчанию: (min_spare_servers + max_spare_servers) / 2.",
+        "pm_min_spare_servers": "pm.min_spare_servers",
+        "pm_min_spare_servers_desc": "Желаемое минимальное количество неактивных серверных процессов. Используется только при установке pm в dynamic. Также обязательно в этом случае.",
+        "pm_max_spare_servers": "pm.max_spare_servers",
+        "pm_max_spare_servers_desc": "Желаемое максимальное количество неактивных серверных процессов. Используется только при установке pm в dynamic. Также обязательно в этом случае.",
+        "numeric_error": "Пожалуйста, введите допустимое числовое значение."
+      },
+      "process_manager": {
+        "ondemand": "По Требованию",
+        "dynamic": "Динамический",
+        "static": "Статический"
+      }
+    }
+  }
+}
