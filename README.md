@@ -28,6 +28,7 @@ Each file follows the same JSON structure. Example:
   "login": "Log In",
   "logout": "Log Out"
 }
+````
 
 
 ---
